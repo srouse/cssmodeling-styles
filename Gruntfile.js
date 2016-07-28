@@ -60,6 +60,28 @@ module.exports = function(grunt) {
         }
     };
 
+    configObj.cssmodeling["cssmodeling_rows_vh_quartered_less"] = {
+        files: {
+            'dist/rows/cssmodeling_rows_vh_quartered':
+            ['models/rows/cssmodeling_rows_vh_quartered.json']
+        },
+        options: {
+            type:"less",
+            var_prefix:"v-"
+        }
+    };
+
+    configObj.cssmodeling["cssmodeling_rows_vh_quartered_scss"] = {
+        files: {
+            'dist/rows/cssmodeling_rows_vh_quartered':
+            ['models/rows/cssmodeling_rows_vh_quartered.json']
+        },
+        options: {
+            type:"scss",
+            var_prefix:"v-"
+        }
+    };
+
     //=============COLS===============
     configObj.cssmodeling["cssmodeling_col_12_quartered_viewport_breakpoints_less"] = {
         files: {
