@@ -25,7 +25,6 @@ module.exports = function(grunt) {
             var_prefix:"v-"
         }
     };
-
     configObj.cssmodeling["cssmodeling_simple_scss"] = {
         files: {
             'dist/simple/cssmodeling_simple':
@@ -48,7 +47,6 @@ module.exports = function(grunt) {
             var_prefix:"v-"
         }
     };
-
     configObj.cssmodeling["cssmodeling_rows_quartered_scss"] = {
         files: {
             'dist/rows/cssmodeling_rows_quartered':
@@ -70,11 +68,31 @@ module.exports = function(grunt) {
             var_prefix:"v-"
         }
     };
-
     configObj.cssmodeling["cssmodeling_rows_vh_quartered_scss"] = {
         files: {
             'dist/rows/cssmodeling_rows_vh_quartered':
             ['models/rows/cssmodeling_rows_vh_quartered.json']
+        },
+        options: {
+            type:"scss",
+            var_prefix:"v-"
+        }
+    };
+
+    configObj.cssmodeling["cssmodeling_tablet_vh_less"] = {
+        files: {
+            'dist/rows/cssmodeling_tablet_vh':
+            ['models/rows/cssmodeling_tablet_vh.json']
+        },
+        options: {
+            type:"less",
+            var_prefix:"v-"
+        }
+    };
+    configObj.cssmodeling["cssmodeling_tablet_vh_scss"] = {
+        files: {
+            'dist/rows/cssmodeling_tablet_vh':
+            ['models/rows/cssmodeling_tablet_vh.json']
         },
         options: {
             type:"scss",
@@ -93,7 +111,6 @@ module.exports = function(grunt) {
             var_prefix:"v-"
         }
     };
-
     configObj.cssmodeling["cssmodeling_col_12_quartered_viewport_breakpoints_scss"] = {
         files: {
             'dist/cols/cssmodeling_col_12_quartered_viewport_breakpoints':
@@ -115,11 +132,31 @@ module.exports = function(grunt) {
             var_prefix:"v-"
         }
     };
-
     configObj.cssmodeling["cssmodeling_col_12_quartered_viewport_scss"] = {
         files: {
             'dist/cols/cssmodeling_col_12_quartered_viewport':
             ['models/cols/cssmodeling_col_12_quartered_viewport.json']
+        },
+        options: {
+            type:"scss",
+            var_prefix:"v-"
+        }
+    };
+
+    configObj.cssmodeling["cssmodeling_tablet_vw_less"] = {
+        files: {
+            'dist/cols/cssmodeling_tablet_vw':
+            ['models/cols/cssmodeling_tablet_vw.json']
+        },
+        options: {
+            type:"less",
+            var_prefix:"v-"
+        }
+    };
+    configObj.cssmodeling["cssmodeling_tablet_vw_scss"] = {
+        files: {
+            'dist/cols/cssmodeling_tablet_vw':
+            ['models/cols/cssmodeling_tablet_vw.json']
         },
         options: {
             type:"scss",
