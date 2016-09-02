@@ -133,6 +133,8 @@
  display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: end ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: flex-end !important;  align-items: center !important;  }
 @mixin a-flex-center () {
  display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: center ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: center !important;  align-items: center !important;  }
+@mixin a-flex-h-center () {
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: center ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: center !important;  align-items: center !important;  }
 @mixin a-flex-v-center () {
  display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: center ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: column nowrap !important;  justify-content: center !important;  align-items: center !important;  }
 @mixin a-flex-right () {
@@ -142,6 +144,8 @@
 @mixin a-flex-item-fill () {
   @include a-flex-fill;  }
 @mixin a-flex-unfill () {
+ -ms-flex: 0 1 auto ;  flex: 0 1 auto !important;  /*display: block !important; ANTI- webkit hack for height issues */  }
+@mixin a-unfill () {
  -ms-flex: 0 1 auto ;  flex: 0 1 auto !important;  /*display: block !important; ANTI- webkit hack for height issues */  }
 @mixin a-fill-flex-container () {
  position: absolute !important;  top: 0px !important;  right: 0px !important;  bottom: 0px !important;  left: 0px !important;  }

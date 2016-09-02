@@ -489,6 +489,25 @@
 		},
 
         {
+			"name":"flex-h-center",
+            "group":"layouts",
+            "sub_group":"positioning",
+			"selector":".a-flex-h-center",
+            "example":"<div ... style='background-color: #fff;height:100%;'><div class='a-border'>item-1</div><div class='a-border'>item-2</div><div class='a-border'>item-3</div></div>",
+			"declaration_lines":[
+                "display: -ms-flexbox @no-important;",
+                "-ms-flex-direction: row @no-important;",
+                "-ms-flex-pack: center @no-important;",
+                "-ms-flex-align: center @no-important;",
+
+                "display: flex;",
+                "flex-flow: row nowrap;",
+            	"justify-content: center;",
+            	"align-items: center;"
+			]
+		},
+
+        {
 			"name":"flex-v-center",
             "group":"layouts",
             "sub_group":"positioning",
@@ -564,6 +583,18 @@
             "group":"layouts",
             "sub_group":"positioning",
 			"selector":".a-flex-unfill",
+            "example":"<div ... style='background-color: #fff;height:100%;'><div class='a-border'>item-1</div><div style='border:1px solid #CCCCCC !important;'>item-2</div><div class='a-border'>item-3</div></div>",
+			"declaration_lines":[
+                "-ms-flex: 0 1 auto @no-important;",
+                "flex: 0 1 auto;",
+                "/*display: block; ANTI- webkit hack for height issues */"
+			]
+		},
+        {
+			"name":"flex-item-unfill-simple",
+            "group":"layouts",
+            "sub_group":"positioning",
+			"selector":".a-unfill",
             "example":"<div ... style='background-color: #fff;height:100%;'><div class='a-border'>item-1</div><div style='border:1px solid #CCCCCC !important;'>item-2</div><div class='a-border'>item-3</div></div>",
 			"declaration_lines":[
                 "-ms-flex: 0 1 auto @no-important;",
