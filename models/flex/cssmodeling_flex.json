@@ -67,6 +67,17 @@
                         "-ms-flex-item-align: @var_value @no-important;",
                         "align-self : @var_value;"
         			]
+                },
+                {
+                    "name":"align-self-simple",
+                    "group":"layouts",
+                    "sub_group":"positioning",
+                    "example":"<div style='display: flex; width: 100%;height:100%;background:#fff;'><div class='a-border'>item 1</div><div ... style='border: 1px solid #CCC;'>item 2 (a-flex-item)</div><div class='a-border'>item 3</div></div>",
+                    "selector":".a@var_name",
+                    "declaration_lines":[
+                        "-ms-flex-item-align: @var_value @no-important;",
+                        "align-self : @var_value;"
+        			]
                 }
             ]
         },

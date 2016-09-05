@@ -35,6 +35,10 @@
   overflow-y: auto !important;
   overflow-x: hidden !important; }
 
+.a-overflow-x {
+  overflow-y: hidden !important;
+  overflow-x: auto !important; }
+
 .a-block-center {
   margin: 0px auto !important; }
 

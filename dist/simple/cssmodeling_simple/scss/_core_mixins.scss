@@ -205,6 +205,8 @@ $v-layer-lowest: 100;
   &:hover { background: initial }  @include a-uninteractive;  }
 @mixin a-overflow-y () {
  overflow-y: auto !important;  overflow-x: hidden !important;  }
+@mixin a-overflow-x () {
+ overflow-y: hidden !important;  overflow-x: auto !important;  }
 @mixin a-block-center () {
  margin: 0px auto !important;  }
 @mixin a-clear-fix () {

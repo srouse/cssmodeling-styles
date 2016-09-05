@@ -293,6 +293,26 @@
   -ms-flex-item-align: stretch;
   align-self: stretch !important; }
 
+.a-flex-start {
+  -ms-flex-item-align: flex-start;
+  align-self: flex-start !important; }
+
+.a-flex-end {
+  -ms-flex-item-align: flex-end;
+  align-self: flex-end !important; }
+
+.a-center {
+  -ms-flex-item-align: center;
+  align-self: center !important; }
+
+.a-baseline {
+  -ms-flex-item-align: baseline;
+  align-self: baseline !important; }
+
+.a-stretch {
+  -ms-flex-item-align: stretch;
+  align-self: stretch !important; }
+
 .a-align-items-flex-start {
   -ms-flex-align: flex-start;
   align-items: flex-start !important; }
