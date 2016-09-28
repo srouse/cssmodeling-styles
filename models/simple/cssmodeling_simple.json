@@ -510,6 +510,16 @@
 				"overflow-x: hidden;"
 			]
 		},
+        {
+			"name":"overflow-x",
+            "group":"simple",
+            "sub_group":"misc",
+			"selector":".a-overflow-x",
+			"declaration_lines":[
+				"overflow-y: hidden;",
+				"overflow-x: auto;"
+			]
+		},
 
 		{
 			"name":"block-center",
