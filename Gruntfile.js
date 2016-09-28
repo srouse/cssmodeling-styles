@@ -100,6 +100,20 @@ module.exports = function(grunt) {
         }
     };
 
+
+    configObj.cssmodeling["cssmodeling_row_testing"] = {
+        files: {
+            'dist/rows/cssmodeling_rows_testing':[
+                'models/rows/cssmodeling_rows_quartered.json',
+                'models/rows/cssmodeling_rows_vh_quartered.json'
+            ]
+        },
+        options: {
+            type:"scss",
+            var_prefix:"v-"
+        }
+    };
+
     //=============COLS===============
     configObj.cssmodeling["cssmodeling_col_12_quartered_viewport_breakpoints_less"] = {
         files: {
@@ -157,6 +171,20 @@ module.exports = function(grunt) {
         files: {
             'dist/cols/cssmodeling_tablet_vw':
             ['models/cols/cssmodeling_tablet_vw.json']
+        },
+        options: {
+            type:"scss",
+            var_prefix:"v-"
+        }
+    };
+
+    configObj.cssmodeling["cssmodeling_col_testing"] = {
+        files: {
+            'dist/rows/cssmodeling_col_testing':[
+                'models/rows/cssmodeling_col_12_quartered_viewport_breakpoints.json',
+                'models/rows/cssmodeling_col_12_quartered_viewport.json',
+                'models/rows/cssmodeling_tablet_vw.json'
+            ]
         },
         options: {
             type:"scss",

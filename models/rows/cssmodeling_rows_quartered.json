@@ -1,7 +1,7 @@
 {
 
     "groups":{
-		"rows_quartered":{
+		"vw-rows_quartered":{
 			"title":"Vertical Grid - Rows (Quartered)",
 			"description":""
 		}
@@ -105,7 +105,7 @@
 
         {
 			"name":"row-height-quartered-inv",
-            "group":"rows_quartered",
+            "group":"vw-rows_quartered",
 			"base":"row",
 			"scheme":"rows-row-with-quarter-scale",
 			"values":[
@@ -127,7 +127,7 @@
 			"atoms":[
 				{
 					"name":"row-height",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"sizing",
 					"example":"<div ... style='width: 100px; background-color:#fff; position: absolute;'></div>",
 					"selector":".a-height-@var_name",
@@ -137,7 +137,7 @@
 				},
                 {
 					"name":"row-min-height",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"sizing",
 					"example":"<div ... style='width: 100px; background-color:#fff; position: absolute;'></div>",
 					"selector":".a-min-height-@var_name",
@@ -147,7 +147,7 @@
 				},
 				{
 					"name":"row-height-inv",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"sizing",
 					"example":"<div ... style='width: 100px; background-color:#fff; position: absolute;'></div>",
 					"selector":".a-height-minus-@var_name",
@@ -155,7 +155,7 @@
 				},
                 {
 					"name":"line-height-rows",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"typography",
 					"example":"...Font Sizes",
 					"selector":".a-line-height-@var_name",
@@ -165,7 +165,7 @@
 				},
 				{
 					"name":"row-top",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"positioning",
 					"example":"<div ... style='width: 100px; height:100px; background-color:#fff; position: absolute;'></div>",
 					"selector":".a-top-@var_name",
@@ -173,7 +173,7 @@
 				},
                 {
 					"name":"row-top-inv",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"sizing",
 					"example":"<div ... style='width: 100px; background-color:#fff; position: absolute;'></div>",
 					"selector":".a-top-minus-@var_name",
@@ -181,7 +181,7 @@
 				},
 				{
 					"name":"row-bottom",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"positioning",
 					"example":"<div ... style='width: 100px; height:100px; background-color:#fff; position: absolute;'></div>",
 					"selector":".a-bottom-@var_name",
@@ -189,7 +189,7 @@
 				},
                 {
 					"name":"margin-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
 					"selector":".a-margin-@var_name",
@@ -198,7 +198,7 @@
 				},
                 {
 					"name":"margin-h-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
 					"selector":".a-margin-h-@var_name",
@@ -207,7 +207,7 @@
 				},
                 {
 					"name":"margin-width-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
 					"selector":".a-margin-width-@var_name",
@@ -216,7 +216,7 @@
 				},
                 {
 					"name":"margin-v-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
 					"selector":".a-margin-v-@var_name",
@@ -225,7 +225,7 @@
 				},
                 {
 					"name":"margin-height-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
 					"selector":".a-margin-height-@var_name",
@@ -234,7 +234,7 @@
 				},
                 {
 					"name":"margin-left-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
 					"selector":".a-margin-left-@var_name",
@@ -243,7 +243,7 @@
 				},
                 {
 					"name":"margin-right-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff; float: right;'>Some Text</div>",
 					"selector":".a-margin-right-@var_name",
@@ -252,7 +252,7 @@
 				},
                 {
 					"name":"margin-top-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
 					"selector":".a-margin-top-@var_name",
@@ -261,7 +261,7 @@
 				},
                 {
 					"name":"margin-bottom-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
 					"selector":".a-margin-bottom-@var_name",
@@ -270,7 +270,7 @@
 				},
 				{
 					"name":"padding-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
 					"selector":".a-padding-@var_name",
@@ -279,7 +279,7 @@
 				},
                 {
 					"name":"padding-h-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
 					"selector":".a-padding-h-@var_name",
@@ -288,7 +288,7 @@
 				},
                 {
 					"name":"padding-width-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
 					"selector":".a-padding-width-@var_name",
@@ -297,7 +297,7 @@
 				},
                 {
 					"name":"padding-v-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
 					"selector":".a-padding-v-@var_name",
@@ -306,7 +306,7 @@
 				},
                 {
 					"name":"padding-height-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
 					"selector":".a-padding-height-@var_name",
@@ -315,7 +315,7 @@
 				},
 				{
 					"name":"padding-left-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
 					"selector":".a-padding-left-@var_name",
@@ -324,7 +324,7 @@
 				},
 				{
 					"name":"padding-right-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
 					"selector":".a-padding-right-@var_name",
@@ -333,7 +333,7 @@
 				},
 				{
 					"name":"padding-top-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
 					"selector":".a-padding-top-@var_name",
@@ -342,7 +342,7 @@
 				},
 				{
 					"name":"padding-bottom-row",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"spacing",
 					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
 					"selector":".a-padding-bottom-@var_name",
@@ -354,7 +354,7 @@
 
         {
 			"name":"text-size-line-height-plus-minus",
-            "group":"rows_quartered",
+            "group":"vw-rows_quartered",
 			"base":"text-line-height",
 			"scheme":"rows-size-values-w-minus-plus",
 			"values":[
@@ -371,7 +371,7 @@
         },
         {
 			"name":"text-size-plus-minus",
-            "group":"rows_quartered",
+            "group":"vw-rows_quartered",
 			"base":"text-size",
 			"scheme":"rows-size-values-w-minus-plus",
 			"values":[
@@ -388,7 +388,7 @@
             "atoms":[
 				{
 					"name":"row-text-sizing-plus-minus",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"typography",
 					"example":"<div ... style='background-color: #fff;'>Text Size</div>",
 					"selector":".a-text-size@var_name_no_base",
@@ -399,7 +399,7 @@
                 },
                 {
 					"name":"row-text-font-sizing-plus-minus",
-					"group":"rows_quartered",
+					"group":"vw-rows_quartered",
                     "sub_group":"typography",
 					"example":"<div ... style='background-color: #fff;'>Text Size</div>",
 					"selector":".a-text-only-size@var_name_no_base",

@@ -8,42 +8,42 @@
     },
 
     "schemes":{
-		"subscale":{
+		"vw-subscale":{
 			"shortcut":"<em>@base</em>-[ -quarter, -half, -three-quarters ]",
 			"scheme":{"@base":
 						["","-quarter","-half","-quarter-3"]
 					}
 		},
-        "eighths-subscale":{
+        "vw-eighths-subscale":{
 			"shortcut":"<em>@base</em>-(-quarter, -half, -three-quarters)",
 			"scheme":{"@base":
 						["","-eighth","-quarter","-eighth-3","-half",
                             "-eighth-5","-quarter-3","-eighth-7"]
 					}
 		},
-        "viewport-scale":{
+        "vw-viewport-scale":{
 			"shortcut":"<em>@base</em>-[ -quarter, -half, -three-quarters ]",
 			"scheme":{"@base":
 						["","-quarter","-third","-inv-phi","-half","-phi","-third-2","-quarter-3"]
 					}
 		},
-		"12-cols-quartered":{
+		"vw-12-cols-quartered":{
 			"shortcut":"<em>@base</em>-[ 0,quarter,half,three-quarters,1,...,11-half,11-three-quarters,12]",
 			"scheme":{"@base":
 						[
-							{"":"scheme:eighths-subscale"},
+							{"":"scheme:vw-eighths-subscale"},
 							{"-0":[""]},
-							{"-1":"scheme:subscale"},
-							{"-2":"scheme:subscale"},
-							{"-3":"scheme:subscale"},
-							{"-4":"scheme:subscale"},
-							{"-5":"scheme:subscale"},
-							{"-6":"scheme:subscale"},
-							{"-7":"scheme:subscale"},
-							{"-8":"scheme:subscale"},
-							{"-9":"scheme:subscale"},
-							{"-10":"scheme:subscale"},
-							{"-11":"scheme:subscale"},
+							{"-1":"scheme:vw-subscale"},
+							{"-2":"scheme:vw-subscale"},
+							{"-3":"scheme:vw-subscale"},
+							{"-4":"scheme:vw-subscale"},
+							{"-5":"scheme:vw-subscale"},
+							{"-6":"scheme:vw-subscale"},
+							{"-7":"scheme:vw-subscale"},
+							{"-8":"scheme:vw-subscale"},
+							{"-9":"scheme:vw-subscale"},
+							{"-10":"scheme:vw-subscale"},
+							{"-11":"scheme:vw-subscale"},
 							"-12"
 						]
 					}
@@ -57,7 +57,7 @@
 			"name":"col-12",
             "group":"tablet_vw",
             "base":"col",
-            "scheme":"12-cols-quartered",
+            "scheme":"vw-12-cols-quartered",
             "values":[
                 "8.33333vw",
                     "_@_v-col * .125","_@_v-col * .25",
@@ -246,7 +246,7 @@
 			"name":"vp",
             "group":"tablet_vw",
             "base":"vp",
-            "scheme":"viewport-scale",
+            "scheme":"vw-viewport-scale",
             "values":[
                 "100vw","25vw","33.333vw","38.19661vw","50vw","61.80339vw","66.6666vw","75vw"
             ],
