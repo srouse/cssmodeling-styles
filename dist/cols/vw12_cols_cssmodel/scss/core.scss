@@ -1,0 +1,2329 @@
+
+$vw12-col: 8.33333vw;
+$vw12-col-eighth: $vw12-col * .125;
+$vw12-col-quarter: $vw12-col * .25;
+$vw12-col-eighth-3: $vw12-col * .375;
+$vw12-col-half: $vw12-col * .5;
+$vw12-col-eighth-5: $vw12-col * .625;
+$vw12-col-quarter-3: $vw12-col * .75;
+$vw12-col-eighth-7: $vw12-col * .875;
+$vw12-col-0: 0;
+$vw12-col-1: $vw12-col;
+$vw12-col-1-quarter: $vw12-col * 1.25;
+$vw12-col-1-half: $vw12-col * 1.5;
+$vw12-col-1-three-quarters: $vw12-col * 1.75;
+$vw12-col-2: $vw12-col * 2;
+$vw12-col-2-quarter: $vw12-col * 2.25;
+$vw12-col-2-half: $vw12-col * 2.5;
+$vw12-col-2-three-quarters: $vw12-col * 2.75;
+$vw12-col-3: $vw12-col * 3;
+$vw12-col-3-quarter: $vw12-col * 3.25;
+$vw12-col-3-half: $vw12-col * 3.5;
+$vw12-col-3-three-quarters: $vw12-col * 3.75;
+$vw12-col-4: $vw12-col * 4;
+$vw12-col-4-quarter: $vw12-col * 4.25;
+$vw12-col-4-half: $vw12-col * 4.5;
+$vw12-col-4-three-quarters: $vw12-col * 4.75;
+$vw12-col-5: $vw12-col * 5;
+$vw12-col-5-quarter: $vw12-col * 5.25;
+$vw12-col-5-half: $vw12-col * 5.5;
+$vw12-col-5-three-quarters: $vw12-col * 5.75;
+$vw12-col-6: $vw12-col * 6;
+$vw12-col-6-quarter: $vw12-col * 6.25;
+$vw12-col-6-half: $vw12-col * 6.5;
+$vw12-col-6-three-quarters: $vw12-col * 6.75;
+$vw12-col-7: $vw12-col * 7;
+$vw12-col-7-quarter: $vw12-col * 7.25;
+$vw12-col-7-half: $vw12-col * 7.5;
+$vw12-col-7-three-quarters: $vw12-col * 7.75;
+$vw12-col-8: $vw12-col * 8;
+$vw12-col-8-quarter: $vw12-col * 8.25;
+$vw12-col-8-half: $vw12-col * 8.5;
+$vw12-col-8-three-quarters: $vw12-col * 8.75;
+$vw12-col-9: $vw12-col * 9;
+$vw12-col-9-quarter: $vw12-col * 9.25;
+$vw12-col-9-half: $vw12-col * 9.5;
+$vw12-col-9-three-quarters: $vw12-col * 9.75;
+$vw12-col-10: $vw12-col * 10;
+$vw12-col-10-quarter: $vw12-col * 10.25;
+$vw12-col-10-half: $vw12-col * 10.5;
+$vw12-col-10-three-quarters: $vw12-col * 10.75;
+$vw12-col-11: $vw12-col * 11;
+$vw12-col-11-quarter: $vw12-col * 11.25;
+$vw12-col-11-half: $vw12-col * 11.5;
+$vw12-col-11-three-quarters: $vw12-col * 11.75;
+$vw12-col-12: 100vw;
+
+
+@mixin vw12-width ( $vw12-col : $vw12-col ) {
+ width: $vw12-col !important;  }
+@mixin vw12-width-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ width: $vw12-col-eighth !important;  }
+@mixin vw12-width-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ width: $vw12-col-quarter !important;  }
+@mixin vw12-width-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ width: $vw12-col-eighth-3 !important;  }
+@mixin vw12-width-half ( $vw12-col-half : $vw12-col-half ) {
+ width: $vw12-col-half !important;  }
+@mixin vw12-width-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ width: $vw12-col-eighth-5 !important;  }
+@mixin vw12-width-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ width: $vw12-col-quarter-3 !important;  }
+@mixin vw12-width-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ width: $vw12-col-eighth-7 !important;  }
+@mixin vw12-width-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ width: $vw12-col-0 !important;  }
+@mixin vw12-width-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ width: $vw12-col-1 !important;  }
+@mixin vw12-width-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ width: $vw12-col-1-quarter !important;  }
+@mixin vw12-width-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ width: $vw12-col-1-half !important;  }
+@mixin vw12-width-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ width: $vw12-col-1-three-quarters !important;  }
+@mixin vw12-width-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ width: $vw12-col-2 !important;  }
+@mixin vw12-width-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ width: $vw12-col-2-quarter !important;  }
+@mixin vw12-width-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ width: $vw12-col-2-half !important;  }
+@mixin vw12-width-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ width: $vw12-col-2-three-quarters !important;  }
+@mixin vw12-width-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ width: $vw12-col-3 !important;  }
+@mixin vw12-width-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ width: $vw12-col-3-quarter !important;  }
+@mixin vw12-width-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ width: $vw12-col-3-half !important;  }
+@mixin vw12-width-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ width: $vw12-col-3-three-quarters !important;  }
+@mixin vw12-width-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ width: $vw12-col-4 !important;  }
+@mixin vw12-width-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ width: $vw12-col-4-quarter !important;  }
+@mixin vw12-width-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ width: $vw12-col-4-half !important;  }
+@mixin vw12-width-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ width: $vw12-col-4-three-quarters !important;  }
+@mixin vw12-width-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ width: $vw12-col-5 !important;  }
+@mixin vw12-width-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ width: $vw12-col-5-quarter !important;  }
+@mixin vw12-width-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ width: $vw12-col-5-half !important;  }
+@mixin vw12-width-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ width: $vw12-col-5-three-quarters !important;  }
+@mixin vw12-width-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ width: $vw12-col-6 !important;  }
+@mixin vw12-width-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ width: $vw12-col-6-quarter !important;  }
+@mixin vw12-width-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ width: $vw12-col-6-half !important;  }
+@mixin vw12-width-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ width: $vw12-col-6-three-quarters !important;  }
+@mixin vw12-width-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ width: $vw12-col-7 !important;  }
+@mixin vw12-width-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ width: $vw12-col-7-quarter !important;  }
+@mixin vw12-width-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ width: $vw12-col-7-half !important;  }
+@mixin vw12-width-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ width: $vw12-col-7-three-quarters !important;  }
+@mixin vw12-width-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ width: $vw12-col-8 !important;  }
+@mixin vw12-width-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ width: $vw12-col-8-quarter !important;  }
+@mixin vw12-width-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ width: $vw12-col-8-half !important;  }
+@mixin vw12-width-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ width: $vw12-col-8-three-quarters !important;  }
+@mixin vw12-width-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ width: $vw12-col-9 !important;  }
+@mixin vw12-width-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ width: $vw12-col-9-quarter !important;  }
+@mixin vw12-width-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ width: $vw12-col-9-half !important;  }
+@mixin vw12-width-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ width: $vw12-col-9-three-quarters !important;  }
+@mixin vw12-width-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ width: $vw12-col-10 !important;  }
+@mixin vw12-width-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ width: $vw12-col-10-quarter !important;  }
+@mixin vw12-width-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ width: $vw12-col-10-half !important;  }
+@mixin vw12-width-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ width: $vw12-col-10-three-quarters !important;  }
+@mixin vw12-width-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ width: $vw12-col-11 !important;  }
+@mixin vw12-width-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ width: $vw12-col-11-quarter !important;  }
+@mixin vw12-width-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ width: $vw12-col-11-half !important;  }
+@mixin vw12-width-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ width: $vw12-col-11-three-quarters !important;  }
+@mixin vw12-width-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ width: $vw12-col-12 !important;  }
+@mixin vw12-max-width ( $vw12-col : $vw12-col ) {
+ max-width: $vw12-col !important;  }
+@mixin vw12-max-width-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ max-width: $vw12-col-eighth !important;  }
+@mixin vw12-max-width-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ max-width: $vw12-col-quarter !important;  }
+@mixin vw12-max-width-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ max-width: $vw12-col-eighth-3 !important;  }
+@mixin vw12-max-width-half ( $vw12-col-half : $vw12-col-half ) {
+ max-width: $vw12-col-half !important;  }
+@mixin vw12-max-width-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ max-width: $vw12-col-eighth-5 !important;  }
+@mixin vw12-max-width-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ max-width: $vw12-col-quarter-3 !important;  }
+@mixin vw12-max-width-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ max-width: $vw12-col-eighth-7 !important;  }
+@mixin vw12-max-width-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ max-width: $vw12-col-0 !important;  }
+@mixin vw12-max-width-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ max-width: $vw12-col-1 !important;  }
+@mixin vw12-max-width-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ max-width: $vw12-col-1-quarter !important;  }
+@mixin vw12-max-width-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ max-width: $vw12-col-1-half !important;  }
+@mixin vw12-max-width-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ max-width: $vw12-col-1-three-quarters !important;  }
+@mixin vw12-max-width-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ max-width: $vw12-col-2 !important;  }
+@mixin vw12-max-width-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ max-width: $vw12-col-2-quarter !important;  }
+@mixin vw12-max-width-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ max-width: $vw12-col-2-half !important;  }
+@mixin vw12-max-width-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ max-width: $vw12-col-2-three-quarters !important;  }
+@mixin vw12-max-width-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ max-width: $vw12-col-3 !important;  }
+@mixin vw12-max-width-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ max-width: $vw12-col-3-quarter !important;  }
+@mixin vw12-max-width-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ max-width: $vw12-col-3-half !important;  }
+@mixin vw12-max-width-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ max-width: $vw12-col-3-three-quarters !important;  }
+@mixin vw12-max-width-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ max-width: $vw12-col-4 !important;  }
+@mixin vw12-max-width-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ max-width: $vw12-col-4-quarter !important;  }
+@mixin vw12-max-width-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ max-width: $vw12-col-4-half !important;  }
+@mixin vw12-max-width-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ max-width: $vw12-col-4-three-quarters !important;  }
+@mixin vw12-max-width-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ max-width: $vw12-col-5 !important;  }
+@mixin vw12-max-width-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ max-width: $vw12-col-5-quarter !important;  }
+@mixin vw12-max-width-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ max-width: $vw12-col-5-half !important;  }
+@mixin vw12-max-width-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ max-width: $vw12-col-5-three-quarters !important;  }
+@mixin vw12-max-width-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ max-width: $vw12-col-6 !important;  }
+@mixin vw12-max-width-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ max-width: $vw12-col-6-quarter !important;  }
+@mixin vw12-max-width-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ max-width: $vw12-col-6-half !important;  }
+@mixin vw12-max-width-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ max-width: $vw12-col-6-three-quarters !important;  }
+@mixin vw12-max-width-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ max-width: $vw12-col-7 !important;  }
+@mixin vw12-max-width-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ max-width: $vw12-col-7-quarter !important;  }
+@mixin vw12-max-width-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ max-width: $vw12-col-7-half !important;  }
+@mixin vw12-max-width-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ max-width: $vw12-col-7-three-quarters !important;  }
+@mixin vw12-max-width-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ max-width: $vw12-col-8 !important;  }
+@mixin vw12-max-width-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ max-width: $vw12-col-8-quarter !important;  }
+@mixin vw12-max-width-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ max-width: $vw12-col-8-half !important;  }
+@mixin vw12-max-width-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ max-width: $vw12-col-8-three-quarters !important;  }
+@mixin vw12-max-width-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ max-width: $vw12-col-9 !important;  }
+@mixin vw12-max-width-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ max-width: $vw12-col-9-quarter !important;  }
+@mixin vw12-max-width-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ max-width: $vw12-col-9-half !important;  }
+@mixin vw12-max-width-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ max-width: $vw12-col-9-three-quarters !important;  }
+@mixin vw12-max-width-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ max-width: $vw12-col-10 !important;  }
+@mixin vw12-max-width-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ max-width: $vw12-col-10-quarter !important;  }
+@mixin vw12-max-width-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ max-width: $vw12-col-10-half !important;  }
+@mixin vw12-max-width-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ max-width: $vw12-col-10-three-quarters !important;  }
+@mixin vw12-max-width-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ max-width: $vw12-col-11 !important;  }
+@mixin vw12-max-width-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ max-width: $vw12-col-11-quarter !important;  }
+@mixin vw12-max-width-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ max-width: $vw12-col-11-half !important;  }
+@mixin vw12-max-width-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ max-width: $vw12-col-11-three-quarters !important;  }
+@mixin vw12-max-width-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ max-width: $vw12-col-12 !important;  }
+@mixin vw12-min-width ( $vw12-col : $vw12-col ) {
+ min-width: $vw12-col !important;  }
+@mixin vw12-min-width-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ min-width: $vw12-col-eighth !important;  }
+@mixin vw12-min-width-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ min-width: $vw12-col-quarter !important;  }
+@mixin vw12-min-width-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ min-width: $vw12-col-eighth-3 !important;  }
+@mixin vw12-min-width-half ( $vw12-col-half : $vw12-col-half ) {
+ min-width: $vw12-col-half !important;  }
+@mixin vw12-min-width-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ min-width: $vw12-col-eighth-5 !important;  }
+@mixin vw12-min-width-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ min-width: $vw12-col-quarter-3 !important;  }
+@mixin vw12-min-width-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ min-width: $vw12-col-eighth-7 !important;  }
+@mixin vw12-min-width-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ min-width: $vw12-col-0 !important;  }
+@mixin vw12-min-width-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ min-width: $vw12-col-1 !important;  }
+@mixin vw12-min-width-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ min-width: $vw12-col-1-quarter !important;  }
+@mixin vw12-min-width-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ min-width: $vw12-col-1-half !important;  }
+@mixin vw12-min-width-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ min-width: $vw12-col-1-three-quarters !important;  }
+@mixin vw12-min-width-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ min-width: $vw12-col-2 !important;  }
+@mixin vw12-min-width-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ min-width: $vw12-col-2-quarter !important;  }
+@mixin vw12-min-width-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ min-width: $vw12-col-2-half !important;  }
+@mixin vw12-min-width-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ min-width: $vw12-col-2-three-quarters !important;  }
+@mixin vw12-min-width-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ min-width: $vw12-col-3 !important;  }
+@mixin vw12-min-width-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ min-width: $vw12-col-3-quarter !important;  }
+@mixin vw12-min-width-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ min-width: $vw12-col-3-half !important;  }
+@mixin vw12-min-width-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ min-width: $vw12-col-3-three-quarters !important;  }
+@mixin vw12-min-width-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ min-width: $vw12-col-4 !important;  }
+@mixin vw12-min-width-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ min-width: $vw12-col-4-quarter !important;  }
+@mixin vw12-min-width-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ min-width: $vw12-col-4-half !important;  }
+@mixin vw12-min-width-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ min-width: $vw12-col-4-three-quarters !important;  }
+@mixin vw12-min-width-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ min-width: $vw12-col-5 !important;  }
+@mixin vw12-min-width-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ min-width: $vw12-col-5-quarter !important;  }
+@mixin vw12-min-width-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ min-width: $vw12-col-5-half !important;  }
+@mixin vw12-min-width-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ min-width: $vw12-col-5-three-quarters !important;  }
+@mixin vw12-min-width-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ min-width: $vw12-col-6 !important;  }
+@mixin vw12-min-width-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ min-width: $vw12-col-6-quarter !important;  }
+@mixin vw12-min-width-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ min-width: $vw12-col-6-half !important;  }
+@mixin vw12-min-width-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ min-width: $vw12-col-6-three-quarters !important;  }
+@mixin vw12-min-width-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ min-width: $vw12-col-7 !important;  }
+@mixin vw12-min-width-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ min-width: $vw12-col-7-quarter !important;  }
+@mixin vw12-min-width-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ min-width: $vw12-col-7-half !important;  }
+@mixin vw12-min-width-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ min-width: $vw12-col-7-three-quarters !important;  }
+@mixin vw12-min-width-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ min-width: $vw12-col-8 !important;  }
+@mixin vw12-min-width-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ min-width: $vw12-col-8-quarter !important;  }
+@mixin vw12-min-width-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ min-width: $vw12-col-8-half !important;  }
+@mixin vw12-min-width-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ min-width: $vw12-col-8-three-quarters !important;  }
+@mixin vw12-min-width-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ min-width: $vw12-col-9 !important;  }
+@mixin vw12-min-width-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ min-width: $vw12-col-9-quarter !important;  }
+@mixin vw12-min-width-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ min-width: $vw12-col-9-half !important;  }
+@mixin vw12-min-width-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ min-width: $vw12-col-9-three-quarters !important;  }
+@mixin vw12-min-width-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ min-width: $vw12-col-10 !important;  }
+@mixin vw12-min-width-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ min-width: $vw12-col-10-quarter !important;  }
+@mixin vw12-min-width-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ min-width: $vw12-col-10-half !important;  }
+@mixin vw12-min-width-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ min-width: $vw12-col-10-three-quarters !important;  }
+@mixin vw12-min-width-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ min-width: $vw12-col-11 !important;  }
+@mixin vw12-min-width-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ min-width: $vw12-col-11-quarter !important;  }
+@mixin vw12-min-width-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ min-width: $vw12-col-11-half !important;  }
+@mixin vw12-min-width-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ min-width: $vw12-col-11-three-quarters !important;  }
+@mixin vw12-min-width-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ min-width: $vw12-col-12 !important;  }
+@mixin vw12-width-minus ( $vw12-col : $vw12-col ) {
+ width: calc( 100% - #{$vw12-col} ) !important;  }
+@mixin vw12-width-minus-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ width: calc( 100% - #{$vw12-col-eighth} ) !important;  }
+@mixin vw12-width-minus-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ width: calc( 100% - #{$vw12-col-quarter} ) !important;  }
+@mixin vw12-width-minus-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ width: calc( 100% - #{$vw12-col-eighth-3} ) !important;  }
+@mixin vw12-width-minus-half ( $vw12-col-half : $vw12-col-half ) {
+ width: calc( 100% - #{$vw12-col-half} ) !important;  }
+@mixin vw12-width-minus-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ width: calc( 100% - #{$vw12-col-eighth-5} ) !important;  }
+@mixin vw12-width-minus-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ width: calc( 100% - #{$vw12-col-quarter-3} ) !important;  }
+@mixin vw12-width-minus-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ width: calc( 100% - #{$vw12-col-eighth-7} ) !important;  }
+@mixin vw12-width-minus-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ width: calc( 100% - #{$vw12-col-0} ) !important;  }
+@mixin vw12-width-minus-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ width: calc( 100% - #{$vw12-col-1} ) !important;  }
+@mixin vw12-width-minus-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ width: calc( 100% - #{$vw12-col-1-quarter} ) !important;  }
+@mixin vw12-width-minus-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ width: calc( 100% - #{$vw12-col-1-half} ) !important;  }
+@mixin vw12-width-minus-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ width: calc( 100% - #{$vw12-col-1-three-quarters} ) !important;  }
+@mixin vw12-width-minus-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ width: calc( 100% - #{$vw12-col-2} ) !important;  }
+@mixin vw12-width-minus-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ width: calc( 100% - #{$vw12-col-2-quarter} ) !important;  }
+@mixin vw12-width-minus-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ width: calc( 100% - #{$vw12-col-2-half} ) !important;  }
+@mixin vw12-width-minus-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ width: calc( 100% - #{$vw12-col-2-three-quarters} ) !important;  }
+@mixin vw12-width-minus-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ width: calc( 100% - #{$vw12-col-3} ) !important;  }
+@mixin vw12-width-minus-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ width: calc( 100% - #{$vw12-col-3-quarter} ) !important;  }
+@mixin vw12-width-minus-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ width: calc( 100% - #{$vw12-col-3-half} ) !important;  }
+@mixin vw12-width-minus-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ width: calc( 100% - #{$vw12-col-3-three-quarters} ) !important;  }
+@mixin vw12-width-minus-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ width: calc( 100% - #{$vw12-col-4} ) !important;  }
+@mixin vw12-width-minus-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ width: calc( 100% - #{$vw12-col-4-quarter} ) !important;  }
+@mixin vw12-width-minus-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ width: calc( 100% - #{$vw12-col-4-half} ) !important;  }
+@mixin vw12-width-minus-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ width: calc( 100% - #{$vw12-col-4-three-quarters} ) !important;  }
+@mixin vw12-width-minus-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ width: calc( 100% - #{$vw12-col-5} ) !important;  }
+@mixin vw12-width-minus-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ width: calc( 100% - #{$vw12-col-5-quarter} ) !important;  }
+@mixin vw12-width-minus-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ width: calc( 100% - #{$vw12-col-5-half} ) !important;  }
+@mixin vw12-width-minus-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ width: calc( 100% - #{$vw12-col-5-three-quarters} ) !important;  }
+@mixin vw12-width-minus-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ width: calc( 100% - #{$vw12-col-6} ) !important;  }
+@mixin vw12-width-minus-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ width: calc( 100% - #{$vw12-col-6-quarter} ) !important;  }
+@mixin vw12-width-minus-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ width: calc( 100% - #{$vw12-col-6-half} ) !important;  }
+@mixin vw12-width-minus-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ width: calc( 100% - #{$vw12-col-6-three-quarters} ) !important;  }
+@mixin vw12-width-minus-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ width: calc( 100% - #{$vw12-col-7} ) !important;  }
+@mixin vw12-width-minus-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ width: calc( 100% - #{$vw12-col-7-quarter} ) !important;  }
+@mixin vw12-width-minus-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ width: calc( 100% - #{$vw12-col-7-half} ) !important;  }
+@mixin vw12-width-minus-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ width: calc( 100% - #{$vw12-col-7-three-quarters} ) !important;  }
+@mixin vw12-width-minus-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ width: calc( 100% - #{$vw12-col-8} ) !important;  }
+@mixin vw12-width-minus-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ width: calc( 100% - #{$vw12-col-8-quarter} ) !important;  }
+@mixin vw12-width-minus-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ width: calc( 100% - #{$vw12-col-8-half} ) !important;  }
+@mixin vw12-width-minus-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ width: calc( 100% - #{$vw12-col-8-three-quarters} ) !important;  }
+@mixin vw12-width-minus-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ width: calc( 100% - #{$vw12-col-9} ) !important;  }
+@mixin vw12-width-minus-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ width: calc( 100% - #{$vw12-col-9-quarter} ) !important;  }
+@mixin vw12-width-minus-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ width: calc( 100% - #{$vw12-col-9-half} ) !important;  }
+@mixin vw12-width-minus-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ width: calc( 100% - #{$vw12-col-9-three-quarters} ) !important;  }
+@mixin vw12-width-minus-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ width: calc( 100% - #{$vw12-col-10} ) !important;  }
+@mixin vw12-width-minus-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ width: calc( 100% - #{$vw12-col-10-quarter} ) !important;  }
+@mixin vw12-width-minus-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ width: calc( 100% - #{$vw12-col-10-half} ) !important;  }
+@mixin vw12-width-minus-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ width: calc( 100% - #{$vw12-col-10-three-quarters} ) !important;  }
+@mixin vw12-width-minus-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ width: calc( 100% - #{$vw12-col-11} ) !important;  }
+@mixin vw12-width-minus-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ width: calc( 100% - #{$vw12-col-11-quarter} ) !important;  }
+@mixin vw12-width-minus-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ width: calc( 100% - #{$vw12-col-11-half} ) !important;  }
+@mixin vw12-width-minus-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ width: calc( 100% - #{$vw12-col-11-three-quarters} ) !important;  }
+@mixin vw12-width-minus-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ width: calc( 100% - #{$vw12-col-12} ) !important;  }
+@mixin vw12-left ( $vw12-col : $vw12-col ) {
+ left: $vw12-col !important;  }
+@mixin vw12-left-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ left: $vw12-col-eighth !important;  }
+@mixin vw12-left-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ left: $vw12-col-quarter !important;  }
+@mixin vw12-left-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ left: $vw12-col-eighth-3 !important;  }
+@mixin vw12-left-half ( $vw12-col-half : $vw12-col-half ) {
+ left: $vw12-col-half !important;  }
+@mixin vw12-left-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ left: $vw12-col-eighth-5 !important;  }
+@mixin vw12-left-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ left: $vw12-col-quarter-3 !important;  }
+@mixin vw12-left-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ left: $vw12-col-eighth-7 !important;  }
+@mixin vw12-left-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ left: $vw12-col-0 !important;  }
+@mixin vw12-left-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ left: $vw12-col-1 !important;  }
+@mixin vw12-left-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ left: $vw12-col-1-quarter !important;  }
+@mixin vw12-left-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ left: $vw12-col-1-half !important;  }
+@mixin vw12-left-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ left: $vw12-col-1-three-quarters !important;  }
+@mixin vw12-left-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ left: $vw12-col-2 !important;  }
+@mixin vw12-left-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ left: $vw12-col-2-quarter !important;  }
+@mixin vw12-left-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ left: $vw12-col-2-half !important;  }
+@mixin vw12-left-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ left: $vw12-col-2-three-quarters !important;  }
+@mixin vw12-left-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ left: $vw12-col-3 !important;  }
+@mixin vw12-left-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ left: $vw12-col-3-quarter !important;  }
+@mixin vw12-left-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ left: $vw12-col-3-half !important;  }
+@mixin vw12-left-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ left: $vw12-col-3-three-quarters !important;  }
+@mixin vw12-left-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ left: $vw12-col-4 !important;  }
+@mixin vw12-left-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ left: $vw12-col-4-quarter !important;  }
+@mixin vw12-left-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ left: $vw12-col-4-half !important;  }
+@mixin vw12-left-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ left: $vw12-col-4-three-quarters !important;  }
+@mixin vw12-left-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ left: $vw12-col-5 !important;  }
+@mixin vw12-left-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ left: $vw12-col-5-quarter !important;  }
+@mixin vw12-left-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ left: $vw12-col-5-half !important;  }
+@mixin vw12-left-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ left: $vw12-col-5-three-quarters !important;  }
+@mixin vw12-left-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ left: $vw12-col-6 !important;  }
+@mixin vw12-left-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ left: $vw12-col-6-quarter !important;  }
+@mixin vw12-left-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ left: $vw12-col-6-half !important;  }
+@mixin vw12-left-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ left: $vw12-col-6-three-quarters !important;  }
+@mixin vw12-left-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ left: $vw12-col-7 !important;  }
+@mixin vw12-left-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ left: $vw12-col-7-quarter !important;  }
+@mixin vw12-left-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ left: $vw12-col-7-half !important;  }
+@mixin vw12-left-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ left: $vw12-col-7-three-quarters !important;  }
+@mixin vw12-left-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ left: $vw12-col-8 !important;  }
+@mixin vw12-left-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ left: $vw12-col-8-quarter !important;  }
+@mixin vw12-left-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ left: $vw12-col-8-half !important;  }
+@mixin vw12-left-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ left: $vw12-col-8-three-quarters !important;  }
+@mixin vw12-left-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ left: $vw12-col-9 !important;  }
+@mixin vw12-left-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ left: $vw12-col-9-quarter !important;  }
+@mixin vw12-left-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ left: $vw12-col-9-half !important;  }
+@mixin vw12-left-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ left: $vw12-col-9-three-quarters !important;  }
+@mixin vw12-left-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ left: $vw12-col-10 !important;  }
+@mixin vw12-left-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ left: $vw12-col-10-quarter !important;  }
+@mixin vw12-left-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ left: $vw12-col-10-half !important;  }
+@mixin vw12-left-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ left: $vw12-col-10-three-quarters !important;  }
+@mixin vw12-left-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ left: $vw12-col-11 !important;  }
+@mixin vw12-left-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ left: $vw12-col-11-quarter !important;  }
+@mixin vw12-left-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ left: $vw12-col-11-half !important;  }
+@mixin vw12-left-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ left: $vw12-col-11-three-quarters !important;  }
+@mixin vw12-left-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ left: $vw12-col-12 !important;  }
+@mixin vw12-right ( $vw12-col : $vw12-col ) {
+ right: $vw12-col !important;  }
+@mixin vw12-right-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ right: $vw12-col-eighth !important;  }
+@mixin vw12-right-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ right: $vw12-col-quarter !important;  }
+@mixin vw12-right-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ right: $vw12-col-eighth-3 !important;  }
+@mixin vw12-right-half ( $vw12-col-half : $vw12-col-half ) {
+ right: $vw12-col-half !important;  }
+@mixin vw12-right-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ right: $vw12-col-eighth-5 !important;  }
+@mixin vw12-right-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ right: $vw12-col-quarter-3 !important;  }
+@mixin vw12-right-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ right: $vw12-col-eighth-7 !important;  }
+@mixin vw12-right-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ right: $vw12-col-0 !important;  }
+@mixin vw12-right-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ right: $vw12-col-1 !important;  }
+@mixin vw12-right-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ right: $vw12-col-1-quarter !important;  }
+@mixin vw12-right-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ right: $vw12-col-1-half !important;  }
+@mixin vw12-right-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ right: $vw12-col-1-three-quarters !important;  }
+@mixin vw12-right-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ right: $vw12-col-2 !important;  }
+@mixin vw12-right-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ right: $vw12-col-2-quarter !important;  }
+@mixin vw12-right-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ right: $vw12-col-2-half !important;  }
+@mixin vw12-right-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ right: $vw12-col-2-three-quarters !important;  }
+@mixin vw12-right-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ right: $vw12-col-3 !important;  }
+@mixin vw12-right-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ right: $vw12-col-3-quarter !important;  }
+@mixin vw12-right-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ right: $vw12-col-3-half !important;  }
+@mixin vw12-right-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ right: $vw12-col-3-three-quarters !important;  }
+@mixin vw12-right-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ right: $vw12-col-4 !important;  }
+@mixin vw12-right-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ right: $vw12-col-4-quarter !important;  }
+@mixin vw12-right-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ right: $vw12-col-4-half !important;  }
+@mixin vw12-right-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ right: $vw12-col-4-three-quarters !important;  }
+@mixin vw12-right-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ right: $vw12-col-5 !important;  }
+@mixin vw12-right-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ right: $vw12-col-5-quarter !important;  }
+@mixin vw12-right-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ right: $vw12-col-5-half !important;  }
+@mixin vw12-right-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ right: $vw12-col-5-three-quarters !important;  }
+@mixin vw12-right-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ right: $vw12-col-6 !important;  }
+@mixin vw12-right-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ right: $vw12-col-6-quarter !important;  }
+@mixin vw12-right-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ right: $vw12-col-6-half !important;  }
+@mixin vw12-right-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ right: $vw12-col-6-three-quarters !important;  }
+@mixin vw12-right-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ right: $vw12-col-7 !important;  }
+@mixin vw12-right-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ right: $vw12-col-7-quarter !important;  }
+@mixin vw12-right-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ right: $vw12-col-7-half !important;  }
+@mixin vw12-right-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ right: $vw12-col-7-three-quarters !important;  }
+@mixin vw12-right-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ right: $vw12-col-8 !important;  }
+@mixin vw12-right-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ right: $vw12-col-8-quarter !important;  }
+@mixin vw12-right-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ right: $vw12-col-8-half !important;  }
+@mixin vw12-right-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ right: $vw12-col-8-three-quarters !important;  }
+@mixin vw12-right-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ right: $vw12-col-9 !important;  }
+@mixin vw12-right-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ right: $vw12-col-9-quarter !important;  }
+@mixin vw12-right-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ right: $vw12-col-9-half !important;  }
+@mixin vw12-right-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ right: $vw12-col-9-three-quarters !important;  }
+@mixin vw12-right-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ right: $vw12-col-10 !important;  }
+@mixin vw12-right-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ right: $vw12-col-10-quarter !important;  }
+@mixin vw12-right-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ right: $vw12-col-10-half !important;  }
+@mixin vw12-right-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ right: $vw12-col-10-three-quarters !important;  }
+@mixin vw12-right-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ right: $vw12-col-11 !important;  }
+@mixin vw12-right-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ right: $vw12-col-11-quarter !important;  }
+@mixin vw12-right-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ right: $vw12-col-11-half !important;  }
+@mixin vw12-right-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ right: $vw12-col-11-three-quarters !important;  }
+@mixin vw12-right-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ right: $vw12-col-12 !important;  }
+@mixin vw12-margin-h ( $vw12-col : $vw12-col ) {
+ margin-left: $vw12-col  !important;  margin-right: $vw12-col  !important;  }
+@mixin vw12-margin-h-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ margin-left: $vw12-col-eighth  !important;  margin-right: $vw12-col-eighth  !important;  }
+@mixin vw12-margin-h-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ margin-left: $vw12-col-quarter  !important;  margin-right: $vw12-col-quarter  !important;  }
+@mixin vw12-margin-h-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ margin-left: $vw12-col-eighth-3  !important;  margin-right: $vw12-col-eighth-3  !important;  }
+@mixin vw12-margin-h-half ( $vw12-col-half : $vw12-col-half ) {
+ margin-left: $vw12-col-half  !important;  margin-right: $vw12-col-half  !important;  }
+@mixin vw12-margin-h-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ margin-left: $vw12-col-eighth-5  !important;  margin-right: $vw12-col-eighth-5  !important;  }
+@mixin vw12-margin-h-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ margin-left: $vw12-col-quarter-3  !important;  margin-right: $vw12-col-quarter-3  !important;  }
+@mixin vw12-margin-h-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ margin-left: $vw12-col-eighth-7  !important;  margin-right: $vw12-col-eighth-7  !important;  }
+@mixin vw12-margin-h-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ margin-left: $vw12-col-0  !important;  margin-right: $vw12-col-0  !important;  }
+@mixin vw12-margin-h-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ margin-left: $vw12-col-1  !important;  margin-right: $vw12-col-1  !important;  }
+@mixin vw12-margin-h-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ margin-left: $vw12-col-1-quarter  !important;  margin-right: $vw12-col-1-quarter  !important;  }
+@mixin vw12-margin-h-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ margin-left: $vw12-col-1-half  !important;  margin-right: $vw12-col-1-half  !important;  }
+@mixin vw12-margin-h-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ margin-left: $vw12-col-1-three-quarters  !important;  margin-right: $vw12-col-1-three-quarters  !important;  }
+@mixin vw12-margin-h-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ margin-left: $vw12-col-2  !important;  margin-right: $vw12-col-2  !important;  }
+@mixin vw12-margin-h-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ margin-left: $vw12-col-2-quarter  !important;  margin-right: $vw12-col-2-quarter  !important;  }
+@mixin vw12-margin-h-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ margin-left: $vw12-col-2-half  !important;  margin-right: $vw12-col-2-half  !important;  }
+@mixin vw12-margin-h-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ margin-left: $vw12-col-2-three-quarters  !important;  margin-right: $vw12-col-2-three-quarters  !important;  }
+@mixin vw12-margin-h-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ margin-left: $vw12-col-3  !important;  margin-right: $vw12-col-3  !important;  }
+@mixin vw12-margin-h-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ margin-left: $vw12-col-3-quarter  !important;  margin-right: $vw12-col-3-quarter  !important;  }
+@mixin vw12-margin-h-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ margin-left: $vw12-col-3-half  !important;  margin-right: $vw12-col-3-half  !important;  }
+@mixin vw12-margin-h-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ margin-left: $vw12-col-3-three-quarters  !important;  margin-right: $vw12-col-3-three-quarters  !important;  }
+@mixin vw12-margin-h-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ margin-left: $vw12-col-4  !important;  margin-right: $vw12-col-4  !important;  }
+@mixin vw12-margin-h-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ margin-left: $vw12-col-4-quarter  !important;  margin-right: $vw12-col-4-quarter  !important;  }
+@mixin vw12-margin-h-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ margin-left: $vw12-col-4-half  !important;  margin-right: $vw12-col-4-half  !important;  }
+@mixin vw12-margin-h-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ margin-left: $vw12-col-4-three-quarters  !important;  margin-right: $vw12-col-4-three-quarters  !important;  }
+@mixin vw12-margin-h-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ margin-left: $vw12-col-5  !important;  margin-right: $vw12-col-5  !important;  }
+@mixin vw12-margin-h-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ margin-left: $vw12-col-5-quarter  !important;  margin-right: $vw12-col-5-quarter  !important;  }
+@mixin vw12-margin-h-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ margin-left: $vw12-col-5-half  !important;  margin-right: $vw12-col-5-half  !important;  }
+@mixin vw12-margin-h-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ margin-left: $vw12-col-5-three-quarters  !important;  margin-right: $vw12-col-5-three-quarters  !important;  }
+@mixin vw12-margin-h-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ margin-left: $vw12-col-6  !important;  margin-right: $vw12-col-6  !important;  }
+@mixin vw12-margin-h-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ margin-left: $vw12-col-6-quarter  !important;  margin-right: $vw12-col-6-quarter  !important;  }
+@mixin vw12-margin-h-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ margin-left: $vw12-col-6-half  !important;  margin-right: $vw12-col-6-half  !important;  }
+@mixin vw12-margin-h-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ margin-left: $vw12-col-6-three-quarters  !important;  margin-right: $vw12-col-6-three-quarters  !important;  }
+@mixin vw12-margin-h-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ margin-left: $vw12-col-7  !important;  margin-right: $vw12-col-7  !important;  }
+@mixin vw12-margin-h-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ margin-left: $vw12-col-7-quarter  !important;  margin-right: $vw12-col-7-quarter  !important;  }
+@mixin vw12-margin-h-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ margin-left: $vw12-col-7-half  !important;  margin-right: $vw12-col-7-half  !important;  }
+@mixin vw12-margin-h-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ margin-left: $vw12-col-7-three-quarters  !important;  margin-right: $vw12-col-7-three-quarters  !important;  }
+@mixin vw12-margin-h-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ margin-left: $vw12-col-8  !important;  margin-right: $vw12-col-8  !important;  }
+@mixin vw12-margin-h-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ margin-left: $vw12-col-8-quarter  !important;  margin-right: $vw12-col-8-quarter  !important;  }
+@mixin vw12-margin-h-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ margin-left: $vw12-col-8-half  !important;  margin-right: $vw12-col-8-half  !important;  }
+@mixin vw12-margin-h-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ margin-left: $vw12-col-8-three-quarters  !important;  margin-right: $vw12-col-8-three-quarters  !important;  }
+@mixin vw12-margin-h-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ margin-left: $vw12-col-9  !important;  margin-right: $vw12-col-9  !important;  }
+@mixin vw12-margin-h-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ margin-left: $vw12-col-9-quarter  !important;  margin-right: $vw12-col-9-quarter  !important;  }
+@mixin vw12-margin-h-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ margin-left: $vw12-col-9-half  !important;  margin-right: $vw12-col-9-half  !important;  }
+@mixin vw12-margin-h-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ margin-left: $vw12-col-9-three-quarters  !important;  margin-right: $vw12-col-9-three-quarters  !important;  }
+@mixin vw12-margin-h-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ margin-left: $vw12-col-10  !important;  margin-right: $vw12-col-10  !important;  }
+@mixin vw12-margin-h-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ margin-left: $vw12-col-10-quarter  !important;  margin-right: $vw12-col-10-quarter  !important;  }
+@mixin vw12-margin-h-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ margin-left: $vw12-col-10-half  !important;  margin-right: $vw12-col-10-half  !important;  }
+@mixin vw12-margin-h-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ margin-left: $vw12-col-10-three-quarters  !important;  margin-right: $vw12-col-10-three-quarters  !important;  }
+@mixin vw12-margin-h-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ margin-left: $vw12-col-11  !important;  margin-right: $vw12-col-11  !important;  }
+@mixin vw12-margin-h-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ margin-left: $vw12-col-11-quarter  !important;  margin-right: $vw12-col-11-quarter  !important;  }
+@mixin vw12-margin-h-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ margin-left: $vw12-col-11-half  !important;  margin-right: $vw12-col-11-half  !important;  }
+@mixin vw12-margin-h-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ margin-left: $vw12-col-11-three-quarters  !important;  margin-right: $vw12-col-11-three-quarters  !important;  }
+@mixin vw12-margin-h-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ margin-left: $vw12-col-12  !important;  margin-right: $vw12-col-12  !important;  }
+@mixin vw12-margin-width ( $vw12-col : $vw12-col ) {
+ margin-left: $vw12-col  !important;  margin-right: $vw12-col  !important;  }
+@mixin vw12-margin-width-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ margin-left: $vw12-col-eighth  !important;  margin-right: $vw12-col-eighth  !important;  }
+@mixin vw12-margin-width-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ margin-left: $vw12-col-quarter  !important;  margin-right: $vw12-col-quarter  !important;  }
+@mixin vw12-margin-width-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ margin-left: $vw12-col-eighth-3  !important;  margin-right: $vw12-col-eighth-3  !important;  }
+@mixin vw12-margin-width-half ( $vw12-col-half : $vw12-col-half ) {
+ margin-left: $vw12-col-half  !important;  margin-right: $vw12-col-half  !important;  }
+@mixin vw12-margin-width-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ margin-left: $vw12-col-eighth-5  !important;  margin-right: $vw12-col-eighth-5  !important;  }
+@mixin vw12-margin-width-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ margin-left: $vw12-col-quarter-3  !important;  margin-right: $vw12-col-quarter-3  !important;  }
+@mixin vw12-margin-width-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ margin-left: $vw12-col-eighth-7  !important;  margin-right: $vw12-col-eighth-7  !important;  }
+@mixin vw12-margin-width-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ margin-left: $vw12-col-0  !important;  margin-right: $vw12-col-0  !important;  }
+@mixin vw12-margin-width-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ margin-left: $vw12-col-1  !important;  margin-right: $vw12-col-1  !important;  }
+@mixin vw12-margin-width-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ margin-left: $vw12-col-1-quarter  !important;  margin-right: $vw12-col-1-quarter  !important;  }
+@mixin vw12-margin-width-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ margin-left: $vw12-col-1-half  !important;  margin-right: $vw12-col-1-half  !important;  }
+@mixin vw12-margin-width-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ margin-left: $vw12-col-1-three-quarters  !important;  margin-right: $vw12-col-1-three-quarters  !important;  }
+@mixin vw12-margin-width-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ margin-left: $vw12-col-2  !important;  margin-right: $vw12-col-2  !important;  }
+@mixin vw12-margin-width-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ margin-left: $vw12-col-2-quarter  !important;  margin-right: $vw12-col-2-quarter  !important;  }
+@mixin vw12-margin-width-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ margin-left: $vw12-col-2-half  !important;  margin-right: $vw12-col-2-half  !important;  }
+@mixin vw12-margin-width-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ margin-left: $vw12-col-2-three-quarters  !important;  margin-right: $vw12-col-2-three-quarters  !important;  }
+@mixin vw12-margin-width-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ margin-left: $vw12-col-3  !important;  margin-right: $vw12-col-3  !important;  }
+@mixin vw12-margin-width-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ margin-left: $vw12-col-3-quarter  !important;  margin-right: $vw12-col-3-quarter  !important;  }
+@mixin vw12-margin-width-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ margin-left: $vw12-col-3-half  !important;  margin-right: $vw12-col-3-half  !important;  }
+@mixin vw12-margin-width-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ margin-left: $vw12-col-3-three-quarters  !important;  margin-right: $vw12-col-3-three-quarters  !important;  }
+@mixin vw12-margin-width-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ margin-left: $vw12-col-4  !important;  margin-right: $vw12-col-4  !important;  }
+@mixin vw12-margin-width-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ margin-left: $vw12-col-4-quarter  !important;  margin-right: $vw12-col-4-quarter  !important;  }
+@mixin vw12-margin-width-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ margin-left: $vw12-col-4-half  !important;  margin-right: $vw12-col-4-half  !important;  }
+@mixin vw12-margin-width-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ margin-left: $vw12-col-4-three-quarters  !important;  margin-right: $vw12-col-4-three-quarters  !important;  }
+@mixin vw12-margin-width-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ margin-left: $vw12-col-5  !important;  margin-right: $vw12-col-5  !important;  }
+@mixin vw12-margin-width-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ margin-left: $vw12-col-5-quarter  !important;  margin-right: $vw12-col-5-quarter  !important;  }
+@mixin vw12-margin-width-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ margin-left: $vw12-col-5-half  !important;  margin-right: $vw12-col-5-half  !important;  }
+@mixin vw12-margin-width-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ margin-left: $vw12-col-5-three-quarters  !important;  margin-right: $vw12-col-5-three-quarters  !important;  }
+@mixin vw12-margin-width-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ margin-left: $vw12-col-6  !important;  margin-right: $vw12-col-6  !important;  }
+@mixin vw12-margin-width-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ margin-left: $vw12-col-6-quarter  !important;  margin-right: $vw12-col-6-quarter  !important;  }
+@mixin vw12-margin-width-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ margin-left: $vw12-col-6-half  !important;  margin-right: $vw12-col-6-half  !important;  }
+@mixin vw12-margin-width-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ margin-left: $vw12-col-6-three-quarters  !important;  margin-right: $vw12-col-6-three-quarters  !important;  }
+@mixin vw12-margin-width-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ margin-left: $vw12-col-7  !important;  margin-right: $vw12-col-7  !important;  }
+@mixin vw12-margin-width-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ margin-left: $vw12-col-7-quarter  !important;  margin-right: $vw12-col-7-quarter  !important;  }
+@mixin vw12-margin-width-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ margin-left: $vw12-col-7-half  !important;  margin-right: $vw12-col-7-half  !important;  }
+@mixin vw12-margin-width-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ margin-left: $vw12-col-7-three-quarters  !important;  margin-right: $vw12-col-7-three-quarters  !important;  }
+@mixin vw12-margin-width-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ margin-left: $vw12-col-8  !important;  margin-right: $vw12-col-8  !important;  }
+@mixin vw12-margin-width-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ margin-left: $vw12-col-8-quarter  !important;  margin-right: $vw12-col-8-quarter  !important;  }
+@mixin vw12-margin-width-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ margin-left: $vw12-col-8-half  !important;  margin-right: $vw12-col-8-half  !important;  }
+@mixin vw12-margin-width-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ margin-left: $vw12-col-8-three-quarters  !important;  margin-right: $vw12-col-8-three-quarters  !important;  }
+@mixin vw12-margin-width-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ margin-left: $vw12-col-9  !important;  margin-right: $vw12-col-9  !important;  }
+@mixin vw12-margin-width-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ margin-left: $vw12-col-9-quarter  !important;  margin-right: $vw12-col-9-quarter  !important;  }
+@mixin vw12-margin-width-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ margin-left: $vw12-col-9-half  !important;  margin-right: $vw12-col-9-half  !important;  }
+@mixin vw12-margin-width-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ margin-left: $vw12-col-9-three-quarters  !important;  margin-right: $vw12-col-9-three-quarters  !important;  }
+@mixin vw12-margin-width-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ margin-left: $vw12-col-10  !important;  margin-right: $vw12-col-10  !important;  }
+@mixin vw12-margin-width-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ margin-left: $vw12-col-10-quarter  !important;  margin-right: $vw12-col-10-quarter  !important;  }
+@mixin vw12-margin-width-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ margin-left: $vw12-col-10-half  !important;  margin-right: $vw12-col-10-half  !important;  }
+@mixin vw12-margin-width-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ margin-left: $vw12-col-10-three-quarters  !important;  margin-right: $vw12-col-10-three-quarters  !important;  }
+@mixin vw12-margin-width-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ margin-left: $vw12-col-11  !important;  margin-right: $vw12-col-11  !important;  }
+@mixin vw12-margin-width-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ margin-left: $vw12-col-11-quarter  !important;  margin-right: $vw12-col-11-quarter  !important;  }
+@mixin vw12-margin-width-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ margin-left: $vw12-col-11-half  !important;  margin-right: $vw12-col-11-half  !important;  }
+@mixin vw12-margin-width-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ margin-left: $vw12-col-11-three-quarters  !important;  margin-right: $vw12-col-11-three-quarters  !important;  }
+@mixin vw12-margin-width-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ margin-left: $vw12-col-12  !important;  margin-right: $vw12-col-12  !important;  }
+@mixin vw12-margin-left ( $vw12-col : $vw12-col ) {
+ margin-left: $vw12-col !important;  }
+@mixin vw12-margin-left-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ margin-left: $vw12-col-eighth !important;  }
+@mixin vw12-margin-left-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ margin-left: $vw12-col-quarter !important;  }
+@mixin vw12-margin-left-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ margin-left: $vw12-col-eighth-3 !important;  }
+@mixin vw12-margin-left-half ( $vw12-col-half : $vw12-col-half ) {
+ margin-left: $vw12-col-half !important;  }
+@mixin vw12-margin-left-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ margin-left: $vw12-col-eighth-5 !important;  }
+@mixin vw12-margin-left-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ margin-left: $vw12-col-quarter-3 !important;  }
+@mixin vw12-margin-left-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ margin-left: $vw12-col-eighth-7 !important;  }
+@mixin vw12-margin-left-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ margin-left: $vw12-col-0 !important;  }
+@mixin vw12-margin-left-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ margin-left: $vw12-col-1 !important;  }
+@mixin vw12-margin-left-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ margin-left: $vw12-col-1-quarter !important;  }
+@mixin vw12-margin-left-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ margin-left: $vw12-col-1-half !important;  }
+@mixin vw12-margin-left-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ margin-left: $vw12-col-1-three-quarters !important;  }
+@mixin vw12-margin-left-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ margin-left: $vw12-col-2 !important;  }
+@mixin vw12-margin-left-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ margin-left: $vw12-col-2-quarter !important;  }
+@mixin vw12-margin-left-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ margin-left: $vw12-col-2-half !important;  }
+@mixin vw12-margin-left-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ margin-left: $vw12-col-2-three-quarters !important;  }
+@mixin vw12-margin-left-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ margin-left: $vw12-col-3 !important;  }
+@mixin vw12-margin-left-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ margin-left: $vw12-col-3-quarter !important;  }
+@mixin vw12-margin-left-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ margin-left: $vw12-col-3-half !important;  }
+@mixin vw12-margin-left-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ margin-left: $vw12-col-3-three-quarters !important;  }
+@mixin vw12-margin-left-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ margin-left: $vw12-col-4 !important;  }
+@mixin vw12-margin-left-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ margin-left: $vw12-col-4-quarter !important;  }
+@mixin vw12-margin-left-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ margin-left: $vw12-col-4-half !important;  }
+@mixin vw12-margin-left-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ margin-left: $vw12-col-4-three-quarters !important;  }
+@mixin vw12-margin-left-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ margin-left: $vw12-col-5 !important;  }
+@mixin vw12-margin-left-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ margin-left: $vw12-col-5-quarter !important;  }
+@mixin vw12-margin-left-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ margin-left: $vw12-col-5-half !important;  }
+@mixin vw12-margin-left-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ margin-left: $vw12-col-5-three-quarters !important;  }
+@mixin vw12-margin-left-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ margin-left: $vw12-col-6 !important;  }
+@mixin vw12-margin-left-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ margin-left: $vw12-col-6-quarter !important;  }
+@mixin vw12-margin-left-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ margin-left: $vw12-col-6-half !important;  }
+@mixin vw12-margin-left-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ margin-left: $vw12-col-6-three-quarters !important;  }
+@mixin vw12-margin-left-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ margin-left: $vw12-col-7 !important;  }
+@mixin vw12-margin-left-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ margin-left: $vw12-col-7-quarter !important;  }
+@mixin vw12-margin-left-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ margin-left: $vw12-col-7-half !important;  }
+@mixin vw12-margin-left-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ margin-left: $vw12-col-7-three-quarters !important;  }
+@mixin vw12-margin-left-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ margin-left: $vw12-col-8 !important;  }
+@mixin vw12-margin-left-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ margin-left: $vw12-col-8-quarter !important;  }
+@mixin vw12-margin-left-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ margin-left: $vw12-col-8-half !important;  }
+@mixin vw12-margin-left-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ margin-left: $vw12-col-8-three-quarters !important;  }
+@mixin vw12-margin-left-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ margin-left: $vw12-col-9 !important;  }
+@mixin vw12-margin-left-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ margin-left: $vw12-col-9-quarter !important;  }
+@mixin vw12-margin-left-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ margin-left: $vw12-col-9-half !important;  }
+@mixin vw12-margin-left-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ margin-left: $vw12-col-9-three-quarters !important;  }
+@mixin vw12-margin-left-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ margin-left: $vw12-col-10 !important;  }
+@mixin vw12-margin-left-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ margin-left: $vw12-col-10-quarter !important;  }
+@mixin vw12-margin-left-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ margin-left: $vw12-col-10-half !important;  }
+@mixin vw12-margin-left-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ margin-left: $vw12-col-10-three-quarters !important;  }
+@mixin vw12-margin-left-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ margin-left: $vw12-col-11 !important;  }
+@mixin vw12-margin-left-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ margin-left: $vw12-col-11-quarter !important;  }
+@mixin vw12-margin-left-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ margin-left: $vw12-col-11-half !important;  }
+@mixin vw12-margin-left-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ margin-left: $vw12-col-11-three-quarters !important;  }
+@mixin vw12-margin-left-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ margin-left: $vw12-col-12 !important;  }
+@mixin vw12-margin-right ( $vw12-col : $vw12-col ) {
+ margin-right: $vw12-col !important;  }
+@mixin vw12-margin-right-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ margin-right: $vw12-col-eighth !important;  }
+@mixin vw12-margin-right-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ margin-right: $vw12-col-quarter !important;  }
+@mixin vw12-margin-right-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ margin-right: $vw12-col-eighth-3 !important;  }
+@mixin vw12-margin-right-half ( $vw12-col-half : $vw12-col-half ) {
+ margin-right: $vw12-col-half !important;  }
+@mixin vw12-margin-right-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ margin-right: $vw12-col-eighth-5 !important;  }
+@mixin vw12-margin-right-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ margin-right: $vw12-col-quarter-3 !important;  }
+@mixin vw12-margin-right-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ margin-right: $vw12-col-eighth-7 !important;  }
+@mixin vw12-margin-right-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ margin-right: $vw12-col-0 !important;  }
+@mixin vw12-margin-right-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ margin-right: $vw12-col-1 !important;  }
+@mixin vw12-margin-right-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ margin-right: $vw12-col-1-quarter !important;  }
+@mixin vw12-margin-right-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ margin-right: $vw12-col-1-half !important;  }
+@mixin vw12-margin-right-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ margin-right: $vw12-col-1-three-quarters !important;  }
+@mixin vw12-margin-right-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ margin-right: $vw12-col-2 !important;  }
+@mixin vw12-margin-right-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ margin-right: $vw12-col-2-quarter !important;  }
+@mixin vw12-margin-right-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ margin-right: $vw12-col-2-half !important;  }
+@mixin vw12-margin-right-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ margin-right: $vw12-col-2-three-quarters !important;  }
+@mixin vw12-margin-right-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ margin-right: $vw12-col-3 !important;  }
+@mixin vw12-margin-right-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ margin-right: $vw12-col-3-quarter !important;  }
+@mixin vw12-margin-right-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ margin-right: $vw12-col-3-half !important;  }
+@mixin vw12-margin-right-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ margin-right: $vw12-col-3-three-quarters !important;  }
+@mixin vw12-margin-right-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ margin-right: $vw12-col-4 !important;  }
+@mixin vw12-margin-right-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ margin-right: $vw12-col-4-quarter !important;  }
+@mixin vw12-margin-right-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ margin-right: $vw12-col-4-half !important;  }
+@mixin vw12-margin-right-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ margin-right: $vw12-col-4-three-quarters !important;  }
+@mixin vw12-margin-right-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ margin-right: $vw12-col-5 !important;  }
+@mixin vw12-margin-right-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ margin-right: $vw12-col-5-quarter !important;  }
+@mixin vw12-margin-right-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ margin-right: $vw12-col-5-half !important;  }
+@mixin vw12-margin-right-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ margin-right: $vw12-col-5-three-quarters !important;  }
+@mixin vw12-margin-right-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ margin-right: $vw12-col-6 !important;  }
+@mixin vw12-margin-right-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ margin-right: $vw12-col-6-quarter !important;  }
+@mixin vw12-margin-right-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ margin-right: $vw12-col-6-half !important;  }
+@mixin vw12-margin-right-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ margin-right: $vw12-col-6-three-quarters !important;  }
+@mixin vw12-margin-right-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ margin-right: $vw12-col-7 !important;  }
+@mixin vw12-margin-right-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ margin-right: $vw12-col-7-quarter !important;  }
+@mixin vw12-margin-right-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ margin-right: $vw12-col-7-half !important;  }
+@mixin vw12-margin-right-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ margin-right: $vw12-col-7-three-quarters !important;  }
+@mixin vw12-margin-right-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ margin-right: $vw12-col-8 !important;  }
+@mixin vw12-margin-right-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ margin-right: $vw12-col-8-quarter !important;  }
+@mixin vw12-margin-right-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ margin-right: $vw12-col-8-half !important;  }
+@mixin vw12-margin-right-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ margin-right: $vw12-col-8-three-quarters !important;  }
+@mixin vw12-margin-right-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ margin-right: $vw12-col-9 !important;  }
+@mixin vw12-margin-right-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ margin-right: $vw12-col-9-quarter !important;  }
+@mixin vw12-margin-right-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ margin-right: $vw12-col-9-half !important;  }
+@mixin vw12-margin-right-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ margin-right: $vw12-col-9-three-quarters !important;  }
+@mixin vw12-margin-right-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ margin-right: $vw12-col-10 !important;  }
+@mixin vw12-margin-right-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ margin-right: $vw12-col-10-quarter !important;  }
+@mixin vw12-margin-right-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ margin-right: $vw12-col-10-half !important;  }
+@mixin vw12-margin-right-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ margin-right: $vw12-col-10-three-quarters !important;  }
+@mixin vw12-margin-right-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ margin-right: $vw12-col-11 !important;  }
+@mixin vw12-margin-right-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ margin-right: $vw12-col-11-quarter !important;  }
+@mixin vw12-margin-right-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ margin-right: $vw12-col-11-half !important;  }
+@mixin vw12-margin-right-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ margin-right: $vw12-col-11-three-quarters !important;  }
+@mixin vw12-margin-right-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ margin-right: $vw12-col-12 !important;  }
+@mixin vw12-padding-h ( $vw12-col : $vw12-col ) {
+ padding-left: $vw12-col  !important;  padding-right: $vw12-col  !important;  }
+@mixin vw12-padding-h-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ padding-left: $vw12-col-eighth  !important;  padding-right: $vw12-col-eighth  !important;  }
+@mixin vw12-padding-h-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ padding-left: $vw12-col-quarter  !important;  padding-right: $vw12-col-quarter  !important;  }
+@mixin vw12-padding-h-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ padding-left: $vw12-col-eighth-3  !important;  padding-right: $vw12-col-eighth-3  !important;  }
+@mixin vw12-padding-h-half ( $vw12-col-half : $vw12-col-half ) {
+ padding-left: $vw12-col-half  !important;  padding-right: $vw12-col-half  !important;  }
+@mixin vw12-padding-h-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ padding-left: $vw12-col-eighth-5  !important;  padding-right: $vw12-col-eighth-5  !important;  }
+@mixin vw12-padding-h-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ padding-left: $vw12-col-quarter-3  !important;  padding-right: $vw12-col-quarter-3  !important;  }
+@mixin vw12-padding-h-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ padding-left: $vw12-col-eighth-7  !important;  padding-right: $vw12-col-eighth-7  !important;  }
+@mixin vw12-padding-h-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ padding-left: $vw12-col-0  !important;  padding-right: $vw12-col-0  !important;  }
+@mixin vw12-padding-h-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ padding-left: $vw12-col-1  !important;  padding-right: $vw12-col-1  !important;  }
+@mixin vw12-padding-h-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ padding-left: $vw12-col-1-quarter  !important;  padding-right: $vw12-col-1-quarter  !important;  }
+@mixin vw12-padding-h-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ padding-left: $vw12-col-1-half  !important;  padding-right: $vw12-col-1-half  !important;  }
+@mixin vw12-padding-h-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ padding-left: $vw12-col-1-three-quarters  !important;  padding-right: $vw12-col-1-three-quarters  !important;  }
+@mixin vw12-padding-h-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ padding-left: $vw12-col-2  !important;  padding-right: $vw12-col-2  !important;  }
+@mixin vw12-padding-h-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ padding-left: $vw12-col-2-quarter  !important;  padding-right: $vw12-col-2-quarter  !important;  }
+@mixin vw12-padding-h-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ padding-left: $vw12-col-2-half  !important;  padding-right: $vw12-col-2-half  !important;  }
+@mixin vw12-padding-h-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ padding-left: $vw12-col-2-three-quarters  !important;  padding-right: $vw12-col-2-three-quarters  !important;  }
+@mixin vw12-padding-h-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ padding-left: $vw12-col-3  !important;  padding-right: $vw12-col-3  !important;  }
+@mixin vw12-padding-h-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ padding-left: $vw12-col-3-quarter  !important;  padding-right: $vw12-col-3-quarter  !important;  }
+@mixin vw12-padding-h-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ padding-left: $vw12-col-3-half  !important;  padding-right: $vw12-col-3-half  !important;  }
+@mixin vw12-padding-h-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ padding-left: $vw12-col-3-three-quarters  !important;  padding-right: $vw12-col-3-three-quarters  !important;  }
+@mixin vw12-padding-h-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ padding-left: $vw12-col-4  !important;  padding-right: $vw12-col-4  !important;  }
+@mixin vw12-padding-h-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ padding-left: $vw12-col-4-quarter  !important;  padding-right: $vw12-col-4-quarter  !important;  }
+@mixin vw12-padding-h-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ padding-left: $vw12-col-4-half  !important;  padding-right: $vw12-col-4-half  !important;  }
+@mixin vw12-padding-h-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ padding-left: $vw12-col-4-three-quarters  !important;  padding-right: $vw12-col-4-three-quarters  !important;  }
+@mixin vw12-padding-h-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ padding-left: $vw12-col-5  !important;  padding-right: $vw12-col-5  !important;  }
+@mixin vw12-padding-h-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ padding-left: $vw12-col-5-quarter  !important;  padding-right: $vw12-col-5-quarter  !important;  }
+@mixin vw12-padding-h-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ padding-left: $vw12-col-5-half  !important;  padding-right: $vw12-col-5-half  !important;  }
+@mixin vw12-padding-h-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ padding-left: $vw12-col-5-three-quarters  !important;  padding-right: $vw12-col-5-three-quarters  !important;  }
+@mixin vw12-padding-h-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ padding-left: $vw12-col-6  !important;  padding-right: $vw12-col-6  !important;  }
+@mixin vw12-padding-h-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ padding-left: $vw12-col-6-quarter  !important;  padding-right: $vw12-col-6-quarter  !important;  }
+@mixin vw12-padding-h-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ padding-left: $vw12-col-6-half  !important;  padding-right: $vw12-col-6-half  !important;  }
+@mixin vw12-padding-h-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ padding-left: $vw12-col-6-three-quarters  !important;  padding-right: $vw12-col-6-three-quarters  !important;  }
+@mixin vw12-padding-h-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ padding-left: $vw12-col-7  !important;  padding-right: $vw12-col-7  !important;  }
+@mixin vw12-padding-h-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ padding-left: $vw12-col-7-quarter  !important;  padding-right: $vw12-col-7-quarter  !important;  }
+@mixin vw12-padding-h-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ padding-left: $vw12-col-7-half  !important;  padding-right: $vw12-col-7-half  !important;  }
+@mixin vw12-padding-h-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ padding-left: $vw12-col-7-three-quarters  !important;  padding-right: $vw12-col-7-three-quarters  !important;  }
+@mixin vw12-padding-h-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ padding-left: $vw12-col-8  !important;  padding-right: $vw12-col-8  !important;  }
+@mixin vw12-padding-h-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ padding-left: $vw12-col-8-quarter  !important;  padding-right: $vw12-col-8-quarter  !important;  }
+@mixin vw12-padding-h-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ padding-left: $vw12-col-8-half  !important;  padding-right: $vw12-col-8-half  !important;  }
+@mixin vw12-padding-h-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ padding-left: $vw12-col-8-three-quarters  !important;  padding-right: $vw12-col-8-three-quarters  !important;  }
+@mixin vw12-padding-h-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ padding-left: $vw12-col-9  !important;  padding-right: $vw12-col-9  !important;  }
+@mixin vw12-padding-h-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ padding-left: $vw12-col-9-quarter  !important;  padding-right: $vw12-col-9-quarter  !important;  }
+@mixin vw12-padding-h-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ padding-left: $vw12-col-9-half  !important;  padding-right: $vw12-col-9-half  !important;  }
+@mixin vw12-padding-h-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ padding-left: $vw12-col-9-three-quarters  !important;  padding-right: $vw12-col-9-three-quarters  !important;  }
+@mixin vw12-padding-h-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ padding-left: $vw12-col-10  !important;  padding-right: $vw12-col-10  !important;  }
+@mixin vw12-padding-h-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ padding-left: $vw12-col-10-quarter  !important;  padding-right: $vw12-col-10-quarter  !important;  }
+@mixin vw12-padding-h-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ padding-left: $vw12-col-10-half  !important;  padding-right: $vw12-col-10-half  !important;  }
+@mixin vw12-padding-h-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ padding-left: $vw12-col-10-three-quarters  !important;  padding-right: $vw12-col-10-three-quarters  !important;  }
+@mixin vw12-padding-h-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ padding-left: $vw12-col-11  !important;  padding-right: $vw12-col-11  !important;  }
+@mixin vw12-padding-h-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ padding-left: $vw12-col-11-quarter  !important;  padding-right: $vw12-col-11-quarter  !important;  }
+@mixin vw12-padding-h-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ padding-left: $vw12-col-11-half  !important;  padding-right: $vw12-col-11-half  !important;  }
+@mixin vw12-padding-h-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ padding-left: $vw12-col-11-three-quarters  !important;  padding-right: $vw12-col-11-three-quarters  !important;  }
+@mixin vw12-padding-h-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ padding-left: $vw12-col-12  !important;  padding-right: $vw12-col-12  !important;  }
+@mixin vw12-padding-width ( $vw12-col : $vw12-col ) {
+ padding-left: $vw12-col  !important;  padding-right: $vw12-col  !important;  }
+@mixin vw12-padding-width-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ padding-left: $vw12-col-eighth  !important;  padding-right: $vw12-col-eighth  !important;  }
+@mixin vw12-padding-width-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ padding-left: $vw12-col-quarter  !important;  padding-right: $vw12-col-quarter  !important;  }
+@mixin vw12-padding-width-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ padding-left: $vw12-col-eighth-3  !important;  padding-right: $vw12-col-eighth-3  !important;  }
+@mixin vw12-padding-width-half ( $vw12-col-half : $vw12-col-half ) {
+ padding-left: $vw12-col-half  !important;  padding-right: $vw12-col-half  !important;  }
+@mixin vw12-padding-width-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ padding-left: $vw12-col-eighth-5  !important;  padding-right: $vw12-col-eighth-5  !important;  }
+@mixin vw12-padding-width-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ padding-left: $vw12-col-quarter-3  !important;  padding-right: $vw12-col-quarter-3  !important;  }
+@mixin vw12-padding-width-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ padding-left: $vw12-col-eighth-7  !important;  padding-right: $vw12-col-eighth-7  !important;  }
+@mixin vw12-padding-width-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ padding-left: $vw12-col-0  !important;  padding-right: $vw12-col-0  !important;  }
+@mixin vw12-padding-width-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ padding-left: $vw12-col-1  !important;  padding-right: $vw12-col-1  !important;  }
+@mixin vw12-padding-width-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ padding-left: $vw12-col-1-quarter  !important;  padding-right: $vw12-col-1-quarter  !important;  }
+@mixin vw12-padding-width-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ padding-left: $vw12-col-1-half  !important;  padding-right: $vw12-col-1-half  !important;  }
+@mixin vw12-padding-width-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ padding-left: $vw12-col-1-three-quarters  !important;  padding-right: $vw12-col-1-three-quarters  !important;  }
+@mixin vw12-padding-width-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ padding-left: $vw12-col-2  !important;  padding-right: $vw12-col-2  !important;  }
+@mixin vw12-padding-width-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ padding-left: $vw12-col-2-quarter  !important;  padding-right: $vw12-col-2-quarter  !important;  }
+@mixin vw12-padding-width-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ padding-left: $vw12-col-2-half  !important;  padding-right: $vw12-col-2-half  !important;  }
+@mixin vw12-padding-width-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ padding-left: $vw12-col-2-three-quarters  !important;  padding-right: $vw12-col-2-three-quarters  !important;  }
+@mixin vw12-padding-width-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ padding-left: $vw12-col-3  !important;  padding-right: $vw12-col-3  !important;  }
+@mixin vw12-padding-width-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ padding-left: $vw12-col-3-quarter  !important;  padding-right: $vw12-col-3-quarter  !important;  }
+@mixin vw12-padding-width-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ padding-left: $vw12-col-3-half  !important;  padding-right: $vw12-col-3-half  !important;  }
+@mixin vw12-padding-width-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ padding-left: $vw12-col-3-three-quarters  !important;  padding-right: $vw12-col-3-three-quarters  !important;  }
+@mixin vw12-padding-width-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ padding-left: $vw12-col-4  !important;  padding-right: $vw12-col-4  !important;  }
+@mixin vw12-padding-width-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ padding-left: $vw12-col-4-quarter  !important;  padding-right: $vw12-col-4-quarter  !important;  }
+@mixin vw12-padding-width-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ padding-left: $vw12-col-4-half  !important;  padding-right: $vw12-col-4-half  !important;  }
+@mixin vw12-padding-width-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ padding-left: $vw12-col-4-three-quarters  !important;  padding-right: $vw12-col-4-three-quarters  !important;  }
+@mixin vw12-padding-width-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ padding-left: $vw12-col-5  !important;  padding-right: $vw12-col-5  !important;  }
+@mixin vw12-padding-width-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ padding-left: $vw12-col-5-quarter  !important;  padding-right: $vw12-col-5-quarter  !important;  }
+@mixin vw12-padding-width-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ padding-left: $vw12-col-5-half  !important;  padding-right: $vw12-col-5-half  !important;  }
+@mixin vw12-padding-width-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ padding-left: $vw12-col-5-three-quarters  !important;  padding-right: $vw12-col-5-three-quarters  !important;  }
+@mixin vw12-padding-width-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ padding-left: $vw12-col-6  !important;  padding-right: $vw12-col-6  !important;  }
+@mixin vw12-padding-width-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ padding-left: $vw12-col-6-quarter  !important;  padding-right: $vw12-col-6-quarter  !important;  }
+@mixin vw12-padding-width-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ padding-left: $vw12-col-6-half  !important;  padding-right: $vw12-col-6-half  !important;  }
+@mixin vw12-padding-width-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ padding-left: $vw12-col-6-three-quarters  !important;  padding-right: $vw12-col-6-three-quarters  !important;  }
+@mixin vw12-padding-width-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ padding-left: $vw12-col-7  !important;  padding-right: $vw12-col-7  !important;  }
+@mixin vw12-padding-width-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ padding-left: $vw12-col-7-quarter  !important;  padding-right: $vw12-col-7-quarter  !important;  }
+@mixin vw12-padding-width-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ padding-left: $vw12-col-7-half  !important;  padding-right: $vw12-col-7-half  !important;  }
+@mixin vw12-padding-width-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ padding-left: $vw12-col-7-three-quarters  !important;  padding-right: $vw12-col-7-three-quarters  !important;  }
+@mixin vw12-padding-width-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ padding-left: $vw12-col-8  !important;  padding-right: $vw12-col-8  !important;  }
+@mixin vw12-padding-width-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ padding-left: $vw12-col-8-quarter  !important;  padding-right: $vw12-col-8-quarter  !important;  }
+@mixin vw12-padding-width-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ padding-left: $vw12-col-8-half  !important;  padding-right: $vw12-col-8-half  !important;  }
+@mixin vw12-padding-width-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ padding-left: $vw12-col-8-three-quarters  !important;  padding-right: $vw12-col-8-three-quarters  !important;  }
+@mixin vw12-padding-width-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ padding-left: $vw12-col-9  !important;  padding-right: $vw12-col-9  !important;  }
+@mixin vw12-padding-width-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ padding-left: $vw12-col-9-quarter  !important;  padding-right: $vw12-col-9-quarter  !important;  }
+@mixin vw12-padding-width-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ padding-left: $vw12-col-9-half  !important;  padding-right: $vw12-col-9-half  !important;  }
+@mixin vw12-padding-width-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ padding-left: $vw12-col-9-three-quarters  !important;  padding-right: $vw12-col-9-three-quarters  !important;  }
+@mixin vw12-padding-width-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ padding-left: $vw12-col-10  !important;  padding-right: $vw12-col-10  !important;  }
+@mixin vw12-padding-width-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ padding-left: $vw12-col-10-quarter  !important;  padding-right: $vw12-col-10-quarter  !important;  }
+@mixin vw12-padding-width-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ padding-left: $vw12-col-10-half  !important;  padding-right: $vw12-col-10-half  !important;  }
+@mixin vw12-padding-width-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ padding-left: $vw12-col-10-three-quarters  !important;  padding-right: $vw12-col-10-three-quarters  !important;  }
+@mixin vw12-padding-width-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ padding-left: $vw12-col-11  !important;  padding-right: $vw12-col-11  !important;  }
+@mixin vw12-padding-width-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ padding-left: $vw12-col-11-quarter  !important;  padding-right: $vw12-col-11-quarter  !important;  }
+@mixin vw12-padding-width-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ padding-left: $vw12-col-11-half  !important;  padding-right: $vw12-col-11-half  !important;  }
+@mixin vw12-padding-width-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ padding-left: $vw12-col-11-three-quarters  !important;  padding-right: $vw12-col-11-three-quarters  !important;  }
+@mixin vw12-padding-width-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ padding-left: $vw12-col-12  !important;  padding-right: $vw12-col-12  !important;  }
+@mixin vw12-padding-left ( $vw12-col : $vw12-col ) {
+ padding-left: $vw12-col  !important;  }
+@mixin vw12-padding-left-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ padding-left: $vw12-col-eighth  !important;  }
+@mixin vw12-padding-left-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ padding-left: $vw12-col-quarter  !important;  }
+@mixin vw12-padding-left-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ padding-left: $vw12-col-eighth-3  !important;  }
+@mixin vw12-padding-left-half ( $vw12-col-half : $vw12-col-half ) {
+ padding-left: $vw12-col-half  !important;  }
+@mixin vw12-padding-left-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ padding-left: $vw12-col-eighth-5  !important;  }
+@mixin vw12-padding-left-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ padding-left: $vw12-col-quarter-3  !important;  }
+@mixin vw12-padding-left-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ padding-left: $vw12-col-eighth-7  !important;  }
+@mixin vw12-padding-left-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ padding-left: $vw12-col-0  !important;  }
+@mixin vw12-padding-left-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ padding-left: $vw12-col-1  !important;  }
+@mixin vw12-padding-left-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ padding-left: $vw12-col-1-quarter  !important;  }
+@mixin vw12-padding-left-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ padding-left: $vw12-col-1-half  !important;  }
+@mixin vw12-padding-left-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ padding-left: $vw12-col-1-three-quarters  !important;  }
+@mixin vw12-padding-left-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ padding-left: $vw12-col-2  !important;  }
+@mixin vw12-padding-left-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ padding-left: $vw12-col-2-quarter  !important;  }
+@mixin vw12-padding-left-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ padding-left: $vw12-col-2-half  !important;  }
+@mixin vw12-padding-left-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ padding-left: $vw12-col-2-three-quarters  !important;  }
+@mixin vw12-padding-left-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ padding-left: $vw12-col-3  !important;  }
+@mixin vw12-padding-left-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ padding-left: $vw12-col-3-quarter  !important;  }
+@mixin vw12-padding-left-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ padding-left: $vw12-col-3-half  !important;  }
+@mixin vw12-padding-left-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ padding-left: $vw12-col-3-three-quarters  !important;  }
+@mixin vw12-padding-left-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ padding-left: $vw12-col-4  !important;  }
+@mixin vw12-padding-left-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ padding-left: $vw12-col-4-quarter  !important;  }
+@mixin vw12-padding-left-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ padding-left: $vw12-col-4-half  !important;  }
+@mixin vw12-padding-left-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ padding-left: $vw12-col-4-three-quarters  !important;  }
+@mixin vw12-padding-left-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ padding-left: $vw12-col-5  !important;  }
+@mixin vw12-padding-left-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ padding-left: $vw12-col-5-quarter  !important;  }
+@mixin vw12-padding-left-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ padding-left: $vw12-col-5-half  !important;  }
+@mixin vw12-padding-left-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ padding-left: $vw12-col-5-three-quarters  !important;  }
+@mixin vw12-padding-left-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ padding-left: $vw12-col-6  !important;  }
+@mixin vw12-padding-left-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ padding-left: $vw12-col-6-quarter  !important;  }
+@mixin vw12-padding-left-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ padding-left: $vw12-col-6-half  !important;  }
+@mixin vw12-padding-left-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ padding-left: $vw12-col-6-three-quarters  !important;  }
+@mixin vw12-padding-left-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ padding-left: $vw12-col-7  !important;  }
+@mixin vw12-padding-left-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ padding-left: $vw12-col-7-quarter  !important;  }
+@mixin vw12-padding-left-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ padding-left: $vw12-col-7-half  !important;  }
+@mixin vw12-padding-left-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ padding-left: $vw12-col-7-three-quarters  !important;  }
+@mixin vw12-padding-left-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ padding-left: $vw12-col-8  !important;  }
+@mixin vw12-padding-left-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ padding-left: $vw12-col-8-quarter  !important;  }
+@mixin vw12-padding-left-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ padding-left: $vw12-col-8-half  !important;  }
+@mixin vw12-padding-left-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ padding-left: $vw12-col-8-three-quarters  !important;  }
+@mixin vw12-padding-left-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ padding-left: $vw12-col-9  !important;  }
+@mixin vw12-padding-left-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ padding-left: $vw12-col-9-quarter  !important;  }
+@mixin vw12-padding-left-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ padding-left: $vw12-col-9-half  !important;  }
+@mixin vw12-padding-left-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ padding-left: $vw12-col-9-three-quarters  !important;  }
+@mixin vw12-padding-left-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ padding-left: $vw12-col-10  !important;  }
+@mixin vw12-padding-left-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ padding-left: $vw12-col-10-quarter  !important;  }
+@mixin vw12-padding-left-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ padding-left: $vw12-col-10-half  !important;  }
+@mixin vw12-padding-left-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ padding-left: $vw12-col-10-three-quarters  !important;  }
+@mixin vw12-padding-left-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ padding-left: $vw12-col-11  !important;  }
+@mixin vw12-padding-left-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ padding-left: $vw12-col-11-quarter  !important;  }
+@mixin vw12-padding-left-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ padding-left: $vw12-col-11-half  !important;  }
+@mixin vw12-padding-left-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ padding-left: $vw12-col-11-three-quarters  !important;  }
+@mixin vw12-padding-left-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ padding-left: $vw12-col-12  !important;  }
+@mixin vw12-padding-right ( $vw12-col : $vw12-col ) {
+ padding-right: $vw12-col  !important;  }
+@mixin vw12-padding-right-eighth ( $vw12-col-eighth : $vw12-col-eighth ) {
+ padding-right: $vw12-col-eighth  !important;  }
+@mixin vw12-padding-right-quarter ( $vw12-col-quarter : $vw12-col-quarter ) {
+ padding-right: $vw12-col-quarter  !important;  }
+@mixin vw12-padding-right-eighth-3 ( $vw12-col-eighth-3 : $vw12-col-eighth-3 ) {
+ padding-right: $vw12-col-eighth-3  !important;  }
+@mixin vw12-padding-right-half ( $vw12-col-half : $vw12-col-half ) {
+ padding-right: $vw12-col-half  !important;  }
+@mixin vw12-padding-right-eighth-5 ( $vw12-col-eighth-5 : $vw12-col-eighth-5 ) {
+ padding-right: $vw12-col-eighth-5  !important;  }
+@mixin vw12-padding-right-quarter-3 ( $vw12-col-quarter-3 : $vw12-col-quarter-3 ) {
+ padding-right: $vw12-col-quarter-3  !important;  }
+@mixin vw12-padding-right-eighth-7 ( $vw12-col-eighth-7 : $vw12-col-eighth-7 ) {
+ padding-right: $vw12-col-eighth-7  !important;  }
+@mixin vw12-padding-right-0 ( $vw12-col-0 : $vw12-col-0 ) {
+ padding-right: $vw12-col-0  !important;  }
+@mixin vw12-padding-right-1 ( $vw12-col-1 : $vw12-col-1 ) {
+ padding-right: $vw12-col-1  !important;  }
+@mixin vw12-padding-right-1-quarter ( $vw12-col-1-quarter : $vw12-col-1-quarter ) {
+ padding-right: $vw12-col-1-quarter  !important;  }
+@mixin vw12-padding-right-1-half ( $vw12-col-1-half : $vw12-col-1-half ) {
+ padding-right: $vw12-col-1-half  !important;  }
+@mixin vw12-padding-right-1-three-quarters ( $vw12-col-1-three-quarters : $vw12-col-1-three-quarters ) {
+ padding-right: $vw12-col-1-three-quarters  !important;  }
+@mixin vw12-padding-right-2 ( $vw12-col-2 : $vw12-col-2 ) {
+ padding-right: $vw12-col-2  !important;  }
+@mixin vw12-padding-right-2-quarter ( $vw12-col-2-quarter : $vw12-col-2-quarter ) {
+ padding-right: $vw12-col-2-quarter  !important;  }
+@mixin vw12-padding-right-2-half ( $vw12-col-2-half : $vw12-col-2-half ) {
+ padding-right: $vw12-col-2-half  !important;  }
+@mixin vw12-padding-right-2-three-quarters ( $vw12-col-2-three-quarters : $vw12-col-2-three-quarters ) {
+ padding-right: $vw12-col-2-three-quarters  !important;  }
+@mixin vw12-padding-right-3 ( $vw12-col-3 : $vw12-col-3 ) {
+ padding-right: $vw12-col-3  !important;  }
+@mixin vw12-padding-right-3-quarter ( $vw12-col-3-quarter : $vw12-col-3-quarter ) {
+ padding-right: $vw12-col-3-quarter  !important;  }
+@mixin vw12-padding-right-3-half ( $vw12-col-3-half : $vw12-col-3-half ) {
+ padding-right: $vw12-col-3-half  !important;  }
+@mixin vw12-padding-right-3-three-quarters ( $vw12-col-3-three-quarters : $vw12-col-3-three-quarters ) {
+ padding-right: $vw12-col-3-three-quarters  !important;  }
+@mixin vw12-padding-right-4 ( $vw12-col-4 : $vw12-col-4 ) {
+ padding-right: $vw12-col-4  !important;  }
+@mixin vw12-padding-right-4-quarter ( $vw12-col-4-quarter : $vw12-col-4-quarter ) {
+ padding-right: $vw12-col-4-quarter  !important;  }
+@mixin vw12-padding-right-4-half ( $vw12-col-4-half : $vw12-col-4-half ) {
+ padding-right: $vw12-col-4-half  !important;  }
+@mixin vw12-padding-right-4-three-quarters ( $vw12-col-4-three-quarters : $vw12-col-4-three-quarters ) {
+ padding-right: $vw12-col-4-three-quarters  !important;  }
+@mixin vw12-padding-right-5 ( $vw12-col-5 : $vw12-col-5 ) {
+ padding-right: $vw12-col-5  !important;  }
+@mixin vw12-padding-right-5-quarter ( $vw12-col-5-quarter : $vw12-col-5-quarter ) {
+ padding-right: $vw12-col-5-quarter  !important;  }
+@mixin vw12-padding-right-5-half ( $vw12-col-5-half : $vw12-col-5-half ) {
+ padding-right: $vw12-col-5-half  !important;  }
+@mixin vw12-padding-right-5-three-quarters ( $vw12-col-5-three-quarters : $vw12-col-5-three-quarters ) {
+ padding-right: $vw12-col-5-three-quarters  !important;  }
+@mixin vw12-padding-right-6 ( $vw12-col-6 : $vw12-col-6 ) {
+ padding-right: $vw12-col-6  !important;  }
+@mixin vw12-padding-right-6-quarter ( $vw12-col-6-quarter : $vw12-col-6-quarter ) {
+ padding-right: $vw12-col-6-quarter  !important;  }
+@mixin vw12-padding-right-6-half ( $vw12-col-6-half : $vw12-col-6-half ) {
+ padding-right: $vw12-col-6-half  !important;  }
+@mixin vw12-padding-right-6-three-quarters ( $vw12-col-6-three-quarters : $vw12-col-6-three-quarters ) {
+ padding-right: $vw12-col-6-three-quarters  !important;  }
+@mixin vw12-padding-right-7 ( $vw12-col-7 : $vw12-col-7 ) {
+ padding-right: $vw12-col-7  !important;  }
+@mixin vw12-padding-right-7-quarter ( $vw12-col-7-quarter : $vw12-col-7-quarter ) {
+ padding-right: $vw12-col-7-quarter  !important;  }
+@mixin vw12-padding-right-7-half ( $vw12-col-7-half : $vw12-col-7-half ) {
+ padding-right: $vw12-col-7-half  !important;  }
+@mixin vw12-padding-right-7-three-quarters ( $vw12-col-7-three-quarters : $vw12-col-7-three-quarters ) {
+ padding-right: $vw12-col-7-three-quarters  !important;  }
+@mixin vw12-padding-right-8 ( $vw12-col-8 : $vw12-col-8 ) {
+ padding-right: $vw12-col-8  !important;  }
+@mixin vw12-padding-right-8-quarter ( $vw12-col-8-quarter : $vw12-col-8-quarter ) {
+ padding-right: $vw12-col-8-quarter  !important;  }
+@mixin vw12-padding-right-8-half ( $vw12-col-8-half : $vw12-col-8-half ) {
+ padding-right: $vw12-col-8-half  !important;  }
+@mixin vw12-padding-right-8-three-quarters ( $vw12-col-8-three-quarters : $vw12-col-8-three-quarters ) {
+ padding-right: $vw12-col-8-three-quarters  !important;  }
+@mixin vw12-padding-right-9 ( $vw12-col-9 : $vw12-col-9 ) {
+ padding-right: $vw12-col-9  !important;  }
+@mixin vw12-padding-right-9-quarter ( $vw12-col-9-quarter : $vw12-col-9-quarter ) {
+ padding-right: $vw12-col-9-quarter  !important;  }
+@mixin vw12-padding-right-9-half ( $vw12-col-9-half : $vw12-col-9-half ) {
+ padding-right: $vw12-col-9-half  !important;  }
+@mixin vw12-padding-right-9-three-quarters ( $vw12-col-9-three-quarters : $vw12-col-9-three-quarters ) {
+ padding-right: $vw12-col-9-three-quarters  !important;  }
+@mixin vw12-padding-right-10 ( $vw12-col-10 : $vw12-col-10 ) {
+ padding-right: $vw12-col-10  !important;  }
+@mixin vw12-padding-right-10-quarter ( $vw12-col-10-quarter : $vw12-col-10-quarter ) {
+ padding-right: $vw12-col-10-quarter  !important;  }
+@mixin vw12-padding-right-10-half ( $vw12-col-10-half : $vw12-col-10-half ) {
+ padding-right: $vw12-col-10-half  !important;  }
+@mixin vw12-padding-right-10-three-quarters ( $vw12-col-10-three-quarters : $vw12-col-10-three-quarters ) {
+ padding-right: $vw12-col-10-three-quarters  !important;  }
+@mixin vw12-padding-right-11 ( $vw12-col-11 : $vw12-col-11 ) {
+ padding-right: $vw12-col-11  !important;  }
+@mixin vw12-padding-right-11-quarter ( $vw12-col-11-quarter : $vw12-col-11-quarter ) {
+ padding-right: $vw12-col-11-quarter  !important;  }
+@mixin vw12-padding-right-11-half ( $vw12-col-11-half : $vw12-col-11-half ) {
+ padding-right: $vw12-col-11-half  !important;  }
+@mixin vw12-padding-right-11-three-quarters ( $vw12-col-11-three-quarters : $vw12-col-11-three-quarters ) {
+ padding-right: $vw12-col-11-three-quarters  !important;  }
+@mixin vw12-padding-right-12 ( $vw12-col-12 : $vw12-col-12 ) {
+ padding-right: $vw12-col-12  !important;  }
+
+
+
+
+.vw12-width {  width: $vw12-col !important;  }
+.vw12-width-eighth {  width: $vw12-col-eighth !important;  }
+.vw12-width-quarter {  width: $vw12-col-quarter !important;  }
+.vw12-width-eighth-3 {  width: $vw12-col-eighth-3 !important;  }
+.vw12-width-half {  width: $vw12-col-half !important;  }
+.vw12-width-eighth-5 {  width: $vw12-col-eighth-5 !important;  }
+.vw12-width-quarter-3 {  width: $vw12-col-quarter-3 !important;  }
+.vw12-width-eighth-7 {  width: $vw12-col-eighth-7 !important;  }
+.vw12-width-0 {  width: $vw12-col-0 !important;  }
+.vw12-width-1 {  width: $vw12-col-1 !important;  }
+.vw12-width-1-quarter {  width: $vw12-col-1-quarter !important;  }
+.vw12-width-1-half {  width: $vw12-col-1-half !important;  }
+.vw12-width-1-three-quarters {  width: $vw12-col-1-three-quarters !important;  }
+.vw12-width-2 {  width: $vw12-col-2 !important;  }
+.vw12-width-2-quarter {  width: $vw12-col-2-quarter !important;  }
+.vw12-width-2-half {  width: $vw12-col-2-half !important;  }
+.vw12-width-2-three-quarters {  width: $vw12-col-2-three-quarters !important;  }
+.vw12-width-3 {  width: $vw12-col-3 !important;  }
+.vw12-width-3-quarter {  width: $vw12-col-3-quarter !important;  }
+.vw12-width-3-half {  width: $vw12-col-3-half !important;  }
+.vw12-width-3-three-quarters {  width: $vw12-col-3-three-quarters !important;  }
+.vw12-width-4 {  width: $vw12-col-4 !important;  }
+.vw12-width-4-quarter {  width: $vw12-col-4-quarter !important;  }
+.vw12-width-4-half {  width: $vw12-col-4-half !important;  }
+.vw12-width-4-three-quarters {  width: $vw12-col-4-three-quarters !important;  }
+.vw12-width-5 {  width: $vw12-col-5 !important;  }
+.vw12-width-5-quarter {  width: $vw12-col-5-quarter !important;  }
+.vw12-width-5-half {  width: $vw12-col-5-half !important;  }
+.vw12-width-5-three-quarters {  width: $vw12-col-5-three-quarters !important;  }
+.vw12-width-6 {  width: $vw12-col-6 !important;  }
+.vw12-width-6-quarter {  width: $vw12-col-6-quarter !important;  }
+.vw12-width-6-half {  width: $vw12-col-6-half !important;  }
+.vw12-width-6-three-quarters {  width: $vw12-col-6-three-quarters !important;  }
+.vw12-width-7 {  width: $vw12-col-7 !important;  }
+.vw12-width-7-quarter {  width: $vw12-col-7-quarter !important;  }
+.vw12-width-7-half {  width: $vw12-col-7-half !important;  }
+.vw12-width-7-three-quarters {  width: $vw12-col-7-three-quarters !important;  }
+.vw12-width-8 {  width: $vw12-col-8 !important;  }
+.vw12-width-8-quarter {  width: $vw12-col-8-quarter !important;  }
+.vw12-width-8-half {  width: $vw12-col-8-half !important;  }
+.vw12-width-8-three-quarters {  width: $vw12-col-8-three-quarters !important;  }
+.vw12-width-9 {  width: $vw12-col-9 !important;  }
+.vw12-width-9-quarter {  width: $vw12-col-9-quarter !important;  }
+.vw12-width-9-half {  width: $vw12-col-9-half !important;  }
+.vw12-width-9-three-quarters {  width: $vw12-col-9-three-quarters !important;  }
+.vw12-width-10 {  width: $vw12-col-10 !important;  }
+.vw12-width-10-quarter {  width: $vw12-col-10-quarter !important;  }
+.vw12-width-10-half {  width: $vw12-col-10-half !important;  }
+.vw12-width-10-three-quarters {  width: $vw12-col-10-three-quarters !important;  }
+.vw12-width-11 {  width: $vw12-col-11 !important;  }
+.vw12-width-11-quarter {  width: $vw12-col-11-quarter !important;  }
+.vw12-width-11-half {  width: $vw12-col-11-half !important;  }
+.vw12-width-11-three-quarters {  width: $vw12-col-11-three-quarters !important;  }
+.vw12-width-12 {  width: $vw12-col-12 !important;  }
+.vw12-max-width {  max-width: $vw12-col !important;  }
+.vw12-max-width-eighth {  max-width: $vw12-col-eighth !important;  }
+.vw12-max-width-quarter {  max-width: $vw12-col-quarter !important;  }
+.vw12-max-width-eighth-3 {  max-width: $vw12-col-eighth-3 !important;  }
+.vw12-max-width-half {  max-width: $vw12-col-half !important;  }
+.vw12-max-width-eighth-5 {  max-width: $vw12-col-eighth-5 !important;  }
+.vw12-max-width-quarter-3 {  max-width: $vw12-col-quarter-3 !important;  }
+.vw12-max-width-eighth-7 {  max-width: $vw12-col-eighth-7 !important;  }
+.vw12-max-width-0 {  max-width: $vw12-col-0 !important;  }
+.vw12-max-width-1 {  max-width: $vw12-col-1 !important;  }
+.vw12-max-width-1-quarter {  max-width: $vw12-col-1-quarter !important;  }
+.vw12-max-width-1-half {  max-width: $vw12-col-1-half !important;  }
+.vw12-max-width-1-three-quarters {  max-width: $vw12-col-1-three-quarters !important;  }
+.vw12-max-width-2 {  max-width: $vw12-col-2 !important;  }
+.vw12-max-width-2-quarter {  max-width: $vw12-col-2-quarter !important;  }
+.vw12-max-width-2-half {  max-width: $vw12-col-2-half !important;  }
+.vw12-max-width-2-three-quarters {  max-width: $vw12-col-2-three-quarters !important;  }
+.vw12-max-width-3 {  max-width: $vw12-col-3 !important;  }
+.vw12-max-width-3-quarter {  max-width: $vw12-col-3-quarter !important;  }
+.vw12-max-width-3-half {  max-width: $vw12-col-3-half !important;  }
+.vw12-max-width-3-three-quarters {  max-width: $vw12-col-3-three-quarters !important;  }
+.vw12-max-width-4 {  max-width: $vw12-col-4 !important;  }
+.vw12-max-width-4-quarter {  max-width: $vw12-col-4-quarter !important;  }
+.vw12-max-width-4-half {  max-width: $vw12-col-4-half !important;  }
+.vw12-max-width-4-three-quarters {  max-width: $vw12-col-4-three-quarters !important;  }
+.vw12-max-width-5 {  max-width: $vw12-col-5 !important;  }
+.vw12-max-width-5-quarter {  max-width: $vw12-col-5-quarter !important;  }
+.vw12-max-width-5-half {  max-width: $vw12-col-5-half !important;  }
+.vw12-max-width-5-three-quarters {  max-width: $vw12-col-5-three-quarters !important;  }
+.vw12-max-width-6 {  max-width: $vw12-col-6 !important;  }
+.vw12-max-width-6-quarter {  max-width: $vw12-col-6-quarter !important;  }
+.vw12-max-width-6-half {  max-width: $vw12-col-6-half !important;  }
+.vw12-max-width-6-three-quarters {  max-width: $vw12-col-6-three-quarters !important;  }
+.vw12-max-width-7 {  max-width: $vw12-col-7 !important;  }
+.vw12-max-width-7-quarter {  max-width: $vw12-col-7-quarter !important;  }
+.vw12-max-width-7-half {  max-width: $vw12-col-7-half !important;  }
+.vw12-max-width-7-three-quarters {  max-width: $vw12-col-7-three-quarters !important;  }
+.vw12-max-width-8 {  max-width: $vw12-col-8 !important;  }
+.vw12-max-width-8-quarter {  max-width: $vw12-col-8-quarter !important;  }
+.vw12-max-width-8-half {  max-width: $vw12-col-8-half !important;  }
+.vw12-max-width-8-three-quarters {  max-width: $vw12-col-8-three-quarters !important;  }
+.vw12-max-width-9 {  max-width: $vw12-col-9 !important;  }
+.vw12-max-width-9-quarter {  max-width: $vw12-col-9-quarter !important;  }
+.vw12-max-width-9-half {  max-width: $vw12-col-9-half !important;  }
+.vw12-max-width-9-three-quarters {  max-width: $vw12-col-9-three-quarters !important;  }
+.vw12-max-width-10 {  max-width: $vw12-col-10 !important;  }
+.vw12-max-width-10-quarter {  max-width: $vw12-col-10-quarter !important;  }
+.vw12-max-width-10-half {  max-width: $vw12-col-10-half !important;  }
+.vw12-max-width-10-three-quarters {  max-width: $vw12-col-10-three-quarters !important;  }
+.vw12-max-width-11 {  max-width: $vw12-col-11 !important;  }
+.vw12-max-width-11-quarter {  max-width: $vw12-col-11-quarter !important;  }
+.vw12-max-width-11-half {  max-width: $vw12-col-11-half !important;  }
+.vw12-max-width-11-three-quarters {  max-width: $vw12-col-11-three-quarters !important;  }
+.vw12-max-width-12 {  max-width: $vw12-col-12 !important;  }
+.vw12-min-width {  min-width: $vw12-col !important;  }
+.vw12-min-width-eighth {  min-width: $vw12-col-eighth !important;  }
+.vw12-min-width-quarter {  min-width: $vw12-col-quarter !important;  }
+.vw12-min-width-eighth-3 {  min-width: $vw12-col-eighth-3 !important;  }
+.vw12-min-width-half {  min-width: $vw12-col-half !important;  }
+.vw12-min-width-eighth-5 {  min-width: $vw12-col-eighth-5 !important;  }
+.vw12-min-width-quarter-3 {  min-width: $vw12-col-quarter-3 !important;  }
+.vw12-min-width-eighth-7 {  min-width: $vw12-col-eighth-7 !important;  }
+.vw12-min-width-0 {  min-width: $vw12-col-0 !important;  }
+.vw12-min-width-1 {  min-width: $vw12-col-1 !important;  }
+.vw12-min-width-1-quarter {  min-width: $vw12-col-1-quarter !important;  }
+.vw12-min-width-1-half {  min-width: $vw12-col-1-half !important;  }
+.vw12-min-width-1-three-quarters {  min-width: $vw12-col-1-three-quarters !important;  }
+.vw12-min-width-2 {  min-width: $vw12-col-2 !important;  }
+.vw12-min-width-2-quarter {  min-width: $vw12-col-2-quarter !important;  }
+.vw12-min-width-2-half {  min-width: $vw12-col-2-half !important;  }
+.vw12-min-width-2-three-quarters {  min-width: $vw12-col-2-three-quarters !important;  }
+.vw12-min-width-3 {  min-width: $vw12-col-3 !important;  }
+.vw12-min-width-3-quarter {  min-width: $vw12-col-3-quarter !important;  }
+.vw12-min-width-3-half {  min-width: $vw12-col-3-half !important;  }
+.vw12-min-width-3-three-quarters {  min-width: $vw12-col-3-three-quarters !important;  }
+.vw12-min-width-4 {  min-width: $vw12-col-4 !important;  }
+.vw12-min-width-4-quarter {  min-width: $vw12-col-4-quarter !important;  }
+.vw12-min-width-4-half {  min-width: $vw12-col-4-half !important;  }
+.vw12-min-width-4-three-quarters {  min-width: $vw12-col-4-three-quarters !important;  }
+.vw12-min-width-5 {  min-width: $vw12-col-5 !important;  }
+.vw12-min-width-5-quarter {  min-width: $vw12-col-5-quarter !important;  }
+.vw12-min-width-5-half {  min-width: $vw12-col-5-half !important;  }
+.vw12-min-width-5-three-quarters {  min-width: $vw12-col-5-three-quarters !important;  }
+.vw12-min-width-6 {  min-width: $vw12-col-6 !important;  }
+.vw12-min-width-6-quarter {  min-width: $vw12-col-6-quarter !important;  }
+.vw12-min-width-6-half {  min-width: $vw12-col-6-half !important;  }
+.vw12-min-width-6-three-quarters {  min-width: $vw12-col-6-three-quarters !important;  }
+.vw12-min-width-7 {  min-width: $vw12-col-7 !important;  }
+.vw12-min-width-7-quarter {  min-width: $vw12-col-7-quarter !important;  }
+.vw12-min-width-7-half {  min-width: $vw12-col-7-half !important;  }
+.vw12-min-width-7-three-quarters {  min-width: $vw12-col-7-three-quarters !important;  }
+.vw12-min-width-8 {  min-width: $vw12-col-8 !important;  }
+.vw12-min-width-8-quarter {  min-width: $vw12-col-8-quarter !important;  }
+.vw12-min-width-8-half {  min-width: $vw12-col-8-half !important;  }
+.vw12-min-width-8-three-quarters {  min-width: $vw12-col-8-three-quarters !important;  }
+.vw12-min-width-9 {  min-width: $vw12-col-9 !important;  }
+.vw12-min-width-9-quarter {  min-width: $vw12-col-9-quarter !important;  }
+.vw12-min-width-9-half {  min-width: $vw12-col-9-half !important;  }
+.vw12-min-width-9-three-quarters {  min-width: $vw12-col-9-three-quarters !important;  }
+.vw12-min-width-10 {  min-width: $vw12-col-10 !important;  }
+.vw12-min-width-10-quarter {  min-width: $vw12-col-10-quarter !important;  }
+.vw12-min-width-10-half {  min-width: $vw12-col-10-half !important;  }
+.vw12-min-width-10-three-quarters {  min-width: $vw12-col-10-three-quarters !important;  }
+.vw12-min-width-11 {  min-width: $vw12-col-11 !important;  }
+.vw12-min-width-11-quarter {  min-width: $vw12-col-11-quarter !important;  }
+.vw12-min-width-11-half {  min-width: $vw12-col-11-half !important;  }
+.vw12-min-width-11-three-quarters {  min-width: $vw12-col-11-three-quarters !important;  }
+.vw12-min-width-12 {  min-width: $vw12-col-12 !important;  }
+.vw12-width-minus {  width: calc( 100% - #{$vw12-col} ) !important;  }
+.vw12-width-minus-eighth {  width: calc( 100% - #{$vw12-col-eighth} ) !important;  }
+.vw12-width-minus-quarter {  width: calc( 100% - #{$vw12-col-quarter} ) !important;  }
+.vw12-width-minus-eighth-3 {  width: calc( 100% - #{$vw12-col-eighth-3} ) !important;  }
+.vw12-width-minus-half {  width: calc( 100% - #{$vw12-col-half} ) !important;  }
+.vw12-width-minus-eighth-5 {  width: calc( 100% - #{$vw12-col-eighth-5} ) !important;  }
+.vw12-width-minus-quarter-3 {  width: calc( 100% - #{$vw12-col-quarter-3} ) !important;  }
+.vw12-width-minus-eighth-7 {  width: calc( 100% - #{$vw12-col-eighth-7} ) !important;  }
+.vw12-width-minus-0 {  width: calc( 100% - #{$vw12-col-0} ) !important;  }
+.vw12-width-minus-1 {  width: calc( 100% - #{$vw12-col-1} ) !important;  }
+.vw12-width-minus-1-quarter {  width: calc( 100% - #{$vw12-col-1-quarter} ) !important;  }
+.vw12-width-minus-1-half {  width: calc( 100% - #{$vw12-col-1-half} ) !important;  }
+.vw12-width-minus-1-three-quarters {  width: calc( 100% - #{$vw12-col-1-three-quarters} ) !important;  }
+.vw12-width-minus-2 {  width: calc( 100% - #{$vw12-col-2} ) !important;  }
+.vw12-width-minus-2-quarter {  width: calc( 100% - #{$vw12-col-2-quarter} ) !important;  }
+.vw12-width-minus-2-half {  width: calc( 100% - #{$vw12-col-2-half} ) !important;  }
+.vw12-width-minus-2-three-quarters {  width: calc( 100% - #{$vw12-col-2-three-quarters} ) !important;  }
+.vw12-width-minus-3 {  width: calc( 100% - #{$vw12-col-3} ) !important;  }
+.vw12-width-minus-3-quarter {  width: calc( 100% - #{$vw12-col-3-quarter} ) !important;  }
+.vw12-width-minus-3-half {  width: calc( 100% - #{$vw12-col-3-half} ) !important;  }
+.vw12-width-minus-3-three-quarters {  width: calc( 100% - #{$vw12-col-3-three-quarters} ) !important;  }
+.vw12-width-minus-4 {  width: calc( 100% - #{$vw12-col-4} ) !important;  }
+.vw12-width-minus-4-quarter {  width: calc( 100% - #{$vw12-col-4-quarter} ) !important;  }
+.vw12-width-minus-4-half {  width: calc( 100% - #{$vw12-col-4-half} ) !important;  }
+.vw12-width-minus-4-three-quarters {  width: calc( 100% - #{$vw12-col-4-three-quarters} ) !important;  }
+.vw12-width-minus-5 {  width: calc( 100% - #{$vw12-col-5} ) !important;  }
+.vw12-width-minus-5-quarter {  width: calc( 100% - #{$vw12-col-5-quarter} ) !important;  }
+.vw12-width-minus-5-half {  width: calc( 100% - #{$vw12-col-5-half} ) !important;  }
+.vw12-width-minus-5-three-quarters {  width: calc( 100% - #{$vw12-col-5-three-quarters} ) !important;  }
+.vw12-width-minus-6 {  width: calc( 100% - #{$vw12-col-6} ) !important;  }
+.vw12-width-minus-6-quarter {  width: calc( 100% - #{$vw12-col-6-quarter} ) !important;  }
+.vw12-width-minus-6-half {  width: calc( 100% - #{$vw12-col-6-half} ) !important;  }
+.vw12-width-minus-6-three-quarters {  width: calc( 100% - #{$vw12-col-6-three-quarters} ) !important;  }
+.vw12-width-minus-7 {  width: calc( 100% - #{$vw12-col-7} ) !important;  }
+.vw12-width-minus-7-quarter {  width: calc( 100% - #{$vw12-col-7-quarter} ) !important;  }
+.vw12-width-minus-7-half {  width: calc( 100% - #{$vw12-col-7-half} ) !important;  }
+.vw12-width-minus-7-three-quarters {  width: calc( 100% - #{$vw12-col-7-three-quarters} ) !important;  }
+.vw12-width-minus-8 {  width: calc( 100% - #{$vw12-col-8} ) !important;  }
+.vw12-width-minus-8-quarter {  width: calc( 100% - #{$vw12-col-8-quarter} ) !important;  }
+.vw12-width-minus-8-half {  width: calc( 100% - #{$vw12-col-8-half} ) !important;  }
+.vw12-width-minus-8-three-quarters {  width: calc( 100% - #{$vw12-col-8-three-quarters} ) !important;  }
+.vw12-width-minus-9 {  width: calc( 100% - #{$vw12-col-9} ) !important;  }
+.vw12-width-minus-9-quarter {  width: calc( 100% - #{$vw12-col-9-quarter} ) !important;  }
+.vw12-width-minus-9-half {  width: calc( 100% - #{$vw12-col-9-half} ) !important;  }
+.vw12-width-minus-9-three-quarters {  width: calc( 100% - #{$vw12-col-9-three-quarters} ) !important;  }
+.vw12-width-minus-10 {  width: calc( 100% - #{$vw12-col-10} ) !important;  }
+.vw12-width-minus-10-quarter {  width: calc( 100% - #{$vw12-col-10-quarter} ) !important;  }
+.vw12-width-minus-10-half {  width: calc( 100% - #{$vw12-col-10-half} ) !important;  }
+.vw12-width-minus-10-three-quarters {  width: calc( 100% - #{$vw12-col-10-three-quarters} ) !important;  }
+.vw12-width-minus-11 {  width: calc( 100% - #{$vw12-col-11} ) !important;  }
+.vw12-width-minus-11-quarter {  width: calc( 100% - #{$vw12-col-11-quarter} ) !important;  }
+.vw12-width-minus-11-half {  width: calc( 100% - #{$vw12-col-11-half} ) !important;  }
+.vw12-width-minus-11-three-quarters {  width: calc( 100% - #{$vw12-col-11-three-quarters} ) !important;  }
+.vw12-width-minus-12 {  width: calc( 100% - #{$vw12-col-12} ) !important;  }
+.vw12-left {  left: $vw12-col !important;  }
+.vw12-left-eighth {  left: $vw12-col-eighth !important;  }
+.vw12-left-quarter {  left: $vw12-col-quarter !important;  }
+.vw12-left-eighth-3 {  left: $vw12-col-eighth-3 !important;  }
+.vw12-left-half {  left: $vw12-col-half !important;  }
+.vw12-left-eighth-5 {  left: $vw12-col-eighth-5 !important;  }
+.vw12-left-quarter-3 {  left: $vw12-col-quarter-3 !important;  }
+.vw12-left-eighth-7 {  left: $vw12-col-eighth-7 !important;  }
+.vw12-left-0 {  left: $vw12-col-0 !important;  }
+.vw12-left-1 {  left: $vw12-col-1 !important;  }
+.vw12-left-1-quarter {  left: $vw12-col-1-quarter !important;  }
+.vw12-left-1-half {  left: $vw12-col-1-half !important;  }
+.vw12-left-1-three-quarters {  left: $vw12-col-1-three-quarters !important;  }
+.vw12-left-2 {  left: $vw12-col-2 !important;  }
+.vw12-left-2-quarter {  left: $vw12-col-2-quarter !important;  }
+.vw12-left-2-half {  left: $vw12-col-2-half !important;  }
+.vw12-left-2-three-quarters {  left: $vw12-col-2-three-quarters !important;  }
+.vw12-left-3 {  left: $vw12-col-3 !important;  }
+.vw12-left-3-quarter {  left: $vw12-col-3-quarter !important;  }
+.vw12-left-3-half {  left: $vw12-col-3-half !important;  }
+.vw12-left-3-three-quarters {  left: $vw12-col-3-three-quarters !important;  }
+.vw12-left-4 {  left: $vw12-col-4 !important;  }
+.vw12-left-4-quarter {  left: $vw12-col-4-quarter !important;  }
+.vw12-left-4-half {  left: $vw12-col-4-half !important;  }
+.vw12-left-4-three-quarters {  left: $vw12-col-4-three-quarters !important;  }
+.vw12-left-5 {  left: $vw12-col-5 !important;  }
+.vw12-left-5-quarter {  left: $vw12-col-5-quarter !important;  }
+.vw12-left-5-half {  left: $vw12-col-5-half !important;  }
+.vw12-left-5-three-quarters {  left: $vw12-col-5-three-quarters !important;  }
+.vw12-left-6 {  left: $vw12-col-6 !important;  }
+.vw12-left-6-quarter {  left: $vw12-col-6-quarter !important;  }
+.vw12-left-6-half {  left: $vw12-col-6-half !important;  }
+.vw12-left-6-three-quarters {  left: $vw12-col-6-three-quarters !important;  }
+.vw12-left-7 {  left: $vw12-col-7 !important;  }
+.vw12-left-7-quarter {  left: $vw12-col-7-quarter !important;  }
+.vw12-left-7-half {  left: $vw12-col-7-half !important;  }
+.vw12-left-7-three-quarters {  left: $vw12-col-7-three-quarters !important;  }
+.vw12-left-8 {  left: $vw12-col-8 !important;  }
+.vw12-left-8-quarter {  left: $vw12-col-8-quarter !important;  }
+.vw12-left-8-half {  left: $vw12-col-8-half !important;  }
+.vw12-left-8-three-quarters {  left: $vw12-col-8-three-quarters !important;  }
+.vw12-left-9 {  left: $vw12-col-9 !important;  }
+.vw12-left-9-quarter {  left: $vw12-col-9-quarter !important;  }
+.vw12-left-9-half {  left: $vw12-col-9-half !important;  }
+.vw12-left-9-three-quarters {  left: $vw12-col-9-three-quarters !important;  }
+.vw12-left-10 {  left: $vw12-col-10 !important;  }
+.vw12-left-10-quarter {  left: $vw12-col-10-quarter !important;  }
+.vw12-left-10-half {  left: $vw12-col-10-half !important;  }
+.vw12-left-10-three-quarters {  left: $vw12-col-10-three-quarters !important;  }
+.vw12-left-11 {  left: $vw12-col-11 !important;  }
+.vw12-left-11-quarter {  left: $vw12-col-11-quarter !important;  }
+.vw12-left-11-half {  left: $vw12-col-11-half !important;  }
+.vw12-left-11-three-quarters {  left: $vw12-col-11-three-quarters !important;  }
+.vw12-left-12 {  left: $vw12-col-12 !important;  }
+.vw12-right {  right: $vw12-col !important;  }
+.vw12-right-eighth {  right: $vw12-col-eighth !important;  }
+.vw12-right-quarter {  right: $vw12-col-quarter !important;  }
+.vw12-right-eighth-3 {  right: $vw12-col-eighth-3 !important;  }
+.vw12-right-half {  right: $vw12-col-half !important;  }
+.vw12-right-eighth-5 {  right: $vw12-col-eighth-5 !important;  }
+.vw12-right-quarter-3 {  right: $vw12-col-quarter-3 !important;  }
+.vw12-right-eighth-7 {  right: $vw12-col-eighth-7 !important;  }
+.vw12-right-0 {  right: $vw12-col-0 !important;  }
+.vw12-right-1 {  right: $vw12-col-1 !important;  }
+.vw12-right-1-quarter {  right: $vw12-col-1-quarter !important;  }
+.vw12-right-1-half {  right: $vw12-col-1-half !important;  }
+.vw12-right-1-three-quarters {  right: $vw12-col-1-three-quarters !important;  }
+.vw12-right-2 {  right: $vw12-col-2 !important;  }
+.vw12-right-2-quarter {  right: $vw12-col-2-quarter !important;  }
+.vw12-right-2-half {  right: $vw12-col-2-half !important;  }
+.vw12-right-2-three-quarters {  right: $vw12-col-2-three-quarters !important;  }
+.vw12-right-3 {  right: $vw12-col-3 !important;  }
+.vw12-right-3-quarter {  right: $vw12-col-3-quarter !important;  }
+.vw12-right-3-half {  right: $vw12-col-3-half !important;  }
+.vw12-right-3-three-quarters {  right: $vw12-col-3-three-quarters !important;  }
+.vw12-right-4 {  right: $vw12-col-4 !important;  }
+.vw12-right-4-quarter {  right: $vw12-col-4-quarter !important;  }
+.vw12-right-4-half {  right: $vw12-col-4-half !important;  }
+.vw12-right-4-three-quarters {  right: $vw12-col-4-three-quarters !important;  }
+.vw12-right-5 {  right: $vw12-col-5 !important;  }
+.vw12-right-5-quarter {  right: $vw12-col-5-quarter !important;  }
+.vw12-right-5-half {  right: $vw12-col-5-half !important;  }
+.vw12-right-5-three-quarters {  right: $vw12-col-5-three-quarters !important;  }
+.vw12-right-6 {  right: $vw12-col-6 !important;  }
+.vw12-right-6-quarter {  right: $vw12-col-6-quarter !important;  }
+.vw12-right-6-half {  right: $vw12-col-6-half !important;  }
+.vw12-right-6-three-quarters {  right: $vw12-col-6-three-quarters !important;  }
+.vw12-right-7 {  right: $vw12-col-7 !important;  }
+.vw12-right-7-quarter {  right: $vw12-col-7-quarter !important;  }
+.vw12-right-7-half {  right: $vw12-col-7-half !important;  }
+.vw12-right-7-three-quarters {  right: $vw12-col-7-three-quarters !important;  }
+.vw12-right-8 {  right: $vw12-col-8 !important;  }
+.vw12-right-8-quarter {  right: $vw12-col-8-quarter !important;  }
+.vw12-right-8-half {  right: $vw12-col-8-half !important;  }
+.vw12-right-8-three-quarters {  right: $vw12-col-8-three-quarters !important;  }
+.vw12-right-9 {  right: $vw12-col-9 !important;  }
+.vw12-right-9-quarter {  right: $vw12-col-9-quarter !important;  }
+.vw12-right-9-half {  right: $vw12-col-9-half !important;  }
+.vw12-right-9-three-quarters {  right: $vw12-col-9-three-quarters !important;  }
+.vw12-right-10 {  right: $vw12-col-10 !important;  }
+.vw12-right-10-quarter {  right: $vw12-col-10-quarter !important;  }
+.vw12-right-10-half {  right: $vw12-col-10-half !important;  }
+.vw12-right-10-three-quarters {  right: $vw12-col-10-three-quarters !important;  }
+.vw12-right-11 {  right: $vw12-col-11 !important;  }
+.vw12-right-11-quarter {  right: $vw12-col-11-quarter !important;  }
+.vw12-right-11-half {  right: $vw12-col-11-half !important;  }
+.vw12-right-11-three-quarters {  right: $vw12-col-11-three-quarters !important;  }
+.vw12-right-12 {  right: $vw12-col-12 !important;  }
+.vw12-margin-h {  margin-left: $vw12-col  !important;  margin-right: $vw12-col  !important;  }
+.vw12-margin-h-eighth {  margin-left: $vw12-col-eighth  !important;  margin-right: $vw12-col-eighth  !important;  }
+.vw12-margin-h-quarter {  margin-left: $vw12-col-quarter  !important;  margin-right: $vw12-col-quarter  !important;  }
+.vw12-margin-h-eighth-3 {  margin-left: $vw12-col-eighth-3  !important;  margin-right: $vw12-col-eighth-3  !important;  }
+.vw12-margin-h-half {  margin-left: $vw12-col-half  !important;  margin-right: $vw12-col-half  !important;  }
+.vw12-margin-h-eighth-5 {  margin-left: $vw12-col-eighth-5  !important;  margin-right: $vw12-col-eighth-5  !important;  }
+.vw12-margin-h-quarter-3 {  margin-left: $vw12-col-quarter-3  !important;  margin-right: $vw12-col-quarter-3  !important;  }
+.vw12-margin-h-eighth-7 {  margin-left: $vw12-col-eighth-7  !important;  margin-right: $vw12-col-eighth-7  !important;  }
+.vw12-margin-h-0 {  margin-left: $vw12-col-0  !important;  margin-right: $vw12-col-0  !important;  }
+.vw12-margin-h-1 {  margin-left: $vw12-col-1  !important;  margin-right: $vw12-col-1  !important;  }
+.vw12-margin-h-1-quarter {  margin-left: $vw12-col-1-quarter  !important;  margin-right: $vw12-col-1-quarter  !important;  }
+.vw12-margin-h-1-half {  margin-left: $vw12-col-1-half  !important;  margin-right: $vw12-col-1-half  !important;  }
+.vw12-margin-h-1-three-quarters {  margin-left: $vw12-col-1-three-quarters  !important;  margin-right: $vw12-col-1-three-quarters  !important;  }
+.vw12-margin-h-2 {  margin-left: $vw12-col-2  !important;  margin-right: $vw12-col-2  !important;  }
+.vw12-margin-h-2-quarter {  margin-left: $vw12-col-2-quarter  !important;  margin-right: $vw12-col-2-quarter  !important;  }
+.vw12-margin-h-2-half {  margin-left: $vw12-col-2-half  !important;  margin-right: $vw12-col-2-half  !important;  }
+.vw12-margin-h-2-three-quarters {  margin-left: $vw12-col-2-three-quarters  !important;  margin-right: $vw12-col-2-three-quarters  !important;  }
+.vw12-margin-h-3 {  margin-left: $vw12-col-3  !important;  margin-right: $vw12-col-3  !important;  }
+.vw12-margin-h-3-quarter {  margin-left: $vw12-col-3-quarter  !important;  margin-right: $vw12-col-3-quarter  !important;  }
+.vw12-margin-h-3-half {  margin-left: $vw12-col-3-half  !important;  margin-right: $vw12-col-3-half  !important;  }
+.vw12-margin-h-3-three-quarters {  margin-left: $vw12-col-3-three-quarters  !important;  margin-right: $vw12-col-3-three-quarters  !important;  }
+.vw12-margin-h-4 {  margin-left: $vw12-col-4  !important;  margin-right: $vw12-col-4  !important;  }
+.vw12-margin-h-4-quarter {  margin-left: $vw12-col-4-quarter  !important;  margin-right: $vw12-col-4-quarter  !important;  }
+.vw12-margin-h-4-half {  margin-left: $vw12-col-4-half  !important;  margin-right: $vw12-col-4-half  !important;  }
+.vw12-margin-h-4-three-quarters {  margin-left: $vw12-col-4-three-quarters  !important;  margin-right: $vw12-col-4-three-quarters  !important;  }
+.vw12-margin-h-5 {  margin-left: $vw12-col-5  !important;  margin-right: $vw12-col-5  !important;  }
+.vw12-margin-h-5-quarter {  margin-left: $vw12-col-5-quarter  !important;  margin-right: $vw12-col-5-quarter  !important;  }
+.vw12-margin-h-5-half {  margin-left: $vw12-col-5-half  !important;  margin-right: $vw12-col-5-half  !important;  }
+.vw12-margin-h-5-three-quarters {  margin-left: $vw12-col-5-three-quarters  !important;  margin-right: $vw12-col-5-three-quarters  !important;  }
+.vw12-margin-h-6 {  margin-left: $vw12-col-6  !important;  margin-right: $vw12-col-6  !important;  }
+.vw12-margin-h-6-quarter {  margin-left: $vw12-col-6-quarter  !important;  margin-right: $vw12-col-6-quarter  !important;  }
+.vw12-margin-h-6-half {  margin-left: $vw12-col-6-half  !important;  margin-right: $vw12-col-6-half  !important;  }
+.vw12-margin-h-6-three-quarters {  margin-left: $vw12-col-6-three-quarters  !important;  margin-right: $vw12-col-6-three-quarters  !important;  }
+.vw12-margin-h-7 {  margin-left: $vw12-col-7  !important;  margin-right: $vw12-col-7  !important;  }
+.vw12-margin-h-7-quarter {  margin-left: $vw12-col-7-quarter  !important;  margin-right: $vw12-col-7-quarter  !important;  }
+.vw12-margin-h-7-half {  margin-left: $vw12-col-7-half  !important;  margin-right: $vw12-col-7-half  !important;  }
+.vw12-margin-h-7-three-quarters {  margin-left: $vw12-col-7-three-quarters  !important;  margin-right: $vw12-col-7-three-quarters  !important;  }
+.vw12-margin-h-8 {  margin-left: $vw12-col-8  !important;  margin-right: $vw12-col-8  !important;  }
+.vw12-margin-h-8-quarter {  margin-left: $vw12-col-8-quarter  !important;  margin-right: $vw12-col-8-quarter  !important;  }
+.vw12-margin-h-8-half {  margin-left: $vw12-col-8-half  !important;  margin-right: $vw12-col-8-half  !important;  }
+.vw12-margin-h-8-three-quarters {  margin-left: $vw12-col-8-three-quarters  !important;  margin-right: $vw12-col-8-three-quarters  !important;  }
+.vw12-margin-h-9 {  margin-left: $vw12-col-9  !important;  margin-right: $vw12-col-9  !important;  }
+.vw12-margin-h-9-quarter {  margin-left: $vw12-col-9-quarter  !important;  margin-right: $vw12-col-9-quarter  !important;  }
+.vw12-margin-h-9-half {  margin-left: $vw12-col-9-half  !important;  margin-right: $vw12-col-9-half  !important;  }
+.vw12-margin-h-9-three-quarters {  margin-left: $vw12-col-9-three-quarters  !important;  margin-right: $vw12-col-9-three-quarters  !important;  }
+.vw12-margin-h-10 {  margin-left: $vw12-col-10  !important;  margin-right: $vw12-col-10  !important;  }
+.vw12-margin-h-10-quarter {  margin-left: $vw12-col-10-quarter  !important;  margin-right: $vw12-col-10-quarter  !important;  }
+.vw12-margin-h-10-half {  margin-left: $vw12-col-10-half  !important;  margin-right: $vw12-col-10-half  !important;  }
+.vw12-margin-h-10-three-quarters {  margin-left: $vw12-col-10-three-quarters  !important;  margin-right: $vw12-col-10-three-quarters  !important;  }
+.vw12-margin-h-11 {  margin-left: $vw12-col-11  !important;  margin-right: $vw12-col-11  !important;  }
+.vw12-margin-h-11-quarter {  margin-left: $vw12-col-11-quarter  !important;  margin-right: $vw12-col-11-quarter  !important;  }
+.vw12-margin-h-11-half {  margin-left: $vw12-col-11-half  !important;  margin-right: $vw12-col-11-half  !important;  }
+.vw12-margin-h-11-three-quarters {  margin-left: $vw12-col-11-three-quarters  !important;  margin-right: $vw12-col-11-three-quarters  !important;  }
+.vw12-margin-h-12 {  margin-left: $vw12-col-12  !important;  margin-right: $vw12-col-12  !important;  }
+.vw12-margin-width {  margin-left: $vw12-col  !important;  margin-right: $vw12-col  !important;  }
+.vw12-margin-width-eighth {  margin-left: $vw12-col-eighth  !important;  margin-right: $vw12-col-eighth  !important;  }
+.vw12-margin-width-quarter {  margin-left: $vw12-col-quarter  !important;  margin-right: $vw12-col-quarter  !important;  }
+.vw12-margin-width-eighth-3 {  margin-left: $vw12-col-eighth-3  !important;  margin-right: $vw12-col-eighth-3  !important;  }
+.vw12-margin-width-half {  margin-left: $vw12-col-half  !important;  margin-right: $vw12-col-half  !important;  }
+.vw12-margin-width-eighth-5 {  margin-left: $vw12-col-eighth-5  !important;  margin-right: $vw12-col-eighth-5  !important;  }
+.vw12-margin-width-quarter-3 {  margin-left: $vw12-col-quarter-3  !important;  margin-right: $vw12-col-quarter-3  !important;  }
+.vw12-margin-width-eighth-7 {  margin-left: $vw12-col-eighth-7  !important;  margin-right: $vw12-col-eighth-7  !important;  }
+.vw12-margin-width-0 {  margin-left: $vw12-col-0  !important;  margin-right: $vw12-col-0  !important;  }
+.vw12-margin-width-1 {  margin-left: $vw12-col-1  !important;  margin-right: $vw12-col-1  !important;  }
+.vw12-margin-width-1-quarter {  margin-left: $vw12-col-1-quarter  !important;  margin-right: $vw12-col-1-quarter  !important;  }
+.vw12-margin-width-1-half {  margin-left: $vw12-col-1-half  !important;  margin-right: $vw12-col-1-half  !important;  }
+.vw12-margin-width-1-three-quarters {  margin-left: $vw12-col-1-three-quarters  !important;  margin-right: $vw12-col-1-three-quarters  !important;  }
+.vw12-margin-width-2 {  margin-left: $vw12-col-2  !important;  margin-right: $vw12-col-2  !important;  }
+.vw12-margin-width-2-quarter {  margin-left: $vw12-col-2-quarter  !important;  margin-right: $vw12-col-2-quarter  !important;  }
+.vw12-margin-width-2-half {  margin-left: $vw12-col-2-half  !important;  margin-right: $vw12-col-2-half  !important;  }
+.vw12-margin-width-2-three-quarters {  margin-left: $vw12-col-2-three-quarters  !important;  margin-right: $vw12-col-2-three-quarters  !important;  }
+.vw12-margin-width-3 {  margin-left: $vw12-col-3  !important;  margin-right: $vw12-col-3  !important;  }
+.vw12-margin-width-3-quarter {  margin-left: $vw12-col-3-quarter  !important;  margin-right: $vw12-col-3-quarter  !important;  }
+.vw12-margin-width-3-half {  margin-left: $vw12-col-3-half  !important;  margin-right: $vw12-col-3-half  !important;  }
+.vw12-margin-width-3-three-quarters {  margin-left: $vw12-col-3-three-quarters  !important;  margin-right: $vw12-col-3-three-quarters  !important;  }
+.vw12-margin-width-4 {  margin-left: $vw12-col-4  !important;  margin-right: $vw12-col-4  !important;  }
+.vw12-margin-width-4-quarter {  margin-left: $vw12-col-4-quarter  !important;  margin-right: $vw12-col-4-quarter  !important;  }
+.vw12-margin-width-4-half {  margin-left: $vw12-col-4-half  !important;  margin-right: $vw12-col-4-half  !important;  }
+.vw12-margin-width-4-three-quarters {  margin-left: $vw12-col-4-three-quarters  !important;  margin-right: $vw12-col-4-three-quarters  !important;  }
+.vw12-margin-width-5 {  margin-left: $vw12-col-5  !important;  margin-right: $vw12-col-5  !important;  }
+.vw12-margin-width-5-quarter {  margin-left: $vw12-col-5-quarter  !important;  margin-right: $vw12-col-5-quarter  !important;  }
+.vw12-margin-width-5-half {  margin-left: $vw12-col-5-half  !important;  margin-right: $vw12-col-5-half  !important;  }
+.vw12-margin-width-5-three-quarters {  margin-left: $vw12-col-5-three-quarters  !important;  margin-right: $vw12-col-5-three-quarters  !important;  }
+.vw12-margin-width-6 {  margin-left: $vw12-col-6  !important;  margin-right: $vw12-col-6  !important;  }
+.vw12-margin-width-6-quarter {  margin-left: $vw12-col-6-quarter  !important;  margin-right: $vw12-col-6-quarter  !important;  }
+.vw12-margin-width-6-half {  margin-left: $vw12-col-6-half  !important;  margin-right: $vw12-col-6-half  !important;  }
+.vw12-margin-width-6-three-quarters {  margin-left: $vw12-col-6-three-quarters  !important;  margin-right: $vw12-col-6-three-quarters  !important;  }
+.vw12-margin-width-7 {  margin-left: $vw12-col-7  !important;  margin-right: $vw12-col-7  !important;  }
+.vw12-margin-width-7-quarter {  margin-left: $vw12-col-7-quarter  !important;  margin-right: $vw12-col-7-quarter  !important;  }
+.vw12-margin-width-7-half {  margin-left: $vw12-col-7-half  !important;  margin-right: $vw12-col-7-half  !important;  }
+.vw12-margin-width-7-three-quarters {  margin-left: $vw12-col-7-three-quarters  !important;  margin-right: $vw12-col-7-three-quarters  !important;  }
+.vw12-margin-width-8 {  margin-left: $vw12-col-8  !important;  margin-right: $vw12-col-8  !important;  }
+.vw12-margin-width-8-quarter {  margin-left: $vw12-col-8-quarter  !important;  margin-right: $vw12-col-8-quarter  !important;  }
+.vw12-margin-width-8-half {  margin-left: $vw12-col-8-half  !important;  margin-right: $vw12-col-8-half  !important;  }
+.vw12-margin-width-8-three-quarters {  margin-left: $vw12-col-8-three-quarters  !important;  margin-right: $vw12-col-8-three-quarters  !important;  }
+.vw12-margin-width-9 {  margin-left: $vw12-col-9  !important;  margin-right: $vw12-col-9  !important;  }
+.vw12-margin-width-9-quarter {  margin-left: $vw12-col-9-quarter  !important;  margin-right: $vw12-col-9-quarter  !important;  }
+.vw12-margin-width-9-half {  margin-left: $vw12-col-9-half  !important;  margin-right: $vw12-col-9-half  !important;  }
+.vw12-margin-width-9-three-quarters {  margin-left: $vw12-col-9-three-quarters  !important;  margin-right: $vw12-col-9-three-quarters  !important;  }
+.vw12-margin-width-10 {  margin-left: $vw12-col-10  !important;  margin-right: $vw12-col-10  !important;  }
+.vw12-margin-width-10-quarter {  margin-left: $vw12-col-10-quarter  !important;  margin-right: $vw12-col-10-quarter  !important;  }
+.vw12-margin-width-10-half {  margin-left: $vw12-col-10-half  !important;  margin-right: $vw12-col-10-half  !important;  }
+.vw12-margin-width-10-three-quarters {  margin-left: $vw12-col-10-three-quarters  !important;  margin-right: $vw12-col-10-three-quarters  !important;  }
+.vw12-margin-width-11 {  margin-left: $vw12-col-11  !important;  margin-right: $vw12-col-11  !important;  }
+.vw12-margin-width-11-quarter {  margin-left: $vw12-col-11-quarter  !important;  margin-right: $vw12-col-11-quarter  !important;  }
+.vw12-margin-width-11-half {  margin-left: $vw12-col-11-half  !important;  margin-right: $vw12-col-11-half  !important;  }
+.vw12-margin-width-11-three-quarters {  margin-left: $vw12-col-11-three-quarters  !important;  margin-right: $vw12-col-11-three-quarters  !important;  }
+.vw12-margin-width-12 {  margin-left: $vw12-col-12  !important;  margin-right: $vw12-col-12  !important;  }
+.vw12-margin-left {  margin-left: $vw12-col !important;  }
+.vw12-margin-left-eighth {  margin-left: $vw12-col-eighth !important;  }
+.vw12-margin-left-quarter {  margin-left: $vw12-col-quarter !important;  }
+.vw12-margin-left-eighth-3 {  margin-left: $vw12-col-eighth-3 !important;  }
+.vw12-margin-left-half {  margin-left: $vw12-col-half !important;  }
+.vw12-margin-left-eighth-5 {  margin-left: $vw12-col-eighth-5 !important;  }
+.vw12-margin-left-quarter-3 {  margin-left: $vw12-col-quarter-3 !important;  }
+.vw12-margin-left-eighth-7 {  margin-left: $vw12-col-eighth-7 !important;  }
+.vw12-margin-left-0 {  margin-left: $vw12-col-0 !important;  }
+.vw12-margin-left-1 {  margin-left: $vw12-col-1 !important;  }
+.vw12-margin-left-1-quarter {  margin-left: $vw12-col-1-quarter !important;  }
+.vw12-margin-left-1-half {  margin-left: $vw12-col-1-half !important;  }
+.vw12-margin-left-1-three-quarters {  margin-left: $vw12-col-1-three-quarters !important;  }
+.vw12-margin-left-2 {  margin-left: $vw12-col-2 !important;  }
+.vw12-margin-left-2-quarter {  margin-left: $vw12-col-2-quarter !important;  }
+.vw12-margin-left-2-half {  margin-left: $vw12-col-2-half !important;  }
+.vw12-margin-left-2-three-quarters {  margin-left: $vw12-col-2-three-quarters !important;  }
+.vw12-margin-left-3 {  margin-left: $vw12-col-3 !important;  }
+.vw12-margin-left-3-quarter {  margin-left: $vw12-col-3-quarter !important;  }
+.vw12-margin-left-3-half {  margin-left: $vw12-col-3-half !important;  }
+.vw12-margin-left-3-three-quarters {  margin-left: $vw12-col-3-three-quarters !important;  }
+.vw12-margin-left-4 {  margin-left: $vw12-col-4 !important;  }
+.vw12-margin-left-4-quarter {  margin-left: $vw12-col-4-quarter !important;  }
+.vw12-margin-left-4-half {  margin-left: $vw12-col-4-half !important;  }
+.vw12-margin-left-4-three-quarters {  margin-left: $vw12-col-4-three-quarters !important;  }
+.vw12-margin-left-5 {  margin-left: $vw12-col-5 !important;  }
+.vw12-margin-left-5-quarter {  margin-left: $vw12-col-5-quarter !important;  }
+.vw12-margin-left-5-half {  margin-left: $vw12-col-5-half !important;  }
+.vw12-margin-left-5-three-quarters {  margin-left: $vw12-col-5-three-quarters !important;  }
+.vw12-margin-left-6 {  margin-left: $vw12-col-6 !important;  }
+.vw12-margin-left-6-quarter {  margin-left: $vw12-col-6-quarter !important;  }
+.vw12-margin-left-6-half {  margin-left: $vw12-col-6-half !important;  }
+.vw12-margin-left-6-three-quarters {  margin-left: $vw12-col-6-three-quarters !important;  }
+.vw12-margin-left-7 {  margin-left: $vw12-col-7 !important;  }
+.vw12-margin-left-7-quarter {  margin-left: $vw12-col-7-quarter !important;  }
+.vw12-margin-left-7-half {  margin-left: $vw12-col-7-half !important;  }
+.vw12-margin-left-7-three-quarters {  margin-left: $vw12-col-7-three-quarters !important;  }
+.vw12-margin-left-8 {  margin-left: $vw12-col-8 !important;  }
+.vw12-margin-left-8-quarter {  margin-left: $vw12-col-8-quarter !important;  }
+.vw12-margin-left-8-half {  margin-left: $vw12-col-8-half !important;  }
+.vw12-margin-left-8-three-quarters {  margin-left: $vw12-col-8-three-quarters !important;  }
+.vw12-margin-left-9 {  margin-left: $vw12-col-9 !important;  }
+.vw12-margin-left-9-quarter {  margin-left: $vw12-col-9-quarter !important;  }
+.vw12-margin-left-9-half {  margin-left: $vw12-col-9-half !important;  }
+.vw12-margin-left-9-three-quarters {  margin-left: $vw12-col-9-three-quarters !important;  }
+.vw12-margin-left-10 {  margin-left: $vw12-col-10 !important;  }
+.vw12-margin-left-10-quarter {  margin-left: $vw12-col-10-quarter !important;  }
+.vw12-margin-left-10-half {  margin-left: $vw12-col-10-half !important;  }
+.vw12-margin-left-10-three-quarters {  margin-left: $vw12-col-10-three-quarters !important;  }
+.vw12-margin-left-11 {  margin-left: $vw12-col-11 !important;  }
+.vw12-margin-left-11-quarter {  margin-left: $vw12-col-11-quarter !important;  }
+.vw12-margin-left-11-half {  margin-left: $vw12-col-11-half !important;  }
+.vw12-margin-left-11-three-quarters {  margin-left: $vw12-col-11-three-quarters !important;  }
+.vw12-margin-left-12 {  margin-left: $vw12-col-12 !important;  }
+.vw12-margin-right {  margin-right: $vw12-col !important;  }
+.vw12-margin-right-eighth {  margin-right: $vw12-col-eighth !important;  }
+.vw12-margin-right-quarter {  margin-right: $vw12-col-quarter !important;  }
+.vw12-margin-right-eighth-3 {  margin-right: $vw12-col-eighth-3 !important;  }
+.vw12-margin-right-half {  margin-right: $vw12-col-half !important;  }
+.vw12-margin-right-eighth-5 {  margin-right: $vw12-col-eighth-5 !important;  }
+.vw12-margin-right-quarter-3 {  margin-right: $vw12-col-quarter-3 !important;  }
+.vw12-margin-right-eighth-7 {  margin-right: $vw12-col-eighth-7 !important;  }
+.vw12-margin-right-0 {  margin-right: $vw12-col-0 !important;  }
+.vw12-margin-right-1 {  margin-right: $vw12-col-1 !important;  }
+.vw12-margin-right-1-quarter {  margin-right: $vw12-col-1-quarter !important;  }
+.vw12-margin-right-1-half {  margin-right: $vw12-col-1-half !important;  }
+.vw12-margin-right-1-three-quarters {  margin-right: $vw12-col-1-three-quarters !important;  }
+.vw12-margin-right-2 {  margin-right: $vw12-col-2 !important;  }
+.vw12-margin-right-2-quarter {  margin-right: $vw12-col-2-quarter !important;  }
+.vw12-margin-right-2-half {  margin-right: $vw12-col-2-half !important;  }
+.vw12-margin-right-2-three-quarters {  margin-right: $vw12-col-2-three-quarters !important;  }
+.vw12-margin-right-3 {  margin-right: $vw12-col-3 !important;  }
+.vw12-margin-right-3-quarter {  margin-right: $vw12-col-3-quarter !important;  }
+.vw12-margin-right-3-half {  margin-right: $vw12-col-3-half !important;  }
+.vw12-margin-right-3-three-quarters {  margin-right: $vw12-col-3-three-quarters !important;  }
+.vw12-margin-right-4 {  margin-right: $vw12-col-4 !important;  }
+.vw12-margin-right-4-quarter {  margin-right: $vw12-col-4-quarter !important;  }
+.vw12-margin-right-4-half {  margin-right: $vw12-col-4-half !important;  }
+.vw12-margin-right-4-three-quarters {  margin-right: $vw12-col-4-three-quarters !important;  }
+.vw12-margin-right-5 {  margin-right: $vw12-col-5 !important;  }
+.vw12-margin-right-5-quarter {  margin-right: $vw12-col-5-quarter !important;  }
+.vw12-margin-right-5-half {  margin-right: $vw12-col-5-half !important;  }
+.vw12-margin-right-5-three-quarters {  margin-right: $vw12-col-5-three-quarters !important;  }
+.vw12-margin-right-6 {  margin-right: $vw12-col-6 !important;  }
+.vw12-margin-right-6-quarter {  margin-right: $vw12-col-6-quarter !important;  }
+.vw12-margin-right-6-half {  margin-right: $vw12-col-6-half !important;  }
+.vw12-margin-right-6-three-quarters {  margin-right: $vw12-col-6-three-quarters !important;  }
+.vw12-margin-right-7 {  margin-right: $vw12-col-7 !important;  }
+.vw12-margin-right-7-quarter {  margin-right: $vw12-col-7-quarter !important;  }
+.vw12-margin-right-7-half {  margin-right: $vw12-col-7-half !important;  }
+.vw12-margin-right-7-three-quarters {  margin-right: $vw12-col-7-three-quarters !important;  }
+.vw12-margin-right-8 {  margin-right: $vw12-col-8 !important;  }
+.vw12-margin-right-8-quarter {  margin-right: $vw12-col-8-quarter !important;  }
+.vw12-margin-right-8-half {  margin-right: $vw12-col-8-half !important;  }
+.vw12-margin-right-8-three-quarters {  margin-right: $vw12-col-8-three-quarters !important;  }
+.vw12-margin-right-9 {  margin-right: $vw12-col-9 !important;  }
+.vw12-margin-right-9-quarter {  margin-right: $vw12-col-9-quarter !important;  }
+.vw12-margin-right-9-half {  margin-right: $vw12-col-9-half !important;  }
+.vw12-margin-right-9-three-quarters {  margin-right: $vw12-col-9-three-quarters !important;  }
+.vw12-margin-right-10 {  margin-right: $vw12-col-10 !important;  }
+.vw12-margin-right-10-quarter {  margin-right: $vw12-col-10-quarter !important;  }
+.vw12-margin-right-10-half {  margin-right: $vw12-col-10-half !important;  }
+.vw12-margin-right-10-three-quarters {  margin-right: $vw12-col-10-three-quarters !important;  }
+.vw12-margin-right-11 {  margin-right: $vw12-col-11 !important;  }
+.vw12-margin-right-11-quarter {  margin-right: $vw12-col-11-quarter !important;  }
+.vw12-margin-right-11-half {  margin-right: $vw12-col-11-half !important;  }
+.vw12-margin-right-11-three-quarters {  margin-right: $vw12-col-11-three-quarters !important;  }
+.vw12-margin-right-12 {  margin-right: $vw12-col-12 !important;  }
+.vw12-padding-h {  padding-left: $vw12-col  !important;  padding-right: $vw12-col  !important;  }
+.vw12-padding-h-eighth {  padding-left: $vw12-col-eighth  !important;  padding-right: $vw12-col-eighth  !important;  }
+.vw12-padding-h-quarter {  padding-left: $vw12-col-quarter  !important;  padding-right: $vw12-col-quarter  !important;  }
+.vw12-padding-h-eighth-3 {  padding-left: $vw12-col-eighth-3  !important;  padding-right: $vw12-col-eighth-3  !important;  }
+.vw12-padding-h-half {  padding-left: $vw12-col-half  !important;  padding-right: $vw12-col-half  !important;  }
+.vw12-padding-h-eighth-5 {  padding-left: $vw12-col-eighth-5  !important;  padding-right: $vw12-col-eighth-5  !important;  }
+.vw12-padding-h-quarter-3 {  padding-left: $vw12-col-quarter-3  !important;  padding-right: $vw12-col-quarter-3  !important;  }
+.vw12-padding-h-eighth-7 {  padding-left: $vw12-col-eighth-7  !important;  padding-right: $vw12-col-eighth-7  !important;  }
+.vw12-padding-h-0 {  padding-left: $vw12-col-0  !important;  padding-right: $vw12-col-0  !important;  }
+.vw12-padding-h-1 {  padding-left: $vw12-col-1  !important;  padding-right: $vw12-col-1  !important;  }
+.vw12-padding-h-1-quarter {  padding-left: $vw12-col-1-quarter  !important;  padding-right: $vw12-col-1-quarter  !important;  }
+.vw12-padding-h-1-half {  padding-left: $vw12-col-1-half  !important;  padding-right: $vw12-col-1-half  !important;  }
+.vw12-padding-h-1-three-quarters {  padding-left: $vw12-col-1-three-quarters  !important;  padding-right: $vw12-col-1-three-quarters  !important;  }
+.vw12-padding-h-2 {  padding-left: $vw12-col-2  !important;  padding-right: $vw12-col-2  !important;  }
+.vw12-padding-h-2-quarter {  padding-left: $vw12-col-2-quarter  !important;  padding-right: $vw12-col-2-quarter  !important;  }
+.vw12-padding-h-2-half {  padding-left: $vw12-col-2-half  !important;  padding-right: $vw12-col-2-half  !important;  }
+.vw12-padding-h-2-three-quarters {  padding-left: $vw12-col-2-three-quarters  !important;  padding-right: $vw12-col-2-three-quarters  !important;  }
+.vw12-padding-h-3 {  padding-left: $vw12-col-3  !important;  padding-right: $vw12-col-3  !important;  }
+.vw12-padding-h-3-quarter {  padding-left: $vw12-col-3-quarter  !important;  padding-right: $vw12-col-3-quarter  !important;  }
+.vw12-padding-h-3-half {  padding-left: $vw12-col-3-half  !important;  padding-right: $vw12-col-3-half  !important;  }
+.vw12-padding-h-3-three-quarters {  padding-left: $vw12-col-3-three-quarters  !important;  padding-right: $vw12-col-3-three-quarters  !important;  }
+.vw12-padding-h-4 {  padding-left: $vw12-col-4  !important;  padding-right: $vw12-col-4  !important;  }
+.vw12-padding-h-4-quarter {  padding-left: $vw12-col-4-quarter  !important;  padding-right: $vw12-col-4-quarter  !important;  }
+.vw12-padding-h-4-half {  padding-left: $vw12-col-4-half  !important;  padding-right: $vw12-col-4-half  !important;  }
+.vw12-padding-h-4-three-quarters {  padding-left: $vw12-col-4-three-quarters  !important;  padding-right: $vw12-col-4-three-quarters  !important;  }
+.vw12-padding-h-5 {  padding-left: $vw12-col-5  !important;  padding-right: $vw12-col-5  !important;  }
+.vw12-padding-h-5-quarter {  padding-left: $vw12-col-5-quarter  !important;  padding-right: $vw12-col-5-quarter  !important;  }
+.vw12-padding-h-5-half {  padding-left: $vw12-col-5-half  !important;  padding-right: $vw12-col-5-half  !important;  }
+.vw12-padding-h-5-three-quarters {  padding-left: $vw12-col-5-three-quarters  !important;  padding-right: $vw12-col-5-three-quarters  !important;  }
+.vw12-padding-h-6 {  padding-left: $vw12-col-6  !important;  padding-right: $vw12-col-6  !important;  }
+.vw12-padding-h-6-quarter {  padding-left: $vw12-col-6-quarter  !important;  padding-right: $vw12-col-6-quarter  !important;  }
+.vw12-padding-h-6-half {  padding-left: $vw12-col-6-half  !important;  padding-right: $vw12-col-6-half  !important;  }
+.vw12-padding-h-6-three-quarters {  padding-left: $vw12-col-6-three-quarters  !important;  padding-right: $vw12-col-6-three-quarters  !important;  }
+.vw12-padding-h-7 {  padding-left: $vw12-col-7  !important;  padding-right: $vw12-col-7  !important;  }
+.vw12-padding-h-7-quarter {  padding-left: $vw12-col-7-quarter  !important;  padding-right: $vw12-col-7-quarter  !important;  }
+.vw12-padding-h-7-half {  padding-left: $vw12-col-7-half  !important;  padding-right: $vw12-col-7-half  !important;  }
+.vw12-padding-h-7-three-quarters {  padding-left: $vw12-col-7-three-quarters  !important;  padding-right: $vw12-col-7-three-quarters  !important;  }
+.vw12-padding-h-8 {  padding-left: $vw12-col-8  !important;  padding-right: $vw12-col-8  !important;  }
+.vw12-padding-h-8-quarter {  padding-left: $vw12-col-8-quarter  !important;  padding-right: $vw12-col-8-quarter  !important;  }
+.vw12-padding-h-8-half {  padding-left: $vw12-col-8-half  !important;  padding-right: $vw12-col-8-half  !important;  }
+.vw12-padding-h-8-three-quarters {  padding-left: $vw12-col-8-three-quarters  !important;  padding-right: $vw12-col-8-three-quarters  !important;  }
+.vw12-padding-h-9 {  padding-left: $vw12-col-9  !important;  padding-right: $vw12-col-9  !important;  }
+.vw12-padding-h-9-quarter {  padding-left: $vw12-col-9-quarter  !important;  padding-right: $vw12-col-9-quarter  !important;  }
+.vw12-padding-h-9-half {  padding-left: $vw12-col-9-half  !important;  padding-right: $vw12-col-9-half  !important;  }
+.vw12-padding-h-9-three-quarters {  padding-left: $vw12-col-9-three-quarters  !important;  padding-right: $vw12-col-9-three-quarters  !important;  }
+.vw12-padding-h-10 {  padding-left: $vw12-col-10  !important;  padding-right: $vw12-col-10  !important;  }
+.vw12-padding-h-10-quarter {  padding-left: $vw12-col-10-quarter  !important;  padding-right: $vw12-col-10-quarter  !important;  }
+.vw12-padding-h-10-half {  padding-left: $vw12-col-10-half  !important;  padding-right: $vw12-col-10-half  !important;  }
+.vw12-padding-h-10-three-quarters {  padding-left: $vw12-col-10-three-quarters  !important;  padding-right: $vw12-col-10-three-quarters  !important;  }
+.vw12-padding-h-11 {  padding-left: $vw12-col-11  !important;  padding-right: $vw12-col-11  !important;  }
+.vw12-padding-h-11-quarter {  padding-left: $vw12-col-11-quarter  !important;  padding-right: $vw12-col-11-quarter  !important;  }
+.vw12-padding-h-11-half {  padding-left: $vw12-col-11-half  !important;  padding-right: $vw12-col-11-half  !important;  }
+.vw12-padding-h-11-three-quarters {  padding-left: $vw12-col-11-three-quarters  !important;  padding-right: $vw12-col-11-three-quarters  !important;  }
+.vw12-padding-h-12 {  padding-left: $vw12-col-12  !important;  padding-right: $vw12-col-12  !important;  }
+.vw12-padding-width {  padding-left: $vw12-col  !important;  padding-right: $vw12-col  !important;  }
+.vw12-padding-width-eighth {  padding-left: $vw12-col-eighth  !important;  padding-right: $vw12-col-eighth  !important;  }
+.vw12-padding-width-quarter {  padding-left: $vw12-col-quarter  !important;  padding-right: $vw12-col-quarter  !important;  }
+.vw12-padding-width-eighth-3 {  padding-left: $vw12-col-eighth-3  !important;  padding-right: $vw12-col-eighth-3  !important;  }
+.vw12-padding-width-half {  padding-left: $vw12-col-half  !important;  padding-right: $vw12-col-half  !important;  }
+.vw12-padding-width-eighth-5 {  padding-left: $vw12-col-eighth-5  !important;  padding-right: $vw12-col-eighth-5  !important;  }
+.vw12-padding-width-quarter-3 {  padding-left: $vw12-col-quarter-3  !important;  padding-right: $vw12-col-quarter-3  !important;  }
+.vw12-padding-width-eighth-7 {  padding-left: $vw12-col-eighth-7  !important;  padding-right: $vw12-col-eighth-7  !important;  }
+.vw12-padding-width-0 {  padding-left: $vw12-col-0  !important;  padding-right: $vw12-col-0  !important;  }
+.vw12-padding-width-1 {  padding-left: $vw12-col-1  !important;  padding-right: $vw12-col-1  !important;  }
+.vw12-padding-width-1-quarter {  padding-left: $vw12-col-1-quarter  !important;  padding-right: $vw12-col-1-quarter  !important;  }
+.vw12-padding-width-1-half {  padding-left: $vw12-col-1-half  !important;  padding-right: $vw12-col-1-half  !important;  }
+.vw12-padding-width-1-three-quarters {  padding-left: $vw12-col-1-three-quarters  !important;  padding-right: $vw12-col-1-three-quarters  !important;  }
+.vw12-padding-width-2 {  padding-left: $vw12-col-2  !important;  padding-right: $vw12-col-2  !important;  }
+.vw12-padding-width-2-quarter {  padding-left: $vw12-col-2-quarter  !important;  padding-right: $vw12-col-2-quarter  !important;  }
+.vw12-padding-width-2-half {  padding-left: $vw12-col-2-half  !important;  padding-right: $vw12-col-2-half  !important;  }
+.vw12-padding-width-2-three-quarters {  padding-left: $vw12-col-2-three-quarters  !important;  padding-right: $vw12-col-2-three-quarters  !important;  }
+.vw12-padding-width-3 {  padding-left: $vw12-col-3  !important;  padding-right: $vw12-col-3  !important;  }
+.vw12-padding-width-3-quarter {  padding-left: $vw12-col-3-quarter  !important;  padding-right: $vw12-col-3-quarter  !important;  }
+.vw12-padding-width-3-half {  padding-left: $vw12-col-3-half  !important;  padding-right: $vw12-col-3-half  !important;  }
+.vw12-padding-width-3-three-quarters {  padding-left: $vw12-col-3-three-quarters  !important;  padding-right: $vw12-col-3-three-quarters  !important;  }
+.vw12-padding-width-4 {  padding-left: $vw12-col-4  !important;  padding-right: $vw12-col-4  !important;  }
+.vw12-padding-width-4-quarter {  padding-left: $vw12-col-4-quarter  !important;  padding-right: $vw12-col-4-quarter  !important;  }
+.vw12-padding-width-4-half {  padding-left: $vw12-col-4-half  !important;  padding-right: $vw12-col-4-half  !important;  }
+.vw12-padding-width-4-three-quarters {  padding-left: $vw12-col-4-three-quarters  !important;  padding-right: $vw12-col-4-three-quarters  !important;  }
+.vw12-padding-width-5 {  padding-left: $vw12-col-5  !important;  padding-right: $vw12-col-5  !important;  }
+.vw12-padding-width-5-quarter {  padding-left: $vw12-col-5-quarter  !important;  padding-right: $vw12-col-5-quarter  !important;  }
+.vw12-padding-width-5-half {  padding-left: $vw12-col-5-half  !important;  padding-right: $vw12-col-5-half  !important;  }
+.vw12-padding-width-5-three-quarters {  padding-left: $vw12-col-5-three-quarters  !important;  padding-right: $vw12-col-5-three-quarters  !important;  }
+.vw12-padding-width-6 {  padding-left: $vw12-col-6  !important;  padding-right: $vw12-col-6  !important;  }
+.vw12-padding-width-6-quarter {  padding-left: $vw12-col-6-quarter  !important;  padding-right: $vw12-col-6-quarter  !important;  }
+.vw12-padding-width-6-half {  padding-left: $vw12-col-6-half  !important;  padding-right: $vw12-col-6-half  !important;  }
+.vw12-padding-width-6-three-quarters {  padding-left: $vw12-col-6-three-quarters  !important;  padding-right: $vw12-col-6-three-quarters  !important;  }
+.vw12-padding-width-7 {  padding-left: $vw12-col-7  !important;  padding-right: $vw12-col-7  !important;  }
+.vw12-padding-width-7-quarter {  padding-left: $vw12-col-7-quarter  !important;  padding-right: $vw12-col-7-quarter  !important;  }
+.vw12-padding-width-7-half {  padding-left: $vw12-col-7-half  !important;  padding-right: $vw12-col-7-half  !important;  }
+.vw12-padding-width-7-three-quarters {  padding-left: $vw12-col-7-three-quarters  !important;  padding-right: $vw12-col-7-three-quarters  !important;  }
+.vw12-padding-width-8 {  padding-left: $vw12-col-8  !important;  padding-right: $vw12-col-8  !important;  }
+.vw12-padding-width-8-quarter {  padding-left: $vw12-col-8-quarter  !important;  padding-right: $vw12-col-8-quarter  !important;  }
+.vw12-padding-width-8-half {  padding-left: $vw12-col-8-half  !important;  padding-right: $vw12-col-8-half  !important;  }
+.vw12-padding-width-8-three-quarters {  padding-left: $vw12-col-8-three-quarters  !important;  padding-right: $vw12-col-8-three-quarters  !important;  }
+.vw12-padding-width-9 {  padding-left: $vw12-col-9  !important;  padding-right: $vw12-col-9  !important;  }
+.vw12-padding-width-9-quarter {  padding-left: $vw12-col-9-quarter  !important;  padding-right: $vw12-col-9-quarter  !important;  }
+.vw12-padding-width-9-half {  padding-left: $vw12-col-9-half  !important;  padding-right: $vw12-col-9-half  !important;  }
+.vw12-padding-width-9-three-quarters {  padding-left: $vw12-col-9-three-quarters  !important;  padding-right: $vw12-col-9-three-quarters  !important;  }
+.vw12-padding-width-10 {  padding-left: $vw12-col-10  !important;  padding-right: $vw12-col-10  !important;  }
+.vw12-padding-width-10-quarter {  padding-left: $vw12-col-10-quarter  !important;  padding-right: $vw12-col-10-quarter  !important;  }
+.vw12-padding-width-10-half {  padding-left: $vw12-col-10-half  !important;  padding-right: $vw12-col-10-half  !important;  }
+.vw12-padding-width-10-three-quarters {  padding-left: $vw12-col-10-three-quarters  !important;  padding-right: $vw12-col-10-three-quarters  !important;  }
+.vw12-padding-width-11 {  padding-left: $vw12-col-11  !important;  padding-right: $vw12-col-11  !important;  }
+.vw12-padding-width-11-quarter {  padding-left: $vw12-col-11-quarter  !important;  padding-right: $vw12-col-11-quarter  !important;  }
+.vw12-padding-width-11-half {  padding-left: $vw12-col-11-half  !important;  padding-right: $vw12-col-11-half  !important;  }
+.vw12-padding-width-11-three-quarters {  padding-left: $vw12-col-11-three-quarters  !important;  padding-right: $vw12-col-11-three-quarters  !important;  }
+.vw12-padding-width-12 {  padding-left: $vw12-col-12  !important;  padding-right: $vw12-col-12  !important;  }
+.vw12-padding-left {  padding-left: $vw12-col  !important;  }
+.vw12-padding-left-eighth {  padding-left: $vw12-col-eighth  !important;  }
+.vw12-padding-left-quarter {  padding-left: $vw12-col-quarter  !important;  }
+.vw12-padding-left-eighth-3 {  padding-left: $vw12-col-eighth-3  !important;  }
+.vw12-padding-left-half {  padding-left: $vw12-col-half  !important;  }
+.vw12-padding-left-eighth-5 {  padding-left: $vw12-col-eighth-5  !important;  }
+.vw12-padding-left-quarter-3 {  padding-left: $vw12-col-quarter-3  !important;  }
+.vw12-padding-left-eighth-7 {  padding-left: $vw12-col-eighth-7  !important;  }
+.vw12-padding-left-0 {  padding-left: $vw12-col-0  !important;  }
+.vw12-padding-left-1 {  padding-left: $vw12-col-1  !important;  }
+.vw12-padding-left-1-quarter {  padding-left: $vw12-col-1-quarter  !important;  }
+.vw12-padding-left-1-half {  padding-left: $vw12-col-1-half  !important;  }
+.vw12-padding-left-1-three-quarters {  padding-left: $vw12-col-1-three-quarters  !important;  }
+.vw12-padding-left-2 {  padding-left: $vw12-col-2  !important;  }
+.vw12-padding-left-2-quarter {  padding-left: $vw12-col-2-quarter  !important;  }
+.vw12-padding-left-2-half {  padding-left: $vw12-col-2-half  !important;  }
+.vw12-padding-left-2-three-quarters {  padding-left: $vw12-col-2-three-quarters  !important;  }
+.vw12-padding-left-3 {  padding-left: $vw12-col-3  !important;  }
+.vw12-padding-left-3-quarter {  padding-left: $vw12-col-3-quarter  !important;  }
+.vw12-padding-left-3-half {  padding-left: $vw12-col-3-half  !important;  }
+.vw12-padding-left-3-three-quarters {  padding-left: $vw12-col-3-three-quarters  !important;  }
+.vw12-padding-left-4 {  padding-left: $vw12-col-4  !important;  }
+.vw12-padding-left-4-quarter {  padding-left: $vw12-col-4-quarter  !important;  }
+.vw12-padding-left-4-half {  padding-left: $vw12-col-4-half  !important;  }
+.vw12-padding-left-4-three-quarters {  padding-left: $vw12-col-4-three-quarters  !important;  }
+.vw12-padding-left-5 {  padding-left: $vw12-col-5  !important;  }
+.vw12-padding-left-5-quarter {  padding-left: $vw12-col-5-quarter  !important;  }
+.vw12-padding-left-5-half {  padding-left: $vw12-col-5-half  !important;  }
+.vw12-padding-left-5-three-quarters {  padding-left: $vw12-col-5-three-quarters  !important;  }
+.vw12-padding-left-6 {  padding-left: $vw12-col-6  !important;  }
+.vw12-padding-left-6-quarter {  padding-left: $vw12-col-6-quarter  !important;  }
+.vw12-padding-left-6-half {  padding-left: $vw12-col-6-half  !important;  }
+.vw12-padding-left-6-three-quarters {  padding-left: $vw12-col-6-three-quarters  !important;  }
+.vw12-padding-left-7 {  padding-left: $vw12-col-7  !important;  }
+.vw12-padding-left-7-quarter {  padding-left: $vw12-col-7-quarter  !important;  }
+.vw12-padding-left-7-half {  padding-left: $vw12-col-7-half  !important;  }
+.vw12-padding-left-7-three-quarters {  padding-left: $vw12-col-7-three-quarters  !important;  }
+.vw12-padding-left-8 {  padding-left: $vw12-col-8  !important;  }
+.vw12-padding-left-8-quarter {  padding-left: $vw12-col-8-quarter  !important;  }
+.vw12-padding-left-8-half {  padding-left: $vw12-col-8-half  !important;  }
+.vw12-padding-left-8-three-quarters {  padding-left: $vw12-col-8-three-quarters  !important;  }
+.vw12-padding-left-9 {  padding-left: $vw12-col-9  !important;  }
+.vw12-padding-left-9-quarter {  padding-left: $vw12-col-9-quarter  !important;  }
+.vw12-padding-left-9-half {  padding-left: $vw12-col-9-half  !important;  }
+.vw12-padding-left-9-three-quarters {  padding-left: $vw12-col-9-three-quarters  !important;  }
+.vw12-padding-left-10 {  padding-left: $vw12-col-10  !important;  }
+.vw12-padding-left-10-quarter {  padding-left: $vw12-col-10-quarter  !important;  }
+.vw12-padding-left-10-half {  padding-left: $vw12-col-10-half  !important;  }
+.vw12-padding-left-10-three-quarters {  padding-left: $vw12-col-10-three-quarters  !important;  }
+.vw12-padding-left-11 {  padding-left: $vw12-col-11  !important;  }
+.vw12-padding-left-11-quarter {  padding-left: $vw12-col-11-quarter  !important;  }
+.vw12-padding-left-11-half {  padding-left: $vw12-col-11-half  !important;  }
+.vw12-padding-left-11-three-quarters {  padding-left: $vw12-col-11-three-quarters  !important;  }
+.vw12-padding-left-12 {  padding-left: $vw12-col-12  !important;  }
+.vw12-padding-right {  padding-right: $vw12-col  !important;  }
+.vw12-padding-right-eighth {  padding-right: $vw12-col-eighth  !important;  }
+.vw12-padding-right-quarter {  padding-right: $vw12-col-quarter  !important;  }
+.vw12-padding-right-eighth-3 {  padding-right: $vw12-col-eighth-3  !important;  }
+.vw12-padding-right-half {  padding-right: $vw12-col-half  !important;  }
+.vw12-padding-right-eighth-5 {  padding-right: $vw12-col-eighth-5  !important;  }
+.vw12-padding-right-quarter-3 {  padding-right: $vw12-col-quarter-3  !important;  }
+.vw12-padding-right-eighth-7 {  padding-right: $vw12-col-eighth-7  !important;  }
+.vw12-padding-right-0 {  padding-right: $vw12-col-0  !important;  }
+.vw12-padding-right-1 {  padding-right: $vw12-col-1  !important;  }
+.vw12-padding-right-1-quarter {  padding-right: $vw12-col-1-quarter  !important;  }
+.vw12-padding-right-1-half {  padding-right: $vw12-col-1-half  !important;  }
+.vw12-padding-right-1-three-quarters {  padding-right: $vw12-col-1-three-quarters  !important;  }
+.vw12-padding-right-2 {  padding-right: $vw12-col-2  !important;  }
+.vw12-padding-right-2-quarter {  padding-right: $vw12-col-2-quarter  !important;  }
+.vw12-padding-right-2-half {  padding-right: $vw12-col-2-half  !important;  }
+.vw12-padding-right-2-three-quarters {  padding-right: $vw12-col-2-three-quarters  !important;  }
+.vw12-padding-right-3 {  padding-right: $vw12-col-3  !important;  }
+.vw12-padding-right-3-quarter {  padding-right: $vw12-col-3-quarter  !important;  }
+.vw12-padding-right-3-half {  padding-right: $vw12-col-3-half  !important;  }
+.vw12-padding-right-3-three-quarters {  padding-right: $vw12-col-3-three-quarters  !important;  }
+.vw12-padding-right-4 {  padding-right: $vw12-col-4  !important;  }
+.vw12-padding-right-4-quarter {  padding-right: $vw12-col-4-quarter  !important;  }
+.vw12-padding-right-4-half {  padding-right: $vw12-col-4-half  !important;  }
+.vw12-padding-right-4-three-quarters {  padding-right: $vw12-col-4-three-quarters  !important;  }
+.vw12-padding-right-5 {  padding-right: $vw12-col-5  !important;  }
+.vw12-padding-right-5-quarter {  padding-right: $vw12-col-5-quarter  !important;  }
+.vw12-padding-right-5-half {  padding-right: $vw12-col-5-half  !important;  }
+.vw12-padding-right-5-three-quarters {  padding-right: $vw12-col-5-three-quarters  !important;  }
+.vw12-padding-right-6 {  padding-right: $vw12-col-6  !important;  }
+.vw12-padding-right-6-quarter {  padding-right: $vw12-col-6-quarter  !important;  }
+.vw12-padding-right-6-half {  padding-right: $vw12-col-6-half  !important;  }
+.vw12-padding-right-6-three-quarters {  padding-right: $vw12-col-6-three-quarters  !important;  }
+.vw12-padding-right-7 {  padding-right: $vw12-col-7  !important;  }
+.vw12-padding-right-7-quarter {  padding-right: $vw12-col-7-quarter  !important;  }
+.vw12-padding-right-7-half {  padding-right: $vw12-col-7-half  !important;  }
+.vw12-padding-right-7-three-quarters {  padding-right: $vw12-col-7-three-quarters  !important;  }
+.vw12-padding-right-8 {  padding-right: $vw12-col-8  !important;  }
+.vw12-padding-right-8-quarter {  padding-right: $vw12-col-8-quarter  !important;  }
+.vw12-padding-right-8-half {  padding-right: $vw12-col-8-half  !important;  }
+.vw12-padding-right-8-three-quarters {  padding-right: $vw12-col-8-three-quarters  !important;  }
+.vw12-padding-right-9 {  padding-right: $vw12-col-9  !important;  }
+.vw12-padding-right-9-quarter {  padding-right: $vw12-col-9-quarter  !important;  }
+.vw12-padding-right-9-half {  padding-right: $vw12-col-9-half  !important;  }
+.vw12-padding-right-9-three-quarters {  padding-right: $vw12-col-9-three-quarters  !important;  }
+.vw12-padding-right-10 {  padding-right: $vw12-col-10  !important;  }
+.vw12-padding-right-10-quarter {  padding-right: $vw12-col-10-quarter  !important;  }
+.vw12-padding-right-10-half {  padding-right: $vw12-col-10-half  !important;  }
+.vw12-padding-right-10-three-quarters {  padding-right: $vw12-col-10-three-quarters  !important;  }
+.vw12-padding-right-11 {  padding-right: $vw12-col-11  !important;  }
+.vw12-padding-right-11-quarter {  padding-right: $vw12-col-11-quarter  !important;  }
+.vw12-padding-right-11-half {  padding-right: $vw12-col-11-half  !important;  }
+.vw12-padding-right-11-three-quarters {  padding-right: $vw12-col-11-three-quarters  !important;  }
+.vw12-padding-right-12 {  padding-right: $vw12-col-12  !important;  }

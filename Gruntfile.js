@@ -1,5 +1,7 @@
 
 
+
+
 module.exports = function(grunt) {
 
     grunt.loadNpmTasks('cssmodeling');
@@ -33,6 +35,27 @@ module.exports = function(grunt) {
         options: {
             type:"scss",
             var_prefix:"v-"
+        }
+    };
+
+    configObj.cssmodeling["cssmodeling_simple_less"] = {
+        files: {
+            'dist/simple/smpl_simple_cssmodel':
+            ['models/simple/smpl_simple_cssmodel.json']
+        },
+        options: {
+            type:"less",
+            var_prefix:""
+        }
+    };
+    configObj.cssmodeling["cssmodeling_simple_scss"] = {
+        files: {
+            'dist/simple/smpl_simple_cssmodel':
+            ['models/simple/smpl_simple_cssmodel.json']
+        },
+        options: {
+            type:"scss",
+            var_prefix:""
         }
     };
 
@@ -101,18 +124,33 @@ module.exports = function(grunt) {
     };
 
 
-    configObj.cssmodeling["cssmodeling_row_testing"] = {
-        files: {
-            'dist/rows/cssmodeling_rows_testing':[
-                'models/rows/cssmodeling_rows_quartered.json',
-                'models/rows/cssmodeling_rows_vh_quartered.json'
-            ]
-        },
-        options: {
-            type:"scss",
-            var_prefix:"v-"
-        }
+    configObj.cssmodeling["vhtb_rows_cssmodel_less"] = {
+        files: {'dist/rows/vhtb_rows_cssmodel':['models/rows/vhtb_rows_cssmodel.json']},
+        options: {type:"less"}
     };
+    configObj.cssmodeling["vhtb_rows_cssmodel_scss"] = {
+        files: {'dist/rows/vhtb_rows_cssmodel':['models/rows/vhtb_rows_cssmodel.json']},
+        options: {type:"scss"}
+    };
+
+    configObj.cssmodeling["vh12_rows_cssmodel_less"] = {
+        files: {'dist/rows/vh12_rows_cssmodel':['models/rows/vh12_rows_cssmodel.json']},
+        options: {type:"less"}
+    };
+    configObj.cssmodeling["vh12_rows_cssmodel_scss"] = {
+        files: {'dist/rows/vh12_rows_cssmodel':['models/rows/vh12_rows_cssmodel.json']},
+        options: {type:"scss"}
+    };
+
+    configObj.cssmodeling["rwpx_rows_cssmodel_less"] = {
+        files: {'dist/rows/rwpx_rows_cssmodel':['models/rows/rwpx_rows_cssmodel.json']},
+        options: {type:"less"}
+    };
+    configObj.cssmodeling["rwpx_rows_cssmodel_scss"] = {
+        files: {'dist/rows/rwpx_rows_cssmodel':['models/rows/rwpx_rows_cssmodel.json']},
+        options: {type:"scss"}
+    };
+
 
     //=============COLS===============
     configObj.cssmodeling["cssmodeling_col_12_quartered_viewport_breakpoints_less"] = {
@@ -193,6 +231,33 @@ module.exports = function(grunt) {
     };
 
 
+    configObj.cssmodeling["vwtb_cols_cssmodel_less"] = {
+        files: {'dist/cols/vwtb_cols_cssmodel':['models/cols/vwtb_cols_cssmodel.json']
+        },options: {type:"less"}
+    };
+    configObj.cssmodeling["vwtb_cols_cssmodel_scss"] = {
+        files: {'dist/cols/vwtb_cols_cssmodel':['models/cols/vwtb_cols_cssmodel.json']
+        },options: {type:"scss"}
+    };
+
+    configObj.cssmodeling["vw12_cols_cssmodel_less"] = {
+        files: {'dist/cols/vw12_cols_cssmodel':['models/cols/vw12_cols_cssmodel.json']},
+        options: {type:"less"}
+    };
+    configObj.cssmodeling["vw12_cols_cssmodel_scss"] = {
+        files: {'dist/cols/vw12_cols_cssmodel':['models/cols/vw12_cols_cssmodel.json']},
+        options: {type:"scss"}
+    };
+
+    configObj.cssmodeling["vw12x_cols_cssmodel_less"] = {
+        files: {'dist/cols/vw12x_cols_cssmodel':['models/cols/vw12x_cols_cssmodel.json']},
+        options: {type:"less"}
+    };
+    configObj.cssmodeling["vw12x_cols_cssmodel_scss"] = {
+        files: {'dist/cols/vw12x_cols_cssmodel':['models/cols/vw12x_cols_cssmodel.json']},
+        options: {type:"scss"}
+    };
+
     //=============FLEX===============
     configObj.cssmodeling["cssmodeling_flex_less"] = {
         files: {
@@ -204,7 +269,6 @@ module.exports = function(grunt) {
             var_prefix:"v-"
         }
     };
-
     configObj.cssmodeling["cssmodeling_flex_scss"] = {
         files: {
             'dist/flex/cssmodeling_flex':
@@ -213,6 +277,25 @@ module.exports = function(grunt) {
         options: {
             type:"scss",
             var_prefix:"v-"
+        }
+    };
+
+    configObj.cssmodeling["cssmodeling_flex_less"] = {
+        files: {
+            'dist/flex/flx_flex_cssmodel':
+            ['models/flex/flx_flex_cssmodel.json']
+        },
+        options: {
+            type:"less"
+        }
+    };
+    configObj.cssmodeling["cssmodeling_flex_scss"] = {
+        files: {
+            'dist/flex/flx_flex_cssmodel':
+            ['models/flex/flx_flex_cssmodel.json']
+        },
+        options: {
+            type:"scss"
         }
     };
 

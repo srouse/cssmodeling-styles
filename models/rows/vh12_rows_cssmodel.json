@@ -1,0 +1,295 @@
+{
+
+    "groups":{
+		"vh12_rows_cssmodel":{
+			"title":"[vh12] Vertical Grid - Rows Viewport Height (Quartered)",
+			"description":""
+		}
+    },
+
+    "schemes":{
+        "vh12-quarters-scale":{
+			"shortcut":"<em>@base</em>-[ -quarter, -half, -three-quarters ]",
+			"scheme":{"@base":
+						["","-quarter","-half","-three-quarters"]
+					}
+		},
+        "vh12-eighths-scale":{
+			"shortcut":"<em>@base</em>-[ -eighth[-3,-5,-7], -quarter[-3], -half ]",
+			"scheme":{"@base":
+						["","-eighth","-quarter","-eighth-3","-half","-eighth-5","-quarter-3","-eighth-7"]
+					}
+		},
+        "vh12-with-quarter-scale":{
+			"shortcut":"<em>@base</em>-[ 0,quarter,half,three-quarters,1,...,4-half,4-three-quarters]",
+			"scheme":{"@base":
+						[
+							{"":"scheme:vh12-eighths-scale"},
+							{"-0":[""]},
+							{"-1":"scheme:vh12-quarters-scale"},
+							{"-2":"scheme:vh12-quarters-scale"},
+							{"-3":"scheme:vh12-quarters-scale"},
+							{"-4":"scheme:vh12-quarters-scale"},
+							{"-5":"scheme:vh12-quarters-scale"},
+							{"-6":"scheme:vh12-quarters-scale"},
+							{"-7":"scheme:vh12-quarters-scale"},
+							{"-8":"scheme:vh12-quarters-scale"},
+							{"-9":"scheme:vh12-quarters-scale"},
+							{"-10":"scheme:vh12-quarters-scale"},
+							{"-11":"scheme:vh12-quarters-scale"},
+							"-12"
+						]
+					}
+		}
+    },
+
+
+    "variables":[
+
+
+        {
+			"name":"vh12-height-quartered-inv",
+            "group":"vh12_rows_cssmodel",
+			"base":"vh12-row",
+			"scheme":"vh12-with-quarter-scale",
+			"values":[
+                "8.33333vh",
+                    "_@_vh12-row * .125","_@_vh12-row * .25",
+                    "_@_vh12-row * .375","_@_vh12-row * .5",
+                    "_@_vh12-row * .625","_@_vh12-row * .75",
+                    "_@_vh12-row * .875",
+				"0",
+				"_@_vh12-row","_@_vh12-row * 1.25","_@_vh12-row * 1.5","_@_vh12-row * 1.75",
+				"_@_vh12-row * 2","_@_vh12-row * 2.25","_@_vh12-row * 2.5","_@_vh12-row * 2.75",
+				"_@_vh12-row * 3","_@_vh12-row * 3.25","_@_vh12-row * 3.5","_@_vh12-row * 3.75",
+				"_@_vh12-row * 4","_@_vh12-row * 4.25","_@_vh12-row * 4.5","_@_vh12-row * 4.75",
+				"_@_vh12-row * 5","_@_vh12-row * 5.25","_@_vh12-row * 5.5","_@_vh12-row * 5.75",
+				"_@_vh12-row * 6","_@_vh12-row * 6.25","_@_vh12-row * 6.5","_@_vh12-row * 6.75",
+				"_@_vh12-row * 7","_@_vh12-row * 7.25","_@_vh12-row * 7.5","_@_vh12-row * 7.75",
+				"_@_vh12-row * 8","_@_vh12-row * 8.25","_@_vh12-row * 8.5","_@_vh12-row * 8.75",
+				"_@_vh12-row * 9","_@_vh12-row * 9.25","_@_vh12-row * 9.5","_@_vh12-row * 9.75",
+				"_@_vh12-row * 10","_@_vh12-row * 10.25","_@_vh12-row * 10.5","_@_vh12-row * 10.75",
+				"_@_vh12-row * 11","_@_vh12-row * 11.25","_@_vh12-row * 11.5","_@_vh12-row * 11.75",
+				"_@_vh12-row * 12"
+			],
+			"atoms":[
+				{
+					"name":"vh12-height",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"sizing",
+					"example":"<div ... style='width: 100px; background-color:#fff; position: absolute;'></div>",
+					"selector":".vh12-height@var_name_no_base",
+					"declaration_lines":[
+                        "height: _@_@var_name;"
+                    ]
+				},
+                {
+					"name":"vh12-min-height",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"sizing",
+					"example":"<div ... style='width: 100px; background-color:#fff; position: absolute;'></div>",
+					"selector":".vh12-min-height@var_name_no_base",
+					"declaration_lines":[
+                        "min-height: _@_@var_name;"
+                    ]
+				},
+				{
+					"name":"vh12-height-inv",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"sizing",
+					"example":"<div ... style='width: 100px; background-color:#fff; position: absolute;'></div>",
+					"selector":".vh12-height-minus@var_name_no_base",
+					"declaration_value":"height: calc( 100% - _@_@var_name  );"
+				},
+                {
+					"name":"vh12-line-height-rows",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"typography",
+					"example":"...Font Sizes",
+					"selector":".vh12-line-height@var_name_no_base",
+                    "declaration_lines":[
+                        "line-height: _@_@var_name;"
+                    ]
+				},
+				{
+					"name":"vh12-top",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"positioning",
+					"example":"<div ... style='width: 100px; height:100px; background-color:#fff; position: absolute;'></div>",
+					"selector":".vh12-top@var_name_no_base",
+					"declaration_value":"top: _@_@var_name ;"
+				},
+                {
+					"name":"vh12-top-inv",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"sizing",
+					"example":"<div ... style='width: 100px; background-color:#fff; position: absolute;'></div>",
+					"selector":".vh12-top-minus@var_name_no_base",
+					"declaration_value":"top: calc( 100% - _@_@var_name  );"
+				},
+				{
+					"name":"vh12-bottom",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"positioning",
+					"example":"<div ... style='width: 100px; height:100px; background-color:#fff; position: absolute;'></div>",
+					"selector":".vh12-bottom@var_name_no_base",
+					"declaration_value":"bottom: _@_@var_name ;"
+				},
+                {
+					"name":"vh12-margin-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-margin@var_name_no_base",
+					"declaration_value":
+						"margin: _@_@var_name ;"
+				},
+                {
+					"name":"vh12-margin-width-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-margin-width@var_name_no_base",
+					"declaration_value":
+						"margin-left: _@_@var_name ; margin-right: _@_@var_name ;"
+				},
+                {
+					"name":"vh12-margin-height-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-margin-height@var_name_no_base",
+					"declaration_value":
+						"margin-top: _@_@var_name ; margin-bottom: _@_@var_name ;"
+				},
+                {
+					"name":"vh12-margin-left-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-margin-left@var_name_no_base",
+					"declaration_value":
+						"margin-left: _@_@var_name ;"
+				},
+                {
+					"name":"vh12-margin-right-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff; float: right;'>Some Text</div>",
+					"selector":".vh12-margin-right@var_name_no_base",
+					"declaration_value":
+						"margin-right: _@_@var_name ;"
+				},
+                {
+					"name":"vh12-margin-top-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-margin-top@var_name_no_base",
+					"declaration_value":
+						"margin-top: _@_@var_name ;"
+				},
+                {
+					"name":"vh12-margin-bottom-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-margin-bottom@var_name_no_base",
+					"declaration_value":
+						"margin-bottom: _@_@var_name ;"
+				},
+				{
+					"name":"vh12-padding-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-padding@var_name_no_base",
+					"declaration_value":
+						"padding: _@_@var_name ;"
+				},
+                {
+					"name":"vh12-padding-width-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-padding-width@var_name_no_base",
+					"declaration_value":
+						"padding-left: _@_@var_name ; padding-right: _@_@var_name ;"
+				},
+                {
+					"name":"vh12-padding-height-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-padding-height@var_name_no_base",
+					"declaration_value":
+						"padding-top: _@_@var_name ; padding-bottom: _@_@var_name ;"
+				},
+				{
+					"name":"vh12-padding-left-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-padding-left@var_name_no_base",
+					"declaration_value":
+						"padding-left: _@_@var_name ;"
+				},
+				{
+					"name":"vh12-padding-right-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-padding-right@var_name_no_base",
+					"declaration_value":
+						"padding-right: _@_@var_name ;"
+				},
+				{
+					"name":"vh12-padding-top-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-padding-top@var_name_no_base",
+					"declaration_value":
+						"padding-top: _@_@var_name ;"
+				},
+				{
+					"name":"vh12-padding-bottom-row",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"spacing",
+					"example":"<div ... style='display: inline-block; background-color:#fff'>Some Text</div>",
+					"selector":".vh12-padding-bottom@var_name_no_base",
+					"declaration_value":
+						"padding-bottom: _@_@var_name ;"
+				},
+                {
+					"name":"vh12-text-sizing",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"typography",
+					"example":"<div ... style='background-color: #fff;'>Text Size</div>",
+					"selector":".vh12-text-size@var_name_no_base",
+					"declaration_lines":[
+                        "font-size: _@_@var_name * .9;",
+                        "line-height: _@_@var_name;",
+                        "@media ( orientation: landscape ) {",
+                            "font-size: _@_@var_name * .9 * .75;",
+                            "line-height: _@_@var_name * .75;",
+                        "}"
+                    ]
+                },
+                {
+					"name":"vh12-line-height-rows",
+					"group":"vh12_rows_cssmodel",
+                    "sub_group":"typography",
+					"example":"...Font Sizes",
+					"selector":".vh12-line-height@var_name_no_base",
+                    "declaration_lines":[
+                        "line-height: _@_@var_name;",
+                        "@media ( orientation: landscape ) {",
+                            "line-height: _@_@var_name * .75;",
+                        "}"
+                    ]
+				}
+			]
+		}
+	]
+}
