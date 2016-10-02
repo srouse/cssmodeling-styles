@@ -3010,284 +3010,284 @@ $row12v-row-12: $row12v-row * 12;
  padding-bottom: $row12v-row-11-three-quarters  !important; }
 @mixin row12v-padding-bottom-12 ( $row12v-row-12 : $row12v-row-12 ) {
  padding-bottom: $row12v-row-12  !important; }
-@mixin row12v-text-size ( $row12v-row : $row12v-row ) {
- font-size: $row12v-row * .9 !important;  line-height: $row12v-row !important;  @media ( orientation: landscape ) {  font-size: $row12v-row * .9 * .75 !important;  line-height: $row12v-row * .75 !important;  }  }
-@mixin row12v-text-size-0 ( $row12v-row-0 : $row12v-row-0 ) {
- font-size: $row12v-row-0 * .9 !important;  line-height: $row12v-row-0 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0 * .9 * .75 !important;  line-height: $row12v-row-0 * .75 !important;  }  }
-@mixin row12v-text-size-0-1 ( $row12v-row-0-1 : $row12v-row-0-1 ) {
- font-size: $row12v-row-0-1 * .9 !important;  line-height: $row12v-row-0-1 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-1 * .9 * .75 !important;  line-height: $row12v-row-0-1 * .75 !important;  }  }
-@mixin row12v-text-size-0-2 ( $row12v-row-0-2 : $row12v-row-0-2 ) {
- font-size: $row12v-row-0-2 * .9 !important;  line-height: $row12v-row-0-2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-2 * .9 * .75 !important;  line-height: $row12v-row-0-2 * .75 !important;  }  }
-@mixin row12v-text-size-0-3 ( $row12v-row-0-3 : $row12v-row-0-3 ) {
- font-size: $row12v-row-0-3 * .9 !important;  line-height: $row12v-row-0-3 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-3 * .9 * .75 !important;  line-height: $row12v-row-0-3 * .75 !important;  }  }
-@mixin row12v-text-size-0-4 ( $row12v-row-0-4 : $row12v-row-0-4 ) {
- font-size: $row12v-row-0-4 * .9 !important;  line-height: $row12v-row-0-4 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-4 * .9 * .75 !important;  line-height: $row12v-row-0-4 * .75 !important;  }  }
-@mixin row12v-text-size-0-5 ( $row12v-row-0-5 : $row12v-row-0-5 ) {
- font-size: $row12v-row-0-5 * .9 !important;  line-height: $row12v-row-0-5 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-5 * .9 * .75 !important;  line-height: $row12v-row-0-5 * .75 !important;  }  }
-@mixin row12v-text-size-0-6 ( $row12v-row-0-6 : $row12v-row-0-6 ) {
- font-size: $row12v-row-0-6 * .9 !important;  line-height: $row12v-row-0-6 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-6 * .9 * .75 !important;  line-height: $row12v-row-0-6 * .75 !important;  }  }
-@mixin row12v-text-size-0-7 ( $row12v-row-0-7 : $row12v-row-0-7 ) {
- font-size: $row12v-row-0-7 * .9 !important;  line-height: $row12v-row-0-7 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-7 * .9 * .75 !important;  line-height: $row12v-row-0-7 * .75 !important;  }  }
-@mixin row12v-text-size-0-8 ( $row12v-row-0-8 : $row12v-row-0-8 ) {
- font-size: $row12v-row-0-8 * .9 !important;  line-height: $row12v-row-0-8 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-8 * .9 * .75 !important;  line-height: $row12v-row-0-8 * .75 !important;  }  }
-@mixin row12v-text-size-0-9 ( $row12v-row-0-9 : $row12v-row-0-9 ) {
- font-size: $row12v-row-0-9 * .9 !important;  line-height: $row12v-row-0-9 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-9 * .9 * .75 !important;  line-height: $row12v-row-0-9 * .75 !important;  }  }
-@mixin row12v-text-size-0-10 ( $row12v-row-0-10 : $row12v-row-0-10 ) {
- font-size: $row12v-row-0-10 * .9 !important;  line-height: $row12v-row-0-10 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-10 * .9 * .75 !important;  line-height: $row12v-row-0-10 * .75 !important;  }  }
-@mixin row12v-text-size-0-11 ( $row12v-row-0-11 : $row12v-row-0-11 ) {
- font-size: $row12v-row-0-11 * .9 !important;  line-height: $row12v-row-0-11 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-11 * .9 * .75 !important;  line-height: $row12v-row-0-11 * .75 !important;  }  }
-@mixin row12v-text-size-1 ( $row12v-row-1 : $row12v-row-1 ) {
- font-size: $row12v-row-1 * .9 !important;  line-height: $row12v-row-1 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1 * .9 * .75 !important;  line-height: $row12v-row-1 * .75 !important;  }  }
-@mixin row12v-text-size-1-1 ( $row12v-row-1-1 : $row12v-row-1-1 ) {
- font-size: $row12v-row-1-1 * .9 !important;  line-height: $row12v-row-1-1 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-1 * .9 * .75 !important;  line-height: $row12v-row-1-1 * .75 !important;  }  }
-@mixin row12v-text-size-1-2 ( $row12v-row-1-2 : $row12v-row-1-2 ) {
- font-size: $row12v-row-1-2 * .9 !important;  line-height: $row12v-row-1-2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-2 * .9 * .75 !important;  line-height: $row12v-row-1-2 * .75 !important;  }  }
-@mixin row12v-text-size-1-3 ( $row12v-row-1-3 : $row12v-row-1-3 ) {
- font-size: $row12v-row-1-3 * .9 !important;  line-height: $row12v-row-1-3 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-3 * .9 * .75 !important;  line-height: $row12v-row-1-3 * .75 !important;  }  }
-@mixin row12v-text-size-1-4 ( $row12v-row-1-4 : $row12v-row-1-4 ) {
- font-size: $row12v-row-1-4 * .9 !important;  line-height: $row12v-row-1-4 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-4 * .9 * .75 !important;  line-height: $row12v-row-1-4 * .75 !important;  }  }
-@mixin row12v-text-size-1-5 ( $row12v-row-1-5 : $row12v-row-1-5 ) {
- font-size: $row12v-row-1-5 * .9 !important;  line-height: $row12v-row-1-5 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-5 * .9 * .75 !important;  line-height: $row12v-row-1-5 * .75 !important;  }  }
-@mixin row12v-text-size-1-6 ( $row12v-row-1-6 : $row12v-row-1-6 ) {
- font-size: $row12v-row-1-6 * .9 !important;  line-height: $row12v-row-1-6 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-6 * .9 * .75 !important;  line-height: $row12v-row-1-6 * .75 !important;  }  }
-@mixin row12v-text-size-1-7 ( $row12v-row-1-7 : $row12v-row-1-7 ) {
- font-size: $row12v-row-1-7 * .9 !important;  line-height: $row12v-row-1-7 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-7 * .9 * .75 !important;  line-height: $row12v-row-1-7 * .75 !important;  }  }
-@mixin row12v-text-size-1-8 ( $row12v-row-1-8 : $row12v-row-1-8 ) {
- font-size: $row12v-row-1-8 * .9 !important;  line-height: $row12v-row-1-8 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-8 * .9 * .75 !important;  line-height: $row12v-row-1-8 * .75 !important;  }  }
-@mixin row12v-text-size-1-9 ( $row12v-row-1-9 : $row12v-row-1-9 ) {
- font-size: $row12v-row-1-9 * .9 !important;  line-height: $row12v-row-1-9 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-9 * .9 * .75 !important;  line-height: $row12v-row-1-9 * .75 !important;  }  }
-@mixin row12v-text-size-1-10 ( $row12v-row-1-10 : $row12v-row-1-10 ) {
- font-size: $row12v-row-1-10 * .9 !important;  line-height: $row12v-row-1-10 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-10 * .9 * .75 !important;  line-height: $row12v-row-1-10 * .75 !important;  }  }
-@mixin row12v-text-size-1-11 ( $row12v-row-1-11 : $row12v-row-1-11 ) {
- font-size: $row12v-row-1-11 * .9 !important;  line-height: $row12v-row-1-11 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-11 * .9 * .75 !important;  line-height: $row12v-row-1-11 * .75 !important;  }  }
-@mixin row12v-text-size-1 ( $row12v-row-1 : $row12v-row-1 ) {
- font-size: $row12v-row-1 * .9 !important;  line-height: $row12v-row-1 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1 * .9 * .75 !important;  line-height: $row12v-row-1 * .75 !important;  }  }
-@mixin row12v-text-size-1-quarter ( $row12v-row-1-quarter : $row12v-row-1-quarter ) {
- font-size: $row12v-row-1-quarter * .9 !important;  line-height: $row12v-row-1-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-quarter * .9 * .75 !important;  line-height: $row12v-row-1-quarter * .75 !important;  }  }
-@mixin row12v-text-size-1-half ( $row12v-row-1-half : $row12v-row-1-half ) {
- font-size: $row12v-row-1-half * .9 !important;  line-height: $row12v-row-1-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-half * .9 * .75 !important;  line-height: $row12v-row-1-half * .75 !important;  }  }
-@mixin row12v-text-size-1-three-quarters ( $row12v-row-1-three-quarters : $row12v-row-1-three-quarters ) {
- font-size: $row12v-row-1-three-quarters * .9 !important;  line-height: $row12v-row-1-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-three-quarters * .9 * .75 !important;  line-height: $row12v-row-1-three-quarters * .75 !important;  }  }
-@mixin row12v-text-size-2 ( $row12v-row-2 : $row12v-row-2 ) {
- font-size: $row12v-row-2 * .9 !important;  line-height: $row12v-row-2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2 * .9 * .75 !important;  line-height: $row12v-row-2 * .75 !important;  }  }
-@mixin row12v-text-size-2-quarter ( $row12v-row-2-quarter : $row12v-row-2-quarter ) {
- font-size: $row12v-row-2-quarter * .9 !important;  line-height: $row12v-row-2-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2-quarter * .9 * .75 !important;  line-height: $row12v-row-2-quarter * .75 !important;  }  }
-@mixin row12v-text-size-2-half ( $row12v-row-2-half : $row12v-row-2-half ) {
- font-size: $row12v-row-2-half * .9 !important;  line-height: $row12v-row-2-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2-half * .9 * .75 !important;  line-height: $row12v-row-2-half * .75 !important;  }  }
-@mixin row12v-text-size-2-three-quarters ( $row12v-row-2-three-quarters : $row12v-row-2-three-quarters ) {
- font-size: $row12v-row-2-three-quarters * .9 !important;  line-height: $row12v-row-2-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2-three-quarters * .9 * .75 !important;  line-height: $row12v-row-2-three-quarters * .75 !important;  }  }
-@mixin row12v-text-size-3 ( $row12v-row-3 : $row12v-row-3 ) {
- font-size: $row12v-row-3 * .9 !important;  line-height: $row12v-row-3 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3 * .9 * .75 !important;  line-height: $row12v-row-3 * .75 !important;  }  }
-@mixin row12v-text-size-3-quarter ( $row12v-row-3-quarter : $row12v-row-3-quarter ) {
- font-size: $row12v-row-3-quarter * .9 !important;  line-height: $row12v-row-3-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3-quarter * .9 * .75 !important;  line-height: $row12v-row-3-quarter * .75 !important;  }  }
-@mixin row12v-text-size-3-half ( $row12v-row-3-half : $row12v-row-3-half ) {
- font-size: $row12v-row-3-half * .9 !important;  line-height: $row12v-row-3-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3-half * .9 * .75 !important;  line-height: $row12v-row-3-half * .75 !important;  }  }
-@mixin row12v-text-size-3-three-quarters ( $row12v-row-3-three-quarters : $row12v-row-3-three-quarters ) {
- font-size: $row12v-row-3-three-quarters * .9 !important;  line-height: $row12v-row-3-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3-three-quarters * .9 * .75 !important;  line-height: $row12v-row-3-three-quarters * .75 !important;  }  }
-@mixin row12v-text-size-4 ( $row12v-row-4 : $row12v-row-4 ) {
- font-size: $row12v-row-4 * .9 !important;  line-height: $row12v-row-4 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4 * .9 * .75 !important;  line-height: $row12v-row-4 * .75 !important;  }  }
-@mixin row12v-text-size-4-quarter ( $row12v-row-4-quarter : $row12v-row-4-quarter ) {
- font-size: $row12v-row-4-quarter * .9 !important;  line-height: $row12v-row-4-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4-quarter * .9 * .75 !important;  line-height: $row12v-row-4-quarter * .75 !important;  }  }
-@mixin row12v-text-size-4-half ( $row12v-row-4-half : $row12v-row-4-half ) {
- font-size: $row12v-row-4-half * .9 !important;  line-height: $row12v-row-4-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4-half * .9 * .75 !important;  line-height: $row12v-row-4-half * .75 !important;  }  }
-@mixin row12v-text-size-4-three-quarters ( $row12v-row-4-three-quarters : $row12v-row-4-three-quarters ) {
- font-size: $row12v-row-4-three-quarters * .9 !important;  line-height: $row12v-row-4-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4-three-quarters * .9 * .75 !important;  line-height: $row12v-row-4-three-quarters * .75 !important;  }  }
-@mixin row12v-text-size-5 ( $row12v-row-5 : $row12v-row-5 ) {
- font-size: $row12v-row-5 * .9 !important;  line-height: $row12v-row-5 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5 * .9 * .75 !important;  line-height: $row12v-row-5 * .75 !important;  }  }
-@mixin row12v-text-size-5-quarter ( $row12v-row-5-quarter : $row12v-row-5-quarter ) {
- font-size: $row12v-row-5-quarter * .9 !important;  line-height: $row12v-row-5-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5-quarter * .9 * .75 !important;  line-height: $row12v-row-5-quarter * .75 !important;  }  }
-@mixin row12v-text-size-5-half ( $row12v-row-5-half : $row12v-row-5-half ) {
- font-size: $row12v-row-5-half * .9 !important;  line-height: $row12v-row-5-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5-half * .9 * .75 !important;  line-height: $row12v-row-5-half * .75 !important;  }  }
-@mixin row12v-text-size-5-three-quarters ( $row12v-row-5-three-quarters : $row12v-row-5-three-quarters ) {
- font-size: $row12v-row-5-three-quarters * .9 !important;  line-height: $row12v-row-5-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5-three-quarters * .9 * .75 !important;  line-height: $row12v-row-5-three-quarters * .75 !important;  }  }
-@mixin row12v-text-size-6 ( $row12v-row-6 : $row12v-row-6 ) {
- font-size: $row12v-row-6 * .9 !important;  line-height: $row12v-row-6 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6 * .9 * .75 !important;  line-height: $row12v-row-6 * .75 !important;  }  }
-@mixin row12v-text-size-6-quarter ( $row12v-row-6-quarter : $row12v-row-6-quarter ) {
- font-size: $row12v-row-6-quarter * .9 !important;  line-height: $row12v-row-6-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6-quarter * .9 * .75 !important;  line-height: $row12v-row-6-quarter * .75 !important;  }  }
-@mixin row12v-text-size-6-half ( $row12v-row-6-half : $row12v-row-6-half ) {
- font-size: $row12v-row-6-half * .9 !important;  line-height: $row12v-row-6-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6-half * .9 * .75 !important;  line-height: $row12v-row-6-half * .75 !important;  }  }
-@mixin row12v-text-size-6-three-quarters ( $row12v-row-6-three-quarters : $row12v-row-6-three-quarters ) {
- font-size: $row12v-row-6-three-quarters * .9 !important;  line-height: $row12v-row-6-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6-three-quarters * .9 * .75 !important;  line-height: $row12v-row-6-three-quarters * .75 !important;  }  }
-@mixin row12v-text-size-7 ( $row12v-row-7 : $row12v-row-7 ) {
- font-size: $row12v-row-7 * .9 !important;  line-height: $row12v-row-7 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7 * .9 * .75 !important;  line-height: $row12v-row-7 * .75 !important;  }  }
-@mixin row12v-text-size-7-quarter ( $row12v-row-7-quarter : $row12v-row-7-quarter ) {
- font-size: $row12v-row-7-quarter * .9 !important;  line-height: $row12v-row-7-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7-quarter * .9 * .75 !important;  line-height: $row12v-row-7-quarter * .75 !important;  }  }
-@mixin row12v-text-size-7-half ( $row12v-row-7-half : $row12v-row-7-half ) {
- font-size: $row12v-row-7-half * .9 !important;  line-height: $row12v-row-7-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7-half * .9 * .75 !important;  line-height: $row12v-row-7-half * .75 !important;  }  }
-@mixin row12v-text-size-7-three-quarters ( $row12v-row-7-three-quarters : $row12v-row-7-three-quarters ) {
- font-size: $row12v-row-7-three-quarters * .9 !important;  line-height: $row12v-row-7-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7-three-quarters * .9 * .75 !important;  line-height: $row12v-row-7-three-quarters * .75 !important;  }  }
-@mixin row12v-text-size-8 ( $row12v-row-8 : $row12v-row-8 ) {
- font-size: $row12v-row-8 * .9 !important;  line-height: $row12v-row-8 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8 * .9 * .75 !important;  line-height: $row12v-row-8 * .75 !important;  }  }
-@mixin row12v-text-size-8-quarter ( $row12v-row-8-quarter : $row12v-row-8-quarter ) {
- font-size: $row12v-row-8-quarter * .9 !important;  line-height: $row12v-row-8-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8-quarter * .9 * .75 !important;  line-height: $row12v-row-8-quarter * .75 !important;  }  }
-@mixin row12v-text-size-8-half ( $row12v-row-8-half : $row12v-row-8-half ) {
- font-size: $row12v-row-8-half * .9 !important;  line-height: $row12v-row-8-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8-half * .9 * .75 !important;  line-height: $row12v-row-8-half * .75 !important;  }  }
-@mixin row12v-text-size-8-three-quarters ( $row12v-row-8-three-quarters : $row12v-row-8-three-quarters ) {
- font-size: $row12v-row-8-three-quarters * .9 !important;  line-height: $row12v-row-8-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8-three-quarters * .9 * .75 !important;  line-height: $row12v-row-8-three-quarters * .75 !important;  }  }
-@mixin row12v-text-size-9 ( $row12v-row-9 : $row12v-row-9 ) {
- font-size: $row12v-row-9 * .9 !important;  line-height: $row12v-row-9 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9 * .9 * .75 !important;  line-height: $row12v-row-9 * .75 !important;  }  }
-@mixin row12v-text-size-9-quarter ( $row12v-row-9-quarter : $row12v-row-9-quarter ) {
- font-size: $row12v-row-9-quarter * .9 !important;  line-height: $row12v-row-9-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9-quarter * .9 * .75 !important;  line-height: $row12v-row-9-quarter * .75 !important;  }  }
-@mixin row12v-text-size-9-half ( $row12v-row-9-half : $row12v-row-9-half ) {
- font-size: $row12v-row-9-half * .9 !important;  line-height: $row12v-row-9-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9-half * .9 * .75 !important;  line-height: $row12v-row-9-half * .75 !important;  }  }
-@mixin row12v-text-size-9-three-quarters ( $row12v-row-9-three-quarters : $row12v-row-9-three-quarters ) {
- font-size: $row12v-row-9-three-quarters * .9 !important;  line-height: $row12v-row-9-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9-three-quarters * .9 * .75 !important;  line-height: $row12v-row-9-three-quarters * .75 !important;  }  }
-@mixin row12v-text-size-10 ( $row12v-row-10 : $row12v-row-10 ) {
- font-size: $row12v-row-10 * .9 !important;  line-height: $row12v-row-10 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10 * .9 * .75 !important;  line-height: $row12v-row-10 * .75 !important;  }  }
-@mixin row12v-text-size-10-quarter ( $row12v-row-10-quarter : $row12v-row-10-quarter ) {
- font-size: $row12v-row-10-quarter * .9 !important;  line-height: $row12v-row-10-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10-quarter * .9 * .75 !important;  line-height: $row12v-row-10-quarter * .75 !important;  }  }
-@mixin row12v-text-size-10-half ( $row12v-row-10-half : $row12v-row-10-half ) {
- font-size: $row12v-row-10-half * .9 !important;  line-height: $row12v-row-10-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10-half * .9 * .75 !important;  line-height: $row12v-row-10-half * .75 !important;  }  }
-@mixin row12v-text-size-10-three-quarters ( $row12v-row-10-three-quarters : $row12v-row-10-three-quarters ) {
- font-size: $row12v-row-10-three-quarters * .9 !important;  line-height: $row12v-row-10-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10-three-quarters * .9 * .75 !important;  line-height: $row12v-row-10-three-quarters * .75 !important;  }  }
-@mixin row12v-text-size-11 ( $row12v-row-11 : $row12v-row-11 ) {
- font-size: $row12v-row-11 * .9 !important;  line-height: $row12v-row-11 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11 * .9 * .75 !important;  line-height: $row12v-row-11 * .75 !important;  }  }
-@mixin row12v-text-size-11-quarter ( $row12v-row-11-quarter : $row12v-row-11-quarter ) {
- font-size: $row12v-row-11-quarter * .9 !important;  line-height: $row12v-row-11-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11-quarter * .9 * .75 !important;  line-height: $row12v-row-11-quarter * .75 !important;  }  }
-@mixin row12v-text-size-11-half ( $row12v-row-11-half : $row12v-row-11-half ) {
- font-size: $row12v-row-11-half * .9 !important;  line-height: $row12v-row-11-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11-half * .9 * .75 !important;  line-height: $row12v-row-11-half * .75 !important;  }  }
-@mixin row12v-text-size-11-three-quarters ( $row12v-row-11-three-quarters : $row12v-row-11-three-quarters ) {
- font-size: $row12v-row-11-three-quarters * .9 !important;  line-height: $row12v-row-11-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11-three-quarters * .9 * .75 !important;  line-height: $row12v-row-11-three-quarters * .75 !important;  }  }
-@mixin row12v-text-size-12 ( $row12v-row-12 : $row12v-row-12 ) {
- font-size: $row12v-row-12 * .9 !important;  line-height: $row12v-row-12 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-12 * .9 * .75 !important;  line-height: $row12v-row-12 * .75 !important;  }  }
-@mixin row12v-line-height ( $row12v-row : $row12v-row ) {
- line-height: $row12v-row !important;  @media ( orientation: landscape ) {  line-height: $row12v-row * .75 !important;  }  }
-@mixin row12v-line-height-0 ( $row12v-row-0 : $row12v-row-0 ) {
- line-height: $row12v-row-0 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0 * .75 !important;  }  }
-@mixin row12v-line-height-0-1 ( $row12v-row-0-1 : $row12v-row-0-1 ) {
- line-height: $row12v-row-0-1 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0-1 * .75 !important;  }  }
-@mixin row12v-line-height-0-2 ( $row12v-row-0-2 : $row12v-row-0-2 ) {
- line-height: $row12v-row-0-2 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0-2 * .75 !important;  }  }
-@mixin row12v-line-height-0-3 ( $row12v-row-0-3 : $row12v-row-0-3 ) {
- line-height: $row12v-row-0-3 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0-3 * .75 !important;  }  }
-@mixin row12v-line-height-0-4 ( $row12v-row-0-4 : $row12v-row-0-4 ) {
- line-height: $row12v-row-0-4 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0-4 * .75 !important;  }  }
-@mixin row12v-line-height-0-5 ( $row12v-row-0-5 : $row12v-row-0-5 ) {
- line-height: $row12v-row-0-5 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0-5 * .75 !important;  }  }
-@mixin row12v-line-height-0-6 ( $row12v-row-0-6 : $row12v-row-0-6 ) {
- line-height: $row12v-row-0-6 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0-6 * .75 !important;  }  }
-@mixin row12v-line-height-0-7 ( $row12v-row-0-7 : $row12v-row-0-7 ) {
- line-height: $row12v-row-0-7 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0-7 * .75 !important;  }  }
-@mixin row12v-line-height-0-8 ( $row12v-row-0-8 : $row12v-row-0-8 ) {
- line-height: $row12v-row-0-8 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0-8 * .75 !important;  }  }
-@mixin row12v-line-height-0-9 ( $row12v-row-0-9 : $row12v-row-0-9 ) {
- line-height: $row12v-row-0-9 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0-9 * .75 !important;  }  }
-@mixin row12v-line-height-0-10 ( $row12v-row-0-10 : $row12v-row-0-10 ) {
- line-height: $row12v-row-0-10 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0-10 * .75 !important;  }  }
-@mixin row12v-line-height-0-11 ( $row12v-row-0-11 : $row12v-row-0-11 ) {
- line-height: $row12v-row-0-11 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-0-11 * .75 !important;  }  }
-@mixin row12v-line-height-1 ( $row12v-row-1 : $row12v-row-1 ) {
- line-height: $row12v-row-1 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1 * .75 !important;  }  }
-@mixin row12v-line-height-1-1 ( $row12v-row-1-1 : $row12v-row-1-1 ) {
- line-height: $row12v-row-1-1 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-1 * .75 !important;  }  }
-@mixin row12v-line-height-1-2 ( $row12v-row-1-2 : $row12v-row-1-2 ) {
- line-height: $row12v-row-1-2 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-2 * .75 !important;  }  }
-@mixin row12v-line-height-1-3 ( $row12v-row-1-3 : $row12v-row-1-3 ) {
- line-height: $row12v-row-1-3 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-3 * .75 !important;  }  }
-@mixin row12v-line-height-1-4 ( $row12v-row-1-4 : $row12v-row-1-4 ) {
- line-height: $row12v-row-1-4 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-4 * .75 !important;  }  }
-@mixin row12v-line-height-1-5 ( $row12v-row-1-5 : $row12v-row-1-5 ) {
- line-height: $row12v-row-1-5 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-5 * .75 !important;  }  }
-@mixin row12v-line-height-1-6 ( $row12v-row-1-6 : $row12v-row-1-6 ) {
- line-height: $row12v-row-1-6 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-6 * .75 !important;  }  }
-@mixin row12v-line-height-1-7 ( $row12v-row-1-7 : $row12v-row-1-7 ) {
- line-height: $row12v-row-1-7 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-7 * .75 !important;  }  }
-@mixin row12v-line-height-1-8 ( $row12v-row-1-8 : $row12v-row-1-8 ) {
- line-height: $row12v-row-1-8 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-8 * .75 !important;  }  }
-@mixin row12v-line-height-1-9 ( $row12v-row-1-9 : $row12v-row-1-9 ) {
- line-height: $row12v-row-1-9 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-9 * .75 !important;  }  }
-@mixin row12v-line-height-1-10 ( $row12v-row-1-10 : $row12v-row-1-10 ) {
- line-height: $row12v-row-1-10 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-10 * .75 !important;  }  }
-@mixin row12v-line-height-1-11 ( $row12v-row-1-11 : $row12v-row-1-11 ) {
- line-height: $row12v-row-1-11 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-11 * .75 !important;  }  }
-@mixin row12v-line-height-1 ( $row12v-row-1 : $row12v-row-1 ) {
- line-height: $row12v-row-1 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1 * .75 !important;  }  }
-@mixin row12v-line-height-1-quarter ( $row12v-row-1-quarter : $row12v-row-1-quarter ) {
- line-height: $row12v-row-1-quarter !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-quarter * .75 !important;  }  }
-@mixin row12v-line-height-1-half ( $row12v-row-1-half : $row12v-row-1-half ) {
- line-height: $row12v-row-1-half !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-half * .75 !important;  }  }
-@mixin row12v-line-height-1-three-quarters ( $row12v-row-1-three-quarters : $row12v-row-1-three-quarters ) {
- line-height: $row12v-row-1-three-quarters !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-1-three-quarters * .75 !important;  }  }
-@mixin row12v-line-height-2 ( $row12v-row-2 : $row12v-row-2 ) {
- line-height: $row12v-row-2 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-2 * .75 !important;  }  }
-@mixin row12v-line-height-2-quarter ( $row12v-row-2-quarter : $row12v-row-2-quarter ) {
- line-height: $row12v-row-2-quarter !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-2-quarter * .75 !important;  }  }
-@mixin row12v-line-height-2-half ( $row12v-row-2-half : $row12v-row-2-half ) {
- line-height: $row12v-row-2-half !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-2-half * .75 !important;  }  }
-@mixin row12v-line-height-2-three-quarters ( $row12v-row-2-three-quarters : $row12v-row-2-three-quarters ) {
- line-height: $row12v-row-2-three-quarters !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-2-three-quarters * .75 !important;  }  }
-@mixin row12v-line-height-3 ( $row12v-row-3 : $row12v-row-3 ) {
- line-height: $row12v-row-3 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-3 * .75 !important;  }  }
-@mixin row12v-line-height-3-quarter ( $row12v-row-3-quarter : $row12v-row-3-quarter ) {
- line-height: $row12v-row-3-quarter !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-3-quarter * .75 !important;  }  }
-@mixin row12v-line-height-3-half ( $row12v-row-3-half : $row12v-row-3-half ) {
- line-height: $row12v-row-3-half !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-3-half * .75 !important;  }  }
-@mixin row12v-line-height-3-three-quarters ( $row12v-row-3-three-quarters : $row12v-row-3-three-quarters ) {
- line-height: $row12v-row-3-three-quarters !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-3-three-quarters * .75 !important;  }  }
-@mixin row12v-line-height-4 ( $row12v-row-4 : $row12v-row-4 ) {
- line-height: $row12v-row-4 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-4 * .75 !important;  }  }
-@mixin row12v-line-height-4-quarter ( $row12v-row-4-quarter : $row12v-row-4-quarter ) {
- line-height: $row12v-row-4-quarter !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-4-quarter * .75 !important;  }  }
-@mixin row12v-line-height-4-half ( $row12v-row-4-half : $row12v-row-4-half ) {
- line-height: $row12v-row-4-half !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-4-half * .75 !important;  }  }
-@mixin row12v-line-height-4-three-quarters ( $row12v-row-4-three-quarters : $row12v-row-4-three-quarters ) {
- line-height: $row12v-row-4-three-quarters !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-4-three-quarters * .75 !important;  }  }
-@mixin row12v-line-height-5 ( $row12v-row-5 : $row12v-row-5 ) {
- line-height: $row12v-row-5 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-5 * .75 !important;  }  }
-@mixin row12v-line-height-5-quarter ( $row12v-row-5-quarter : $row12v-row-5-quarter ) {
- line-height: $row12v-row-5-quarter !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-5-quarter * .75 !important;  }  }
-@mixin row12v-line-height-5-half ( $row12v-row-5-half : $row12v-row-5-half ) {
- line-height: $row12v-row-5-half !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-5-half * .75 !important;  }  }
-@mixin row12v-line-height-5-three-quarters ( $row12v-row-5-three-quarters : $row12v-row-5-three-quarters ) {
- line-height: $row12v-row-5-three-quarters !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-5-three-quarters * .75 !important;  }  }
-@mixin row12v-line-height-6 ( $row12v-row-6 : $row12v-row-6 ) {
- line-height: $row12v-row-6 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-6 * .75 !important;  }  }
-@mixin row12v-line-height-6-quarter ( $row12v-row-6-quarter : $row12v-row-6-quarter ) {
- line-height: $row12v-row-6-quarter !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-6-quarter * .75 !important;  }  }
-@mixin row12v-line-height-6-half ( $row12v-row-6-half : $row12v-row-6-half ) {
- line-height: $row12v-row-6-half !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-6-half * .75 !important;  }  }
-@mixin row12v-line-height-6-three-quarters ( $row12v-row-6-three-quarters : $row12v-row-6-three-quarters ) {
- line-height: $row12v-row-6-three-quarters !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-6-three-quarters * .75 !important;  }  }
-@mixin row12v-line-height-7 ( $row12v-row-7 : $row12v-row-7 ) {
- line-height: $row12v-row-7 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-7 * .75 !important;  }  }
-@mixin row12v-line-height-7-quarter ( $row12v-row-7-quarter : $row12v-row-7-quarter ) {
- line-height: $row12v-row-7-quarter !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-7-quarter * .75 !important;  }  }
-@mixin row12v-line-height-7-half ( $row12v-row-7-half : $row12v-row-7-half ) {
- line-height: $row12v-row-7-half !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-7-half * .75 !important;  }  }
-@mixin row12v-line-height-7-three-quarters ( $row12v-row-7-three-quarters : $row12v-row-7-three-quarters ) {
- line-height: $row12v-row-7-three-quarters !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-7-three-quarters * .75 !important;  }  }
-@mixin row12v-line-height-8 ( $row12v-row-8 : $row12v-row-8 ) {
- line-height: $row12v-row-8 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-8 * .75 !important;  }  }
-@mixin row12v-line-height-8-quarter ( $row12v-row-8-quarter : $row12v-row-8-quarter ) {
- line-height: $row12v-row-8-quarter !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-8-quarter * .75 !important;  }  }
-@mixin row12v-line-height-8-half ( $row12v-row-8-half : $row12v-row-8-half ) {
- line-height: $row12v-row-8-half !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-8-half * .75 !important;  }  }
-@mixin row12v-line-height-8-three-quarters ( $row12v-row-8-three-quarters : $row12v-row-8-three-quarters ) {
- line-height: $row12v-row-8-three-quarters !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-8-three-quarters * .75 !important;  }  }
-@mixin row12v-line-height-9 ( $row12v-row-9 : $row12v-row-9 ) {
- line-height: $row12v-row-9 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-9 * .75 !important;  }  }
-@mixin row12v-line-height-9-quarter ( $row12v-row-9-quarter : $row12v-row-9-quarter ) {
- line-height: $row12v-row-9-quarter !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-9-quarter * .75 !important;  }  }
-@mixin row12v-line-height-9-half ( $row12v-row-9-half : $row12v-row-9-half ) {
- line-height: $row12v-row-9-half !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-9-half * .75 !important;  }  }
-@mixin row12v-line-height-9-three-quarters ( $row12v-row-9-three-quarters : $row12v-row-9-three-quarters ) {
- line-height: $row12v-row-9-three-quarters !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-9-three-quarters * .75 !important;  }  }
-@mixin row12v-line-height-10 ( $row12v-row-10 : $row12v-row-10 ) {
- line-height: $row12v-row-10 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-10 * .75 !important;  }  }
-@mixin row12v-line-height-10-quarter ( $row12v-row-10-quarter : $row12v-row-10-quarter ) {
- line-height: $row12v-row-10-quarter !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-10-quarter * .75 !important;  }  }
-@mixin row12v-line-height-10-half ( $row12v-row-10-half : $row12v-row-10-half ) {
- line-height: $row12v-row-10-half !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-10-half * .75 !important;  }  }
-@mixin row12v-line-height-10-three-quarters ( $row12v-row-10-three-quarters : $row12v-row-10-three-quarters ) {
- line-height: $row12v-row-10-three-quarters !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-10-three-quarters * .75 !important;  }  }
-@mixin row12v-line-height-11 ( $row12v-row-11 : $row12v-row-11 ) {
- line-height: $row12v-row-11 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-11 * .75 !important;  }  }
-@mixin row12v-line-height-11-quarter ( $row12v-row-11-quarter : $row12v-row-11-quarter ) {
- line-height: $row12v-row-11-quarter !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-11-quarter * .75 !important;  }  }
-@mixin row12v-line-height-11-half ( $row12v-row-11-half : $row12v-row-11-half ) {
- line-height: $row12v-row-11-half !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-11-half * .75 !important;  }  }
-@mixin row12v-line-height-11-three-quarters ( $row12v-row-11-three-quarters : $row12v-row-11-three-quarters ) {
- line-height: $row12v-row-11-three-quarters !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-11-three-quarters * .75 !important;  }  }
-@mixin row12v-line-height-12 ( $row12v-row-12 : $row12v-row-12 ) {
- line-height: $row12v-row-12 !important;  @media ( orientation: landscape ) {  line-height: $row12v-row-12 * .75 !important;  }  }
+@mixin row12v-text ( $row12v-row : $row12v-row ) {
+ font-size: $row12v-row !important;  line-height: $row12v-row * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row * .75 !important;  line-height: $row12v-row * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0 ( $row12v-row-0 : $row12v-row-0 ) {
+ font-size: $row12v-row-0 !important;  line-height: $row12v-row-0 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0 * .75 !important;  line-height: $row12v-row-0 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0-1 ( $row12v-row-0-1 : $row12v-row-0-1 ) {
+ font-size: $row12v-row-0-1 !important;  line-height: $row12v-row-0-1 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-1 * .75 !important;  line-height: $row12v-row-0-1 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0-2 ( $row12v-row-0-2 : $row12v-row-0-2 ) {
+ font-size: $row12v-row-0-2 !important;  line-height: $row12v-row-0-2 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-2 * .75 !important;  line-height: $row12v-row-0-2 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0-3 ( $row12v-row-0-3 : $row12v-row-0-3 ) {
+ font-size: $row12v-row-0-3 !important;  line-height: $row12v-row-0-3 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-3 * .75 !important;  line-height: $row12v-row-0-3 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0-4 ( $row12v-row-0-4 : $row12v-row-0-4 ) {
+ font-size: $row12v-row-0-4 !important;  line-height: $row12v-row-0-4 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-4 * .75 !important;  line-height: $row12v-row-0-4 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0-5 ( $row12v-row-0-5 : $row12v-row-0-5 ) {
+ font-size: $row12v-row-0-5 !important;  line-height: $row12v-row-0-5 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-5 * .75 !important;  line-height: $row12v-row-0-5 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0-6 ( $row12v-row-0-6 : $row12v-row-0-6 ) {
+ font-size: $row12v-row-0-6 !important;  line-height: $row12v-row-0-6 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-6 * .75 !important;  line-height: $row12v-row-0-6 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0-7 ( $row12v-row-0-7 : $row12v-row-0-7 ) {
+ font-size: $row12v-row-0-7 !important;  line-height: $row12v-row-0-7 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-7 * .75 !important;  line-height: $row12v-row-0-7 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0-8 ( $row12v-row-0-8 : $row12v-row-0-8 ) {
+ font-size: $row12v-row-0-8 !important;  line-height: $row12v-row-0-8 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-8 * .75 !important;  line-height: $row12v-row-0-8 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0-9 ( $row12v-row-0-9 : $row12v-row-0-9 ) {
+ font-size: $row12v-row-0-9 !important;  line-height: $row12v-row-0-9 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-9 * .75 !important;  line-height: $row12v-row-0-9 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0-10 ( $row12v-row-0-10 : $row12v-row-0-10 ) {
+ font-size: $row12v-row-0-10 !important;  line-height: $row12v-row-0-10 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-10 * .75 !important;  line-height: $row12v-row-0-10 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-0-11 ( $row12v-row-0-11 : $row12v-row-0-11 ) {
+ font-size: $row12v-row-0-11 !important;  line-height: $row12v-row-0-11 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-11 * .75 !important;  line-height: $row12v-row-0-11 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1 ( $row12v-row-1 : $row12v-row-1 ) {
+ font-size: $row12v-row-1 !important;  line-height: $row12v-row-1 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1 * .75 !important;  line-height: $row12v-row-1 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-1 ( $row12v-row-1-1 : $row12v-row-1-1 ) {
+ font-size: $row12v-row-1-1 !important;  line-height: $row12v-row-1-1 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-1 * .75 !important;  line-height: $row12v-row-1-1 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-2 ( $row12v-row-1-2 : $row12v-row-1-2 ) {
+ font-size: $row12v-row-1-2 !important;  line-height: $row12v-row-1-2 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-2 * .75 !important;  line-height: $row12v-row-1-2 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-3 ( $row12v-row-1-3 : $row12v-row-1-3 ) {
+ font-size: $row12v-row-1-3 !important;  line-height: $row12v-row-1-3 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-3 * .75 !important;  line-height: $row12v-row-1-3 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-4 ( $row12v-row-1-4 : $row12v-row-1-4 ) {
+ font-size: $row12v-row-1-4 !important;  line-height: $row12v-row-1-4 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-4 * .75 !important;  line-height: $row12v-row-1-4 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-5 ( $row12v-row-1-5 : $row12v-row-1-5 ) {
+ font-size: $row12v-row-1-5 !important;  line-height: $row12v-row-1-5 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-5 * .75 !important;  line-height: $row12v-row-1-5 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-6 ( $row12v-row-1-6 : $row12v-row-1-6 ) {
+ font-size: $row12v-row-1-6 !important;  line-height: $row12v-row-1-6 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-6 * .75 !important;  line-height: $row12v-row-1-6 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-7 ( $row12v-row-1-7 : $row12v-row-1-7 ) {
+ font-size: $row12v-row-1-7 !important;  line-height: $row12v-row-1-7 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-7 * .75 !important;  line-height: $row12v-row-1-7 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-8 ( $row12v-row-1-8 : $row12v-row-1-8 ) {
+ font-size: $row12v-row-1-8 !important;  line-height: $row12v-row-1-8 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-8 * .75 !important;  line-height: $row12v-row-1-8 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-9 ( $row12v-row-1-9 : $row12v-row-1-9 ) {
+ font-size: $row12v-row-1-9 !important;  line-height: $row12v-row-1-9 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-9 * .75 !important;  line-height: $row12v-row-1-9 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-10 ( $row12v-row-1-10 : $row12v-row-1-10 ) {
+ font-size: $row12v-row-1-10 !important;  line-height: $row12v-row-1-10 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-10 * .75 !important;  line-height: $row12v-row-1-10 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-11 ( $row12v-row-1-11 : $row12v-row-1-11 ) {
+ font-size: $row12v-row-1-11 !important;  line-height: $row12v-row-1-11 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-11 * .75 !important;  line-height: $row12v-row-1-11 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1 ( $row12v-row-1 : $row12v-row-1 ) {
+ font-size: $row12v-row-1 !important;  line-height: $row12v-row-1 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1 * .75 !important;  line-height: $row12v-row-1 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-quarter ( $row12v-row-1-quarter : $row12v-row-1-quarter ) {
+ font-size: $row12v-row-1-quarter !important;  line-height: $row12v-row-1-quarter * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-quarter * .75 !important;  line-height: $row12v-row-1-quarter * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-half ( $row12v-row-1-half : $row12v-row-1-half ) {
+ font-size: $row12v-row-1-half !important;  line-height: $row12v-row-1-half * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-half * .75 !important;  line-height: $row12v-row-1-half * 1.2 * .75 !important;  }  }
+@mixin row12v-text-1-three-quarters ( $row12v-row-1-three-quarters : $row12v-row-1-three-quarters ) {
+ font-size: $row12v-row-1-three-quarters !important;  line-height: $row12v-row-1-three-quarters * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-three-quarters * .75 !important;  line-height: $row12v-row-1-three-quarters * 1.2 * .75 !important;  }  }
+@mixin row12v-text-2 ( $row12v-row-2 : $row12v-row-2 ) {
+ font-size: $row12v-row-2 !important;  line-height: $row12v-row-2 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2 * .75 !important;  line-height: $row12v-row-2 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-2-quarter ( $row12v-row-2-quarter : $row12v-row-2-quarter ) {
+ font-size: $row12v-row-2-quarter !important;  line-height: $row12v-row-2-quarter * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2-quarter * .75 !important;  line-height: $row12v-row-2-quarter * 1.2 * .75 !important;  }  }
+@mixin row12v-text-2-half ( $row12v-row-2-half : $row12v-row-2-half ) {
+ font-size: $row12v-row-2-half !important;  line-height: $row12v-row-2-half * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2-half * .75 !important;  line-height: $row12v-row-2-half * 1.2 * .75 !important;  }  }
+@mixin row12v-text-2-three-quarters ( $row12v-row-2-three-quarters : $row12v-row-2-three-quarters ) {
+ font-size: $row12v-row-2-three-quarters !important;  line-height: $row12v-row-2-three-quarters * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2-three-quarters * .75 !important;  line-height: $row12v-row-2-three-quarters * 1.2 * .75 !important;  }  }
+@mixin row12v-text-3 ( $row12v-row-3 : $row12v-row-3 ) {
+ font-size: $row12v-row-3 !important;  line-height: $row12v-row-3 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3 * .75 !important;  line-height: $row12v-row-3 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-3-quarter ( $row12v-row-3-quarter : $row12v-row-3-quarter ) {
+ font-size: $row12v-row-3-quarter !important;  line-height: $row12v-row-3-quarter * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3-quarter * .75 !important;  line-height: $row12v-row-3-quarter * 1.2 * .75 !important;  }  }
+@mixin row12v-text-3-half ( $row12v-row-3-half : $row12v-row-3-half ) {
+ font-size: $row12v-row-3-half !important;  line-height: $row12v-row-3-half * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3-half * .75 !important;  line-height: $row12v-row-3-half * 1.2 * .75 !important;  }  }
+@mixin row12v-text-3-three-quarters ( $row12v-row-3-three-quarters : $row12v-row-3-three-quarters ) {
+ font-size: $row12v-row-3-three-quarters !important;  line-height: $row12v-row-3-three-quarters * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3-three-quarters * .75 !important;  line-height: $row12v-row-3-three-quarters * 1.2 * .75 !important;  }  }
+@mixin row12v-text-4 ( $row12v-row-4 : $row12v-row-4 ) {
+ font-size: $row12v-row-4 !important;  line-height: $row12v-row-4 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4 * .75 !important;  line-height: $row12v-row-4 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-4-quarter ( $row12v-row-4-quarter : $row12v-row-4-quarter ) {
+ font-size: $row12v-row-4-quarter !important;  line-height: $row12v-row-4-quarter * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4-quarter * .75 !important;  line-height: $row12v-row-4-quarter * 1.2 * .75 !important;  }  }
+@mixin row12v-text-4-half ( $row12v-row-4-half : $row12v-row-4-half ) {
+ font-size: $row12v-row-4-half !important;  line-height: $row12v-row-4-half * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4-half * .75 !important;  line-height: $row12v-row-4-half * 1.2 * .75 !important;  }  }
+@mixin row12v-text-4-three-quarters ( $row12v-row-4-three-quarters : $row12v-row-4-three-quarters ) {
+ font-size: $row12v-row-4-three-quarters !important;  line-height: $row12v-row-4-three-quarters * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4-three-quarters * .75 !important;  line-height: $row12v-row-4-three-quarters * 1.2 * .75 !important;  }  }
+@mixin row12v-text-5 ( $row12v-row-5 : $row12v-row-5 ) {
+ font-size: $row12v-row-5 !important;  line-height: $row12v-row-5 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5 * .75 !important;  line-height: $row12v-row-5 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-5-quarter ( $row12v-row-5-quarter : $row12v-row-5-quarter ) {
+ font-size: $row12v-row-5-quarter !important;  line-height: $row12v-row-5-quarter * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5-quarter * .75 !important;  line-height: $row12v-row-5-quarter * 1.2 * .75 !important;  }  }
+@mixin row12v-text-5-half ( $row12v-row-5-half : $row12v-row-5-half ) {
+ font-size: $row12v-row-5-half !important;  line-height: $row12v-row-5-half * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5-half * .75 !important;  line-height: $row12v-row-5-half * 1.2 * .75 !important;  }  }
+@mixin row12v-text-5-three-quarters ( $row12v-row-5-three-quarters : $row12v-row-5-three-quarters ) {
+ font-size: $row12v-row-5-three-quarters !important;  line-height: $row12v-row-5-three-quarters * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5-three-quarters * .75 !important;  line-height: $row12v-row-5-three-quarters * 1.2 * .75 !important;  }  }
+@mixin row12v-text-6 ( $row12v-row-6 : $row12v-row-6 ) {
+ font-size: $row12v-row-6 !important;  line-height: $row12v-row-6 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6 * .75 !important;  line-height: $row12v-row-6 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-6-quarter ( $row12v-row-6-quarter : $row12v-row-6-quarter ) {
+ font-size: $row12v-row-6-quarter !important;  line-height: $row12v-row-6-quarter * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6-quarter * .75 !important;  line-height: $row12v-row-6-quarter * 1.2 * .75 !important;  }  }
+@mixin row12v-text-6-half ( $row12v-row-6-half : $row12v-row-6-half ) {
+ font-size: $row12v-row-6-half !important;  line-height: $row12v-row-6-half * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6-half * .75 !important;  line-height: $row12v-row-6-half * 1.2 * .75 !important;  }  }
+@mixin row12v-text-6-three-quarters ( $row12v-row-6-three-quarters : $row12v-row-6-three-quarters ) {
+ font-size: $row12v-row-6-three-quarters !important;  line-height: $row12v-row-6-three-quarters * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6-three-quarters * .75 !important;  line-height: $row12v-row-6-three-quarters * 1.2 * .75 !important;  }  }
+@mixin row12v-text-7 ( $row12v-row-7 : $row12v-row-7 ) {
+ font-size: $row12v-row-7 !important;  line-height: $row12v-row-7 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7 * .75 !important;  line-height: $row12v-row-7 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-7-quarter ( $row12v-row-7-quarter : $row12v-row-7-quarter ) {
+ font-size: $row12v-row-7-quarter !important;  line-height: $row12v-row-7-quarter * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7-quarter * .75 !important;  line-height: $row12v-row-7-quarter * 1.2 * .75 !important;  }  }
+@mixin row12v-text-7-half ( $row12v-row-7-half : $row12v-row-7-half ) {
+ font-size: $row12v-row-7-half !important;  line-height: $row12v-row-7-half * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7-half * .75 !important;  line-height: $row12v-row-7-half * 1.2 * .75 !important;  }  }
+@mixin row12v-text-7-three-quarters ( $row12v-row-7-three-quarters : $row12v-row-7-three-quarters ) {
+ font-size: $row12v-row-7-three-quarters !important;  line-height: $row12v-row-7-three-quarters * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7-three-quarters * .75 !important;  line-height: $row12v-row-7-three-quarters * 1.2 * .75 !important;  }  }
+@mixin row12v-text-8 ( $row12v-row-8 : $row12v-row-8 ) {
+ font-size: $row12v-row-8 !important;  line-height: $row12v-row-8 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8 * .75 !important;  line-height: $row12v-row-8 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-8-quarter ( $row12v-row-8-quarter : $row12v-row-8-quarter ) {
+ font-size: $row12v-row-8-quarter !important;  line-height: $row12v-row-8-quarter * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8-quarter * .75 !important;  line-height: $row12v-row-8-quarter * 1.2 * .75 !important;  }  }
+@mixin row12v-text-8-half ( $row12v-row-8-half : $row12v-row-8-half ) {
+ font-size: $row12v-row-8-half !important;  line-height: $row12v-row-8-half * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8-half * .75 !important;  line-height: $row12v-row-8-half * 1.2 * .75 !important;  }  }
+@mixin row12v-text-8-three-quarters ( $row12v-row-8-three-quarters : $row12v-row-8-three-quarters ) {
+ font-size: $row12v-row-8-three-quarters !important;  line-height: $row12v-row-8-three-quarters * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8-three-quarters * .75 !important;  line-height: $row12v-row-8-three-quarters * 1.2 * .75 !important;  }  }
+@mixin row12v-text-9 ( $row12v-row-9 : $row12v-row-9 ) {
+ font-size: $row12v-row-9 !important;  line-height: $row12v-row-9 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9 * .75 !important;  line-height: $row12v-row-9 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-9-quarter ( $row12v-row-9-quarter : $row12v-row-9-quarter ) {
+ font-size: $row12v-row-9-quarter !important;  line-height: $row12v-row-9-quarter * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9-quarter * .75 !important;  line-height: $row12v-row-9-quarter * 1.2 * .75 !important;  }  }
+@mixin row12v-text-9-half ( $row12v-row-9-half : $row12v-row-9-half ) {
+ font-size: $row12v-row-9-half !important;  line-height: $row12v-row-9-half * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9-half * .75 !important;  line-height: $row12v-row-9-half * 1.2 * .75 !important;  }  }
+@mixin row12v-text-9-three-quarters ( $row12v-row-9-three-quarters : $row12v-row-9-three-quarters ) {
+ font-size: $row12v-row-9-three-quarters !important;  line-height: $row12v-row-9-three-quarters * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9-three-quarters * .75 !important;  line-height: $row12v-row-9-three-quarters * 1.2 * .75 !important;  }  }
+@mixin row12v-text-10 ( $row12v-row-10 : $row12v-row-10 ) {
+ font-size: $row12v-row-10 !important;  line-height: $row12v-row-10 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10 * .75 !important;  line-height: $row12v-row-10 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-10-quarter ( $row12v-row-10-quarter : $row12v-row-10-quarter ) {
+ font-size: $row12v-row-10-quarter !important;  line-height: $row12v-row-10-quarter * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10-quarter * .75 !important;  line-height: $row12v-row-10-quarter * 1.2 * .75 !important;  }  }
+@mixin row12v-text-10-half ( $row12v-row-10-half : $row12v-row-10-half ) {
+ font-size: $row12v-row-10-half !important;  line-height: $row12v-row-10-half * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10-half * .75 !important;  line-height: $row12v-row-10-half * 1.2 * .75 !important;  }  }
+@mixin row12v-text-10-three-quarters ( $row12v-row-10-three-quarters : $row12v-row-10-three-quarters ) {
+ font-size: $row12v-row-10-three-quarters !important;  line-height: $row12v-row-10-three-quarters * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10-three-quarters * .75 !important;  line-height: $row12v-row-10-three-quarters * 1.2 * .75 !important;  }  }
+@mixin row12v-text-11 ( $row12v-row-11 : $row12v-row-11 ) {
+ font-size: $row12v-row-11 !important;  line-height: $row12v-row-11 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11 * .75 !important;  line-height: $row12v-row-11 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-11-quarter ( $row12v-row-11-quarter : $row12v-row-11-quarter ) {
+ font-size: $row12v-row-11-quarter !important;  line-height: $row12v-row-11-quarter * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11-quarter * .75 !important;  line-height: $row12v-row-11-quarter * 1.2 * .75 !important;  }  }
+@mixin row12v-text-11-half ( $row12v-row-11-half : $row12v-row-11-half ) {
+ font-size: $row12v-row-11-half !important;  line-height: $row12v-row-11-half * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11-half * .75 !important;  line-height: $row12v-row-11-half * 1.2 * .75 !important;  }  }
+@mixin row12v-text-11-three-quarters ( $row12v-row-11-three-quarters : $row12v-row-11-three-quarters ) {
+ font-size: $row12v-row-11-three-quarters !important;  line-height: $row12v-row-11-three-quarters * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11-three-quarters * .75 !important;  line-height: $row12v-row-11-three-quarters * 1.2 * .75 !important;  }  }
+@mixin row12v-text-12 ( $row12v-row-12 : $row12v-row-12 ) {
+ font-size: $row12v-row-12 !important;  line-height: $row12v-row-12 * 1.2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-12 * .75 !important;  line-height: $row12v-row-12 * 1.2 * .75 !important;  }  }
+@mixin row12v-text-line ( $row12v-row : $row12v-row ) {
+ font-size: $row12v-row * .8333 !important;  line-height: $row12v-row !important;  @media ( orientation: landscape ) {  font-size: $row12v-row * .8333 * .75 !important;  line-height: $row12v-row * .75 !important;  }  }
+@mixin row12v-text-line-0 ( $row12v-row-0 : $row12v-row-0 ) {
+ font-size: $row12v-row-0 * .8333 !important;  line-height: $row12v-row-0 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0 * .8333 * .75 !important;  line-height: $row12v-row-0 * .75 !important;  }  }
+@mixin row12v-text-line-0-1 ( $row12v-row-0-1 : $row12v-row-0-1 ) {
+ font-size: $row12v-row-0-1 * .8333 !important;  line-height: $row12v-row-0-1 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-1 * .8333 * .75 !important;  line-height: $row12v-row-0-1 * .75 !important;  }  }
+@mixin row12v-text-line-0-2 ( $row12v-row-0-2 : $row12v-row-0-2 ) {
+ font-size: $row12v-row-0-2 * .8333 !important;  line-height: $row12v-row-0-2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-2 * .8333 * .75 !important;  line-height: $row12v-row-0-2 * .75 !important;  }  }
+@mixin row12v-text-line-0-3 ( $row12v-row-0-3 : $row12v-row-0-3 ) {
+ font-size: $row12v-row-0-3 * .8333 !important;  line-height: $row12v-row-0-3 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-3 * .8333 * .75 !important;  line-height: $row12v-row-0-3 * .75 !important;  }  }
+@mixin row12v-text-line-0-4 ( $row12v-row-0-4 : $row12v-row-0-4 ) {
+ font-size: $row12v-row-0-4 * .8333 !important;  line-height: $row12v-row-0-4 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-4 * .8333 * .75 !important;  line-height: $row12v-row-0-4 * .75 !important;  }  }
+@mixin row12v-text-line-0-5 ( $row12v-row-0-5 : $row12v-row-0-5 ) {
+ font-size: $row12v-row-0-5 * .8333 !important;  line-height: $row12v-row-0-5 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-5 * .8333 * .75 !important;  line-height: $row12v-row-0-5 * .75 !important;  }  }
+@mixin row12v-text-line-0-6 ( $row12v-row-0-6 : $row12v-row-0-6 ) {
+ font-size: $row12v-row-0-6 * .8333 !important;  line-height: $row12v-row-0-6 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-6 * .8333 * .75 !important;  line-height: $row12v-row-0-6 * .75 !important;  }  }
+@mixin row12v-text-line-0-7 ( $row12v-row-0-7 : $row12v-row-0-7 ) {
+ font-size: $row12v-row-0-7 * .8333 !important;  line-height: $row12v-row-0-7 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-7 * .8333 * .75 !important;  line-height: $row12v-row-0-7 * .75 !important;  }  }
+@mixin row12v-text-line-0-8 ( $row12v-row-0-8 : $row12v-row-0-8 ) {
+ font-size: $row12v-row-0-8 * .8333 !important;  line-height: $row12v-row-0-8 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-8 * .8333 * .75 !important;  line-height: $row12v-row-0-8 * .75 !important;  }  }
+@mixin row12v-text-line-0-9 ( $row12v-row-0-9 : $row12v-row-0-9 ) {
+ font-size: $row12v-row-0-9 * .8333 !important;  line-height: $row12v-row-0-9 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-9 * .8333 * .75 !important;  line-height: $row12v-row-0-9 * .75 !important;  }  }
+@mixin row12v-text-line-0-10 ( $row12v-row-0-10 : $row12v-row-0-10 ) {
+ font-size: $row12v-row-0-10 * .8333 !important;  line-height: $row12v-row-0-10 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-10 * .8333 * .75 !important;  line-height: $row12v-row-0-10 * .75 !important;  }  }
+@mixin row12v-text-line-0-11 ( $row12v-row-0-11 : $row12v-row-0-11 ) {
+ font-size: $row12v-row-0-11 * .8333 !important;  line-height: $row12v-row-0-11 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-0-11 * .8333 * .75 !important;  line-height: $row12v-row-0-11 * .75 !important;  }  }
+@mixin row12v-text-line-1 ( $row12v-row-1 : $row12v-row-1 ) {
+ font-size: $row12v-row-1 * .8333 !important;  line-height: $row12v-row-1 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1 * .8333 * .75 !important;  line-height: $row12v-row-1 * .75 !important;  }  }
+@mixin row12v-text-line-1-1 ( $row12v-row-1-1 : $row12v-row-1-1 ) {
+ font-size: $row12v-row-1-1 * .8333 !important;  line-height: $row12v-row-1-1 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-1 * .8333 * .75 !important;  line-height: $row12v-row-1-1 * .75 !important;  }  }
+@mixin row12v-text-line-1-2 ( $row12v-row-1-2 : $row12v-row-1-2 ) {
+ font-size: $row12v-row-1-2 * .8333 !important;  line-height: $row12v-row-1-2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-2 * .8333 * .75 !important;  line-height: $row12v-row-1-2 * .75 !important;  }  }
+@mixin row12v-text-line-1-3 ( $row12v-row-1-3 : $row12v-row-1-3 ) {
+ font-size: $row12v-row-1-3 * .8333 !important;  line-height: $row12v-row-1-3 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-3 * .8333 * .75 !important;  line-height: $row12v-row-1-3 * .75 !important;  }  }
+@mixin row12v-text-line-1-4 ( $row12v-row-1-4 : $row12v-row-1-4 ) {
+ font-size: $row12v-row-1-4 * .8333 !important;  line-height: $row12v-row-1-4 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-4 * .8333 * .75 !important;  line-height: $row12v-row-1-4 * .75 !important;  }  }
+@mixin row12v-text-line-1-5 ( $row12v-row-1-5 : $row12v-row-1-5 ) {
+ font-size: $row12v-row-1-5 * .8333 !important;  line-height: $row12v-row-1-5 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-5 * .8333 * .75 !important;  line-height: $row12v-row-1-5 * .75 !important;  }  }
+@mixin row12v-text-line-1-6 ( $row12v-row-1-6 : $row12v-row-1-6 ) {
+ font-size: $row12v-row-1-6 * .8333 !important;  line-height: $row12v-row-1-6 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-6 * .8333 * .75 !important;  line-height: $row12v-row-1-6 * .75 !important;  }  }
+@mixin row12v-text-line-1-7 ( $row12v-row-1-7 : $row12v-row-1-7 ) {
+ font-size: $row12v-row-1-7 * .8333 !important;  line-height: $row12v-row-1-7 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-7 * .8333 * .75 !important;  line-height: $row12v-row-1-7 * .75 !important;  }  }
+@mixin row12v-text-line-1-8 ( $row12v-row-1-8 : $row12v-row-1-8 ) {
+ font-size: $row12v-row-1-8 * .8333 !important;  line-height: $row12v-row-1-8 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-8 * .8333 * .75 !important;  line-height: $row12v-row-1-8 * .75 !important;  }  }
+@mixin row12v-text-line-1-9 ( $row12v-row-1-9 : $row12v-row-1-9 ) {
+ font-size: $row12v-row-1-9 * .8333 !important;  line-height: $row12v-row-1-9 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-9 * .8333 * .75 !important;  line-height: $row12v-row-1-9 * .75 !important;  }  }
+@mixin row12v-text-line-1-10 ( $row12v-row-1-10 : $row12v-row-1-10 ) {
+ font-size: $row12v-row-1-10 * .8333 !important;  line-height: $row12v-row-1-10 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-10 * .8333 * .75 !important;  line-height: $row12v-row-1-10 * .75 !important;  }  }
+@mixin row12v-text-line-1-11 ( $row12v-row-1-11 : $row12v-row-1-11 ) {
+ font-size: $row12v-row-1-11 * .8333 !important;  line-height: $row12v-row-1-11 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-11 * .8333 * .75 !important;  line-height: $row12v-row-1-11 * .75 !important;  }  }
+@mixin row12v-text-line-1 ( $row12v-row-1 : $row12v-row-1 ) {
+ font-size: $row12v-row-1 * .8333 !important;  line-height: $row12v-row-1 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1 * .8333 * .75 !important;  line-height: $row12v-row-1 * .75 !important;  }  }
+@mixin row12v-text-line-1-quarter ( $row12v-row-1-quarter : $row12v-row-1-quarter ) {
+ font-size: $row12v-row-1-quarter * .8333 !important;  line-height: $row12v-row-1-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-quarter * .8333 * .75 !important;  line-height: $row12v-row-1-quarter * .75 !important;  }  }
+@mixin row12v-text-line-1-half ( $row12v-row-1-half : $row12v-row-1-half ) {
+ font-size: $row12v-row-1-half * .8333 !important;  line-height: $row12v-row-1-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-half * .8333 * .75 !important;  line-height: $row12v-row-1-half * .75 !important;  }  }
+@mixin row12v-text-line-1-three-quarters ( $row12v-row-1-three-quarters : $row12v-row-1-three-quarters ) {
+ font-size: $row12v-row-1-three-quarters * .8333 !important;  line-height: $row12v-row-1-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-1-three-quarters * .8333 * .75 !important;  line-height: $row12v-row-1-three-quarters * .75 !important;  }  }
+@mixin row12v-text-line-2 ( $row12v-row-2 : $row12v-row-2 ) {
+ font-size: $row12v-row-2 * .8333 !important;  line-height: $row12v-row-2 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2 * .8333 * .75 !important;  line-height: $row12v-row-2 * .75 !important;  }  }
+@mixin row12v-text-line-2-quarter ( $row12v-row-2-quarter : $row12v-row-2-quarter ) {
+ font-size: $row12v-row-2-quarter * .8333 !important;  line-height: $row12v-row-2-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2-quarter * .8333 * .75 !important;  line-height: $row12v-row-2-quarter * .75 !important;  }  }
+@mixin row12v-text-line-2-half ( $row12v-row-2-half : $row12v-row-2-half ) {
+ font-size: $row12v-row-2-half * .8333 !important;  line-height: $row12v-row-2-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2-half * .8333 * .75 !important;  line-height: $row12v-row-2-half * .75 !important;  }  }
+@mixin row12v-text-line-2-three-quarters ( $row12v-row-2-three-quarters : $row12v-row-2-three-quarters ) {
+ font-size: $row12v-row-2-three-quarters * .8333 !important;  line-height: $row12v-row-2-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-2-three-quarters * .8333 * .75 !important;  line-height: $row12v-row-2-three-quarters * .75 !important;  }  }
+@mixin row12v-text-line-3 ( $row12v-row-3 : $row12v-row-3 ) {
+ font-size: $row12v-row-3 * .8333 !important;  line-height: $row12v-row-3 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3 * .8333 * .75 !important;  line-height: $row12v-row-3 * .75 !important;  }  }
+@mixin row12v-text-line-3-quarter ( $row12v-row-3-quarter : $row12v-row-3-quarter ) {
+ font-size: $row12v-row-3-quarter * .8333 !important;  line-height: $row12v-row-3-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3-quarter * .8333 * .75 !important;  line-height: $row12v-row-3-quarter * .75 !important;  }  }
+@mixin row12v-text-line-3-half ( $row12v-row-3-half : $row12v-row-3-half ) {
+ font-size: $row12v-row-3-half * .8333 !important;  line-height: $row12v-row-3-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3-half * .8333 * .75 !important;  line-height: $row12v-row-3-half * .75 !important;  }  }
+@mixin row12v-text-line-3-three-quarters ( $row12v-row-3-three-quarters : $row12v-row-3-three-quarters ) {
+ font-size: $row12v-row-3-three-quarters * .8333 !important;  line-height: $row12v-row-3-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-3-three-quarters * .8333 * .75 !important;  line-height: $row12v-row-3-three-quarters * .75 !important;  }  }
+@mixin row12v-text-line-4 ( $row12v-row-4 : $row12v-row-4 ) {
+ font-size: $row12v-row-4 * .8333 !important;  line-height: $row12v-row-4 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4 * .8333 * .75 !important;  line-height: $row12v-row-4 * .75 !important;  }  }
+@mixin row12v-text-line-4-quarter ( $row12v-row-4-quarter : $row12v-row-4-quarter ) {
+ font-size: $row12v-row-4-quarter * .8333 !important;  line-height: $row12v-row-4-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4-quarter * .8333 * .75 !important;  line-height: $row12v-row-4-quarter * .75 !important;  }  }
+@mixin row12v-text-line-4-half ( $row12v-row-4-half : $row12v-row-4-half ) {
+ font-size: $row12v-row-4-half * .8333 !important;  line-height: $row12v-row-4-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4-half * .8333 * .75 !important;  line-height: $row12v-row-4-half * .75 !important;  }  }
+@mixin row12v-text-line-4-three-quarters ( $row12v-row-4-three-quarters : $row12v-row-4-three-quarters ) {
+ font-size: $row12v-row-4-three-quarters * .8333 !important;  line-height: $row12v-row-4-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-4-three-quarters * .8333 * .75 !important;  line-height: $row12v-row-4-three-quarters * .75 !important;  }  }
+@mixin row12v-text-line-5 ( $row12v-row-5 : $row12v-row-5 ) {
+ font-size: $row12v-row-5 * .8333 !important;  line-height: $row12v-row-5 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5 * .8333 * .75 !important;  line-height: $row12v-row-5 * .75 !important;  }  }
+@mixin row12v-text-line-5-quarter ( $row12v-row-5-quarter : $row12v-row-5-quarter ) {
+ font-size: $row12v-row-5-quarter * .8333 !important;  line-height: $row12v-row-5-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5-quarter * .8333 * .75 !important;  line-height: $row12v-row-5-quarter * .75 !important;  }  }
+@mixin row12v-text-line-5-half ( $row12v-row-5-half : $row12v-row-5-half ) {
+ font-size: $row12v-row-5-half * .8333 !important;  line-height: $row12v-row-5-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5-half * .8333 * .75 !important;  line-height: $row12v-row-5-half * .75 !important;  }  }
+@mixin row12v-text-line-5-three-quarters ( $row12v-row-5-three-quarters : $row12v-row-5-three-quarters ) {
+ font-size: $row12v-row-5-three-quarters * .8333 !important;  line-height: $row12v-row-5-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-5-three-quarters * .8333 * .75 !important;  line-height: $row12v-row-5-three-quarters * .75 !important;  }  }
+@mixin row12v-text-line-6 ( $row12v-row-6 : $row12v-row-6 ) {
+ font-size: $row12v-row-6 * .8333 !important;  line-height: $row12v-row-6 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6 * .8333 * .75 !important;  line-height: $row12v-row-6 * .75 !important;  }  }
+@mixin row12v-text-line-6-quarter ( $row12v-row-6-quarter : $row12v-row-6-quarter ) {
+ font-size: $row12v-row-6-quarter * .8333 !important;  line-height: $row12v-row-6-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6-quarter * .8333 * .75 !important;  line-height: $row12v-row-6-quarter * .75 !important;  }  }
+@mixin row12v-text-line-6-half ( $row12v-row-6-half : $row12v-row-6-half ) {
+ font-size: $row12v-row-6-half * .8333 !important;  line-height: $row12v-row-6-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6-half * .8333 * .75 !important;  line-height: $row12v-row-6-half * .75 !important;  }  }
+@mixin row12v-text-line-6-three-quarters ( $row12v-row-6-three-quarters : $row12v-row-6-three-quarters ) {
+ font-size: $row12v-row-6-three-quarters * .8333 !important;  line-height: $row12v-row-6-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-6-three-quarters * .8333 * .75 !important;  line-height: $row12v-row-6-three-quarters * .75 !important;  }  }
+@mixin row12v-text-line-7 ( $row12v-row-7 : $row12v-row-7 ) {
+ font-size: $row12v-row-7 * .8333 !important;  line-height: $row12v-row-7 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7 * .8333 * .75 !important;  line-height: $row12v-row-7 * .75 !important;  }  }
+@mixin row12v-text-line-7-quarter ( $row12v-row-7-quarter : $row12v-row-7-quarter ) {
+ font-size: $row12v-row-7-quarter * .8333 !important;  line-height: $row12v-row-7-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7-quarter * .8333 * .75 !important;  line-height: $row12v-row-7-quarter * .75 !important;  }  }
+@mixin row12v-text-line-7-half ( $row12v-row-7-half : $row12v-row-7-half ) {
+ font-size: $row12v-row-7-half * .8333 !important;  line-height: $row12v-row-7-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7-half * .8333 * .75 !important;  line-height: $row12v-row-7-half * .75 !important;  }  }
+@mixin row12v-text-line-7-three-quarters ( $row12v-row-7-three-quarters : $row12v-row-7-three-quarters ) {
+ font-size: $row12v-row-7-three-quarters * .8333 !important;  line-height: $row12v-row-7-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-7-three-quarters * .8333 * .75 !important;  line-height: $row12v-row-7-three-quarters * .75 !important;  }  }
+@mixin row12v-text-line-8 ( $row12v-row-8 : $row12v-row-8 ) {
+ font-size: $row12v-row-8 * .8333 !important;  line-height: $row12v-row-8 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8 * .8333 * .75 !important;  line-height: $row12v-row-8 * .75 !important;  }  }
+@mixin row12v-text-line-8-quarter ( $row12v-row-8-quarter : $row12v-row-8-quarter ) {
+ font-size: $row12v-row-8-quarter * .8333 !important;  line-height: $row12v-row-8-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8-quarter * .8333 * .75 !important;  line-height: $row12v-row-8-quarter * .75 !important;  }  }
+@mixin row12v-text-line-8-half ( $row12v-row-8-half : $row12v-row-8-half ) {
+ font-size: $row12v-row-8-half * .8333 !important;  line-height: $row12v-row-8-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8-half * .8333 * .75 !important;  line-height: $row12v-row-8-half * .75 !important;  }  }
+@mixin row12v-text-line-8-three-quarters ( $row12v-row-8-three-quarters : $row12v-row-8-three-quarters ) {
+ font-size: $row12v-row-8-three-quarters * .8333 !important;  line-height: $row12v-row-8-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-8-three-quarters * .8333 * .75 !important;  line-height: $row12v-row-8-three-quarters * .75 !important;  }  }
+@mixin row12v-text-line-9 ( $row12v-row-9 : $row12v-row-9 ) {
+ font-size: $row12v-row-9 * .8333 !important;  line-height: $row12v-row-9 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9 * .8333 * .75 !important;  line-height: $row12v-row-9 * .75 !important;  }  }
+@mixin row12v-text-line-9-quarter ( $row12v-row-9-quarter : $row12v-row-9-quarter ) {
+ font-size: $row12v-row-9-quarter * .8333 !important;  line-height: $row12v-row-9-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9-quarter * .8333 * .75 !important;  line-height: $row12v-row-9-quarter * .75 !important;  }  }
+@mixin row12v-text-line-9-half ( $row12v-row-9-half : $row12v-row-9-half ) {
+ font-size: $row12v-row-9-half * .8333 !important;  line-height: $row12v-row-9-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9-half * .8333 * .75 !important;  line-height: $row12v-row-9-half * .75 !important;  }  }
+@mixin row12v-text-line-9-three-quarters ( $row12v-row-9-three-quarters : $row12v-row-9-three-quarters ) {
+ font-size: $row12v-row-9-three-quarters * .8333 !important;  line-height: $row12v-row-9-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-9-three-quarters * .8333 * .75 !important;  line-height: $row12v-row-9-three-quarters * .75 !important;  }  }
+@mixin row12v-text-line-10 ( $row12v-row-10 : $row12v-row-10 ) {
+ font-size: $row12v-row-10 * .8333 !important;  line-height: $row12v-row-10 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10 * .8333 * .75 !important;  line-height: $row12v-row-10 * .75 !important;  }  }
+@mixin row12v-text-line-10-quarter ( $row12v-row-10-quarter : $row12v-row-10-quarter ) {
+ font-size: $row12v-row-10-quarter * .8333 !important;  line-height: $row12v-row-10-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10-quarter * .8333 * .75 !important;  line-height: $row12v-row-10-quarter * .75 !important;  }  }
+@mixin row12v-text-line-10-half ( $row12v-row-10-half : $row12v-row-10-half ) {
+ font-size: $row12v-row-10-half * .8333 !important;  line-height: $row12v-row-10-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10-half * .8333 * .75 !important;  line-height: $row12v-row-10-half * .75 !important;  }  }
+@mixin row12v-text-line-10-three-quarters ( $row12v-row-10-three-quarters : $row12v-row-10-three-quarters ) {
+ font-size: $row12v-row-10-three-quarters * .8333 !important;  line-height: $row12v-row-10-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-10-three-quarters * .8333 * .75 !important;  line-height: $row12v-row-10-three-quarters * .75 !important;  }  }
+@mixin row12v-text-line-11 ( $row12v-row-11 : $row12v-row-11 ) {
+ font-size: $row12v-row-11 * .8333 !important;  line-height: $row12v-row-11 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11 * .8333 * .75 !important;  line-height: $row12v-row-11 * .75 !important;  }  }
+@mixin row12v-text-line-11-quarter ( $row12v-row-11-quarter : $row12v-row-11-quarter ) {
+ font-size: $row12v-row-11-quarter * .8333 !important;  line-height: $row12v-row-11-quarter !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11-quarter * .8333 * .75 !important;  line-height: $row12v-row-11-quarter * .75 !important;  }  }
+@mixin row12v-text-line-11-half ( $row12v-row-11-half : $row12v-row-11-half ) {
+ font-size: $row12v-row-11-half * .8333 !important;  line-height: $row12v-row-11-half !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11-half * .8333 * .75 !important;  line-height: $row12v-row-11-half * .75 !important;  }  }
+@mixin row12v-text-line-11-three-quarters ( $row12v-row-11-three-quarters : $row12v-row-11-three-quarters ) {
+ font-size: $row12v-row-11-three-quarters * .8333 !important;  line-height: $row12v-row-11-three-quarters !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-11-three-quarters * .8333 * .75 !important;  line-height: $row12v-row-11-three-quarters * .75 !important;  }  }
+@mixin row12v-text-line-12 ( $row12v-row-12 : $row12v-row-12 ) {
+ font-size: $row12v-row-12 * .8333 !important;  line-height: $row12v-row-12 !important;  @media ( orientation: landscape ) {  font-size: $row12v-row-12 * .8333 * .75 !important;  line-height: $row12v-row-12 * .75 !important;  }  }
 
