@@ -124,30 +124,30 @@ module.exports = function(grunt) {
     };
 
 
-    configObj.cssmodeling["vhtb_rows_cssmodel_less"] = {
-        files: {'dist/rows/vhtb_rows_cssmodel':['models/rows/vhtb_rows_cssmodel.json']},
+    configObj.cssmodeling["rowtb_rows_cssmodel_less"] = {
+        files: {'dist/rows/rowtb_rows_cssmodel':['models/rows/rowtb_rows_cssmodel.json']},
         options: {type:"less"}
     };
-    configObj.cssmodeling["vhtb_rows_cssmodel_scss"] = {
-        files: {'dist/rows/vhtb_rows_cssmodel':['models/rows/vhtb_rows_cssmodel.json']},
+    configObj.cssmodeling["rowtb_rows_cssmodel_scss"] = {
+        files: {'dist/rows/rowtb_rows_cssmodel':['models/rows/rowtb_rows_cssmodel.json']},
         options: {type:"scss"}
     };
 
-    configObj.cssmodeling["vh12_rows_cssmodel_less"] = {
-        files: {'dist/rows/vh12_rows_cssmodel':['models/rows/vh12_rows_cssmodel.json']},
+    configObj.cssmodeling["row12v_rows_cssmodel_less"] = {
+        files: {'dist/rows/row12v_rows_cssmodel':['models/rows/row12v_rows_cssmodel.json']},
         options: {type:"less"}
     };
-    configObj.cssmodeling["vh12_rows_cssmodel_scss"] = {
-        files: {'dist/rows/vh12_rows_cssmodel':['models/rows/vh12_rows_cssmodel.json']},
+    configObj.cssmodeling["row12v_rows_cssmodel_scss"] = {
+        files: {'dist/rows/row12v_rows_cssmodel':['models/rows/row12v_rows_cssmodel.json']},
         options: {type:"scss"}
     };
 
-    configObj.cssmodeling["rwpx_rows_cssmodel_less"] = {
-        files: {'dist/rows/rwpx_rows_cssmodel':['models/rows/rwpx_rows_cssmodel.json']},
+    configObj.cssmodeling["row20px_rows_cssmodel_less"] = {
+        files: {'dist/rows/row20px_rows_cssmodel':['models/rows/row20px_rows_cssmodel.json']},
         options: {type:"less"}
     };
-    configObj.cssmodeling["rwpx_rows_cssmodel_scss"] = {
-        files: {'dist/rows/rwpx_rows_cssmodel':['models/rows/rwpx_rows_cssmodel.json']},
+    configObj.cssmodeling["row20px_rows_cssmodel_scss"] = {
+        files: {'dist/rows/row20px_rows_cssmodel':['models/rows/row20px_rows_cssmodel.json']},
         options: {type:"scss"}
     };
 
@@ -231,30 +231,30 @@ module.exports = function(grunt) {
     };
 
 
-    configObj.cssmodeling["vwtb_cols_cssmodel_less"] = {
-        files: {'dist/cols/vwtb_cols_cssmodel':['models/cols/vwtb_cols_cssmodel.json']
+    configObj.cssmodeling["coltb_cols_cssmodel_less"] = {
+        files: {'dist/cols/coltb_cols_cssmodel':['models/cols/coltb_cols_cssmodel.json']
         },options: {type:"less"}
     };
-    configObj.cssmodeling["vwtb_cols_cssmodel_scss"] = {
-        files: {'dist/cols/vwtb_cols_cssmodel':['models/cols/vwtb_cols_cssmodel.json']
+    configObj.cssmodeling["coltb_cols_cssmodel_scss"] = {
+        files: {'dist/cols/coltb_cols_cssmodel':['models/cols/coltb_cols_cssmodel.json']
         },options: {type:"scss"}
     };
 
-    configObj.cssmodeling["vw12_cols_cssmodel_less"] = {
-        files: {'dist/cols/vw12_cols_cssmodel':['models/cols/vw12_cols_cssmodel.json']},
+    configObj.cssmodeling["col12v_cols_cssmodel_less"] = {
+        files: {'dist/cols/col12v_cols_cssmodel':['models/cols/col12v_cols_cssmodel.json']},
         options: {type:"less"}
     };
-    configObj.cssmodeling["vw12_cols_cssmodel_scss"] = {
-        files: {'dist/cols/vw12_cols_cssmodel':['models/cols/vw12_cols_cssmodel.json']},
+    configObj.cssmodeling["col12v_cols_cssmodel_scss"] = {
+        files: {'dist/cols/col12v_cols_cssmodel':['models/cols/col12v_cols_cssmodel.json']},
         options: {type:"scss"}
     };
 
-    configObj.cssmodeling["vw12x_cols_cssmodel_less"] = {
-        files: {'dist/cols/vw12x_cols_cssmodel':['models/cols/vw12x_cols_cssmodel.json']},
+    configObj.cssmodeling["col12vex_cols_cssmodel_less"] = {
+        files: {'dist/cols/col12vex_cols_cssmodel':['models/cols/col12vex_cols_cssmodel.json']},
         options: {type:"less"}
     };
-    configObj.cssmodeling["vw12x_cols_cssmodel_scss"] = {
-        files: {'dist/cols/vw12x_cols_cssmodel':['models/cols/vw12x_cols_cssmodel.json']},
+    configObj.cssmodeling["col12vex_cols_cssmodel_scss"] = {
+        files: {'dist/cols/col12vex_cols_cssmodel':['models/cols/col12vex_cols_cssmodel.json']},
         options: {type:"scss"}
     };
 
