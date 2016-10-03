@@ -39,24 +39,12 @@ module.exports = function(grunt) {
     };
 
     configObj.cssmodeling["cssmodeling_simple_less"] = {
-        files: {
-            'dist/simple/smpl_simple_cssmodel':
-            ['models/simple/smpl_simple_cssmodel.json']
-        },
-        options: {
-            type:"less",
-            var_prefix:""
-        }
+        files: {'dist/simple/smpl_cssmodel':['models/simple/smpl_cssmodel.json']},
+        options: {type:"less"}
     };
     configObj.cssmodeling["cssmodeling_simple_scss"] = {
-        files: {
-            'dist/simple/smpl_simple_cssmodel':
-            ['models/simple/smpl_simple_cssmodel.json']
-        },
-        options: {
-            type:"scss",
-            var_prefix:""
-        }
+        files: {'dist/simple/smpl_cssmodel':['models/simple/smpl_cssmodel.json']},
+        options: {type:"scss"}
     };
 
     //=============ROWS===============
@@ -124,30 +112,30 @@ module.exports = function(grunt) {
     };
 
 
-    configObj.cssmodeling["rowtb_rows_cssmodel_less"] = {
-        files: {'dist/rows/rowtb_rows_cssmodel':['models/rows/rowtb_rows_cssmodel.json']},
+    configObj.cssmodeling["rowtb_cssmodel_less"] = {
+        files: {'dist/rows/rowtb_cssmodel':['models/rows/rowtb_cssmodel.json']},
         options: {type:"less"}
     };
-    configObj.cssmodeling["rowtb_rows_cssmodel_scss"] = {
-        files: {'dist/rows/rowtb_rows_cssmodel':['models/rows/rowtb_rows_cssmodel.json']},
+    configObj.cssmodeling["rowtb_cssmodel_scss"] = {
+        files: {'dist/rows/rowtb_cssmodel':['models/rows/rowtb_cssmodel.json']},
         options: {type:"scss"}
     };
 
-    configObj.cssmodeling["row12v_rows_cssmodel_less"] = {
-        files: {'dist/rows/row12v_rows_cssmodel':['models/rows/row12v_rows_cssmodel.json']},
+    configObj.cssmodeling["row12v_cssmodel_less"] = {
+        files: {'dist/rows/row12v_cssmodel':['models/rows/row12v_cssmodel.json']},
         options: {type:"less"}
     };
-    configObj.cssmodeling["row12v_rows_cssmodel_scss"] = {
-        files: {'dist/rows/row12v_rows_cssmodel':['models/rows/row12v_rows_cssmodel.json']},
+    configObj.cssmodeling["row12v_cssmodel_scss"] = {
+        files: {'dist/rows/row12v_cssmodel':['models/rows/row12v_cssmodel.json']},
         options: {type:"scss"}
     };
 
-    configObj.cssmodeling["row20px_rows_cssmodel_less"] = {
-        files: {'dist/rows/row20px_rows_cssmodel':['models/rows/row20px_rows_cssmodel.json']},
+    configObj.cssmodeling["row20px_cssmodel_less"] = {
+        files: {'dist/rows/row20px_cssmodel':['models/rows/row20px_cssmodel.json']},
         options: {type:"less"}
     };
-    configObj.cssmodeling["row20px_rows_cssmodel_scss"] = {
-        files: {'dist/rows/row20px_rows_cssmodel':['models/rows/row20px_rows_cssmodel.json']},
+    configObj.cssmodeling["row20px_cssmodel_scss"] = {
+        files: {'dist/rows/row20px_cssmodel':['models/rows/row20px_cssmodel.json']},
         options: {type:"scss"}
     };
 
@@ -231,30 +219,30 @@ module.exports = function(grunt) {
     };
 
 
-    configObj.cssmodeling["coltb_cols_cssmodel_less"] = {
-        files: {'dist/cols/coltb_cols_cssmodel':['models/cols/coltb_cols_cssmodel.json']
+    configObj.cssmodeling["coltb_cssmodel_less"] = {
+        files: {'dist/cols/coltb_cssmodel':['models/cols/coltb_cssmodel.json']
         },options: {type:"less"}
     };
-    configObj.cssmodeling["coltb_cols_cssmodel_scss"] = {
-        files: {'dist/cols/coltb_cols_cssmodel':['models/cols/coltb_cols_cssmodel.json']
+    configObj.cssmodeling["coltb_cssmodel_scss"] = {
+        files: {'dist/cols/coltb_cssmodel':['models/cols/coltb_cssmodel.json']
         },options: {type:"scss"}
     };
 
-    configObj.cssmodeling["col12v_cols_cssmodel_less"] = {
-        files: {'dist/cols/col12v_cols_cssmodel':['models/cols/col12v_cols_cssmodel.json']},
+    configObj.cssmodeling["col12v_cssmodel_less"] = {
+        files: {'dist/cols/col12v_cssmodel':['models/cols/col12v_cssmodel.json']},
         options: {type:"less"}
     };
-    configObj.cssmodeling["col12v_cols_cssmodel_scss"] = {
-        files: {'dist/cols/col12v_cols_cssmodel':['models/cols/col12v_cols_cssmodel.json']},
+    configObj.cssmodeling["col12v_cssmodel_scss"] = {
+        files: {'dist/cols/col12v_cssmodel':['models/cols/col12v_cssmodel.json']},
         options: {type:"scss"}
     };
 
-    configObj.cssmodeling["col12vex_cols_cssmodel_less"] = {
-        files: {'dist/cols/col12vex_cols_cssmodel':['models/cols/col12vex_cols_cssmodel.json']},
+    configObj.cssmodeling["col12vex_cssmodel_less"] = {
+        files: {'dist/cols/col12vex_cssmodel':['models/cols/col12vex_cssmodel.json']},
         options: {type:"less"}
     };
-    configObj.cssmodeling["col12vex_cols_cssmodel_scss"] = {
-        files: {'dist/cols/col12vex_cols_cssmodel':['models/cols/col12vex_cols_cssmodel.json']},
+    configObj.cssmodeling["col12vex_cssmodel_scss"] = {
+        files: {'dist/cols/col12vex_cssmodel':['models/cols/col12vex_cssmodel.json']},
         options: {type:"scss"}
     };
 
@@ -281,22 +269,12 @@ module.exports = function(grunt) {
     };
 
     configObj.cssmodeling["cssmodeling_flex_less"] = {
-        files: {
-            'dist/flex/flx_flex_cssmodel':
-            ['models/flex/flx_flex_cssmodel.json']
-        },
-        options: {
-            type:"less"
-        }
+        files: {'dist/flex/flx_cssmodel':['models/flex/flx_cssmodel.json']},
+        options: {type:"less"}
     };
     configObj.cssmodeling["cssmodeling_flex_scss"] = {
-        files: {
-            'dist/flex/flx_flex_cssmodel':
-            ['models/flex/flx_flex_cssmodel.json']
-        },
-        options: {
-            type:"scss"
-        }
+        files: {'dist/flex/flx_cssmodel':['models/flex/flx_cssmodel.json']},
+        options: {type:"scss"}
     };
 
 
