@@ -57,7 +57,7 @@
 			"base":"row16ltr-row",
 			"scheme":"row16ltr-with-quarter-scale",
 			"values":[
-                "8.33333vh",
+                "1.746cm",
                     "0",
                     "( _@_row16ltr-row * .0833 ) * 1","( _@_row16ltr-row * .0833 ) * 2",
                     "( _@_row16ltr-row * .0833 ) * 3","( _@_row16ltr-row * .0833 ) * 4",
@@ -86,7 +86,7 @@
                 "_@_row16ltr-row * 13","_@_row16ltr-row * 13.25","_@_row16ltr-row * 13.333","_@_row16ltr-row * 13.5","_@_row16ltr-row * 13.666","_@_row16ltr-row * 13.75",
                 "_@_row16ltr-row * 14","_@_row16ltr-row * 14.25","_@_row16ltr-row * 14.333","_@_row16ltr-row * 14.5","_@_row16ltr-row * 14.666","_@_row16ltr-row * 14.75",
                 "_@_row16ltr-row * 15","_@_row16ltr-row * 15.25","_@_row16ltr-row * 15.333","_@_row16ltr-row * 15.5","_@_row16ltr-row * 15.666","_@_row16ltr-row * 15.75",
-				"_@_row16ltr-row * 16"
+				"27.94cm"
 			],
 			"atoms":[
 				{
