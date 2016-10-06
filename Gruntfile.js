@@ -139,6 +139,15 @@ module.exports = function(grunt) {
         options: {type:"scss"}
     };
 
+    configObj.cssmodeling["row16ltr_cssmodel_less"] = {
+        files: {'dist/rows/row16ltr_cssmodel':['models/rows/row16ltr_cssmodel.json']},
+        options: {type:"less"}
+    };
+    configObj.cssmodeling["row16ltr_cssmodel_scss"] = {
+        files: {'dist/rows/row16ltr_cssmodel':['models/rows/row16ltr_cssmodel.json']},
+        options: {type:"scss"}
+    };
+
 
     //=============COLS===============
     configObj.cssmodeling["cssmodeling_col_12_quartered_viewport_breakpoints_less"] = {
@@ -243,6 +252,15 @@ module.exports = function(grunt) {
     };
     configObj.cssmodeling["col12vex_cssmodel_scss"] = {
         files: {'dist/cols/col12vex_cssmodel':['models/cols/col12vex_cssmodel.json']},
+        options: {type:"scss"}
+    };
+
+    configObj.cssmodeling["col12ltr_cssmodel_less"] = {
+        files: {'dist/cols/col12ltr_cssmodel':['models/cols/col12ltr_cssmodel.json']},
+        options: {type:"less"}
+    };
+    configObj.cssmodeling["col12ltr_cssmodel_scss"] = {
+        files: {'dist/cols/col12ltr_cssmodel':['models/cols/col12ltr_cssmodel.json']},
         options: {type:"scss"}
     };
 

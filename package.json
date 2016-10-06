@@ -2,7 +2,7 @@
 	"name": "cssmodeling-styles",
 	"description": "CSS style systems derived from CSSModeling",
 	"author": "srouse",
-	"version": "0.0.11",
+	"version": "0.0.12",
 	"dependencies": {
 	},
 	"devDependencies": {
