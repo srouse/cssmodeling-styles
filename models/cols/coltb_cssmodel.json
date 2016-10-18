@@ -153,7 +153,7 @@
 					"selector":".coltb-width@var_name_no_base",
 					"declaration_lines":[
                         "width: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "width: _@_@var_name * .75;",
                         "}"
                     ]
@@ -166,7 +166,7 @@
 					"selector":".coltb-min-width@var_name_no_base",
 					"declaration_lines":[
                         "min-width: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "min-width: _@_@var_name * .75;",
                         "}"
                     ]
@@ -179,7 +179,7 @@
 					"selector":".coltb-width-minus@var_name_no_base",
 					"declaration_lines":[
                         "width: calc( 100% - _@_@var_name  );",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "width: calc( 100% - _@_@var_name * .75 );",
                         "}"
                     ]
@@ -192,7 +192,7 @@
 					"selector":".coltb-left@var_name_no_base",
 					"declaration_lines":[
                         "left: _@_@var_name ;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "left: _@_@var_name * .75;",
                         "}"
                     ]
@@ -205,7 +205,7 @@
 					"selector":".coltb-left-minus@var_name_no_base",
 					"declaration_lines":[
                         "left: calc( 100% - _@_@var_name  );",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "left: calc( 100% - _@_@var_name * .75 );",
                         "}"
                     ]
@@ -218,7 +218,7 @@
 					"selector":".coltb-right@var_name_no_base",
 					"declaration_lines":[
                         "right: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "right: _@_@var_name * .75;",
                         "}"
                     ]
@@ -231,7 +231,7 @@
 					"selector":".coltb-margin@var_name_no_base",
 					"declaration_lines":[
 						"margin: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "margin: _@_@var_name * .75;",
                         "}"
                     ]
@@ -245,7 +245,7 @@
 					"declaration_lines":[
 						"margin-left: _@_@var_name;",
                         "margin-right: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "margin-left: _@_@var_name * .75;",
                             "margin-right: _@_@var_name * .75;",
                         "}"
@@ -260,7 +260,7 @@
 					"declaration_lines":[
 						"margin-left: _@_@var_name;",
                         "margin-right: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "margin-left: _@_@var_name * .75;",
                             "margin-right: _@_@var_name * .75;",
                         "}"
@@ -274,7 +274,7 @@
 					"selector":".coltb-margin-left@var_name_no_base",
 					"declaration_lines":[
 						"margin-left: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "margin-left: _@_@var_name * .75;",
                         "}"
                     ]
@@ -287,7 +287,7 @@
 					"selector":".coltb-margin-right@var_name_no_base",
 					"declaration_lines":[
 						"margin-right: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "margin-right: _@_@var_name * .75;",
                         "}"
                     ]
@@ -300,7 +300,7 @@
 					"selector":".coltb-margin-left@var_name_no_base",
 					"declaration_lines":[
 						"margin-left: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "margin-left: _@_@var_name * .75;",
                         "}"
                     ]
@@ -313,7 +313,7 @@
 					"selector":".coltb-margin-right@var_name_no_base",
 					"declaration_lines":[
 						"margin-right: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "margin-right: _@_@var_name * .75;",
                         "}"
                     ]
@@ -326,7 +326,7 @@
 					"selector":".coltb-padding@var_name_no_base",
 					"declaration_lines":[
 						"padding: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "padding: _@_@var_name * .75;",
                         "}"
                     ]
@@ -340,7 +340,7 @@
 					"declaration_lines":[
 						"padding-left: _@_@var_name;",
                         "padding-right: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "padding-left: _@_@var_name * .75;",
                             "padding-right: _@_@var_name * .75;",
                         "}"
@@ -355,7 +355,7 @@
 					"declaration_lines":[
 						"padding-left: _@_@var_name;",
                         "padding-right: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "padding-left: _@_@var_name * .75;",
                             "padding-right: _@_@var_name * .75;",
                         "}"
@@ -369,7 +369,7 @@
 					"selector":".coltb-padding-left@var_name_no_base",
 					"declaration_lines":[
 						"padding-left: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "padding-left: _@_@var_name * .75;",
                         "}"
                     ]
@@ -382,7 +382,7 @@
 					"selector":".coltb-padding-right@var_name_no_base",
 					"declaration_lines":[
 						"padding-right: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "padding-right: _@_@var_name * .75;",
                         "}"
                     ]
@@ -395,7 +395,7 @@
 					"selector":".coltb-padding-left@var_name_no_base",
 					"declaration_lines":[
 						"padding-left: _@_@var_name;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "padding-left: _@_@var_name * .75;",
                         "}"
                     ]
@@ -408,7 +408,7 @@
 					"selector":".coltb-padding-right@var_name_no_base",
 					"declaration_lines":[
 						"padding-right: _@_@var_name ;",
-                        "@media ( orientation: landscape ) {",
+                        "@media ( min-aspect-ratio: 3/2 ) {",
                             "padding-right: _@_@var_name * .75;",
                         "}"
                     ]
