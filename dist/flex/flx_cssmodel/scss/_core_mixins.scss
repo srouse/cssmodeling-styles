@@ -4,124 +4,124 @@
 
 
 @mixin flx-justify-content-flex-start () {
- -ms-flex-pack: flex-start ;  justify-content : flex-start !important;  }
+ -ms-flex-pack: flex-start ;  justify-content : flex-start;  }
 @mixin flx-justify-content-flex-end () {
- -ms-flex-pack: flex-end ;  justify-content : flex-end !important;  }
+ -ms-flex-pack: flex-end ;  justify-content : flex-end;  }
 @mixin flx-justify-content-center () {
- -ms-flex-pack: center ;  justify-content : center !important;  }
+ -ms-flex-pack: center ;  justify-content : center;  }
 @mixin flx-justify-content-space-between () {
- -ms-flex-pack: space-between ;  justify-content : space-between !important;  }
+ -ms-flex-pack: space-between ;  justify-content : space-between;  }
 @mixin flx-justify-content-space-around () {
- -ms-flex-pack: space-around ;  justify-content : space-around !important;  }
+ -ms-flex-pack: space-around ;  justify-content : space-around;  }
 @mixin flx-align-self-flex-start () {
- -ms-flex-item-align: flex-start ;  align-self : flex-start !important;  }
+ -ms-flex-item-align: flex-start ;  align-self : flex-start;  }
 @mixin flx-align-self-flex-end () {
- -ms-flex-item-align: flex-end ;  align-self : flex-end !important;  }
+ -ms-flex-item-align: flex-end ;  align-self : flex-end;  }
 @mixin flx-align-self-center () {
- -ms-flex-item-align: center ;  align-self : center !important;  }
+ -ms-flex-item-align: center ;  align-self : center;  }
 @mixin flx-align-self-baseline () {
- -ms-flex-item-align: baseline ;  align-self : baseline !important;  }
+ -ms-flex-item-align: baseline ;  align-self : baseline;  }
 @mixin flx-align-self-stretch () {
- -ms-flex-item-align: stretch ;  align-self : stretch !important;  }
+ -ms-flex-item-align: stretch ;  align-self : stretch;  }
 @mixin flx-flex-start () {
- -ms-flex-item-align: flex-start ;  align-self : flex-start !important;  }
+ -ms-flex-item-align: flex-start ;  align-self : flex-start;  }
 @mixin flx-flex-end () {
- -ms-flex-item-align: flex-end ;  align-self : flex-end !important;  }
+ -ms-flex-item-align: flex-end ;  align-self : flex-end;  }
 @mixin flx-center () {
- -ms-flex-item-align: center ;  align-self : center !important;  }
+ -ms-flex-item-align: center ;  align-self : center;  }
 @mixin flx-baseline () {
- -ms-flex-item-align: baseline ;  align-self : baseline !important;  }
+ -ms-flex-item-align: baseline ;  align-self : baseline;  }
 @mixin flx-stretch () {
- -ms-flex-item-align: stretch ;  align-self : stretch !important;  }
+ -ms-flex-item-align: stretch ;  align-self : stretch;  }
 @mixin flx-align-items-flex-start () {
- -ms-flex-align: flex-start ;  align-items : flex-start !important;  }
+ -ms-flex-align: flex-start ;  align-items : flex-start;  }
 @mixin flx-align-items-flex-end () {
- -ms-flex-align: flex-end ;  align-items : flex-end !important;  }
+ -ms-flex-align: flex-end ;  align-items : flex-end;  }
 @mixin flx-align-items-center () {
- -ms-flex-align: center ;  align-items : center !important;  }
+ -ms-flex-align: center ;  align-items : center;  }
 @mixin flx-align-items-baseline () {
- -ms-flex-align: baseline ;  align-items : baseline !important;  }
+ -ms-flex-align: baseline ;  align-items : baseline;  }
 @mixin flx-align-items-stretch () {
- -ms-flex-align: stretch ;  align-items : stretch !important;  }
+ -ms-flex-align: stretch ;  align-items : stretch;  }
 @mixin flx-direction-row () {
- -ms-flex-direction: row !important;  flex-direction : row !important;  }
+ -ms-flex-direction: row;  flex-direction : row;  }
 @mixin flx-direction-row-reverse () {
- -ms-flex-direction: row-reverse !important;  flex-direction : row-reverse !important;  }
+ -ms-flex-direction: row-reverse;  flex-direction : row-reverse;  }
 @mixin flx-direction-column () {
- -ms-flex-direction: column !important;  flex-direction : column !important;  }
+ -ms-flex-direction: column;  flex-direction : column;  }
 @mixin flx-direction-column-reverse () {
- -ms-flex-direction: column-reverse !important;  flex-direction : column-reverse !important;  }
+ -ms-flex-direction: column-reverse;  flex-direction : column-reverse;  }
 @mixin flx-fill () {
- -ms-flex: 1 ;  flex: 1 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 1 ;  flex: 1;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-fill-2 () {
- -ms-flex: 2 ;  flex: 2 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 2 ;  flex: 2;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-fill-3 () {
- -ms-flex: 3 ;  flex: 3 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 3 ;  flex: 3;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-fill-4 () {
- -ms-flex: 4 ;  flex: 4 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 4 ;  flex: 4;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-fill-5 () {
- -ms-flex: 5 ;  flex: 5 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 5 ;  flex: 5;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-fill-6 () {
- -ms-flex: 6 ;  flex: 6 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 6 ;  flex: 6;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-fill-7 () {
- -ms-flex: 7 ;  flex: 7 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 7 ;  flex: 7;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-fill-8 () {
- -ms-flex: 8 ;  flex: 8 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 8 ;  flex: 8;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-fill-9 () {
- -ms-flex: 9 ;  flex: 9 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 9 ;  flex: 9;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-fill-10 () {
- -ms-flex: 10 ;  flex: 10 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 10 ;  flex: 10;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-fill-11 () {
- -ms-flex: 11 ;  flex: 11 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 11 ;  flex: 11;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-fill-12 () {
- -ms-flex: 12 ;  flex: 12 !important;  min-height: 0 !important;/* firefox hack for scrolling children */  display: flex !important;/* webkit hack for height issues */  }
+ -ms-flex: 12 ;  flex: 12;  min-height: 0;/* firefox hack for scrolling children */  display: flex;/* webkit hack for height issues */  }
 @mixin flx-v () {
- display: -ms-flexbox !important;  -ms-flex-direction: column !important;  -ms-flex-pack: start !important;  -ms-flex-align: center !important;  display: flex !important;  flex-flow: column nowrap !important;  justify-content: flex-start !important;  align-items: center !important;  }
+ display: -ms-flexbox;  -ms-flex-direction: column;  -ms-flex-pack: start;  -ms-flex-align: center;  display: flex;  flex-flow: column nowrap;  justify-content: flex-start;  align-items: center;  }
 @mixin flx-v-stretch () {
- display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: start ;  -ms-flex-align: stretch ;  display: flex !important;  flex-flow: column nowrap !important;  justify-content: flex-start !important;  align-items: stretch !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: start ;  -ms-flex-align: stretch ;  display: flex;  flex-flow: column nowrap;  justify-content: flex-start;  align-items: stretch;  }
 @mixin flx-v-left () {
- display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: start ;  -ms-flex-align: start ;  display: flex !important;  flex-flow: column nowrap !important;  justify-content: flex-start !important;  align-items: flex-start !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: start ;  -ms-flex-align: start ;  display: flex;  flex-flow: column nowrap;  justify-content: flex-start;  align-items: flex-start;  }
 @mixin flx-v-left-center () {
- display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: center ;  -ms-flex-align: start ;  display: flex !important;  flex-flow: column nowrap !important;  justify-content: center !important;  align-items: flex-start !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: center ;  -ms-flex-align: start ;  display: flex;  flex-flow: column nowrap;  justify-content: center;  align-items: flex-start;  }
 @mixin flx-v-left-bottom () {
- display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: end ;  -ms-flex-align: start ;  display: flex !important;  flex-flow: column nowrap !important;  justify-content: flex-end !important;  align-items: flex-start !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: end ;  -ms-flex-align: start ;  display: flex;  flex-flow: column nowrap;  justify-content: flex-end;  align-items: flex-start;  }
 @mixin flx-v-right () {
- display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: start ;  -ms-flex-align: end ;  display: flex !important;  flex-flow: column nowrap !important;  justify-content: flex-start !important;  align-items: flex-end !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: start ;  -ms-flex-align: end ;  display: flex;  flex-flow: column nowrap;  justify-content: flex-start;  align-items: flex-end;  }
 @mixin flx-v-right-center () {
- display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: center ;  -ms-flex-align: end ;  display: flex !important;  flex-flow: column nowrap !important;  justify-content: center !important;  align-items: flex-end !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: center ;  -ms-flex-align: end ;  display: flex;  flex-flow: column nowrap;  justify-content: center;  align-items: flex-end;  }
 @mixin flx-v-right-bottom () {
- display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: end ;  -ms-flex-align: end ;  display: flex !important;  flex-flow: column nowrap !important;  justify-content: flex-end !important;  align-items: flex-end !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: end ;  -ms-flex-align: end ;  display: flex;  flex-flow: column nowrap;  justify-content: flex-end;  align-items: flex-end;  }
 @mixin flx-v-bottom () {
- display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: end ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: column nowrap !important;  justify-content: flex-end !important;  align-items: center !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: end ;  -ms-flex-align: center ;  display: flex;  flex-flow: column nowrap;  justify-content: flex-end;  align-items: center;  }
 @mixin flx-h () {
- display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: start ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: flex-start !important;  align-items: center !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: start ;  -ms-flex-align: center ;  display: flex;  flex-flow: row nowrap;  justify-content: flex-start;  align-items: center;  }
 @mixin flx-h-stretch () {
- display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: start ;  -ms-flex-align: stretch ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: flex-start !important;  align-items: stretch !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: start ;  -ms-flex-align: stretch ;  display: flex;  flex-flow: row nowrap;  justify-content: flex-start;  align-items: stretch;  }
 @mixin flx-h-top () {
- display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: start ;  -ms-flex-align: start ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: flex-start !important;  align-items: flex-start !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: start ;  -ms-flex-align: start ;  display: flex;  flex-flow: row nowrap;  justify-content: flex-start;  align-items: flex-start;  }
 @mixin flx-h-top-right () {
- display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: end ;  -ms-flex-align: start ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: flex-end !important;  align-items: flex-start !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: end ;  -ms-flex-align: start ;  display: flex;  flex-flow: row nowrap;  justify-content: flex-end;  align-items: flex-start;  }
 @mixin flx-h-bottom () {
- display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: start ;  -ms-flex-align: end ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: flex-start !important;  align-items: flex-end !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: start ;  -ms-flex-align: end ;  display: flex;  flex-flow: row nowrap;  justify-content: flex-start;  align-items: flex-end;  }
 @mixin flx-h-bottom-right () {
- display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: end ;  -ms-flex-align: end ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: flex-end !important;  align-items: flex-end !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: end ;  -ms-flex-align: end ;  display: flex;  flex-flow: row nowrap;  justify-content: flex-end;  align-items: flex-end;  }
 @mixin flx-h-right () {
- display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: end ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: flex-end !important;  align-items: center !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: end ;  -ms-flex-align: center ;  display: flex;  flex-flow: row nowrap;  justify-content: flex-end;  align-items: center;  }
 @mixin flx-center () {
- display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: center ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: center !important;  align-items: center !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: center ;  -ms-flex-align: center ;  display: flex;  flex-flow: row nowrap;  justify-content: center;  align-items: center;  }
 @mixin flx-h-center () {
- display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: center ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: center !important;  align-items: center !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: center ;  -ms-flex-align: center ;  display: flex;  flex-flow: row nowrap;  justify-content: center;  align-items: center;  }
 @mixin flx-v-center () {
- display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: center ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: column nowrap !important;  justify-content: center !important;  align-items: center !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: column ;  -ms-flex-pack: center ;  -ms-flex-align: center ;  display: flex;  flex-flow: column nowrap;  justify-content: center;  align-items: center;  }
 @mixin flx-right () {
- display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: end ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: flex-end !important;  align-items: center !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: end ;  -ms-flex-align: center ;  display: flex;  flex-flow: row nowrap;  justify-content: flex-end;  align-items: center;  }
 @mixin flx-left () {
- display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: start ;  -ms-flex-align: center ;  display: flex !important;  flex-flow: row nowrap !important;  justify-content: flex-start !important;  align-items: center !important;  }
+ display: -ms-flexbox ;  -ms-flex-direction: row ;  -ms-flex-pack: start ;  -ms-flex-align: center ;  display: flex;  flex-flow: row nowrap;  justify-content: flex-start;  align-items: center;  }
 @mixin flx-item-fill () {
   @include flx-fill;  }
 @mixin flx-unfill () {
- -ms-flex: 0 1 auto ;  flex: 0 1 auto !important;  /*display: block !important; ANTI- webkit hack for height issues */  }
+ -ms-flex: 0 1 auto ;  flex: 0 1 auto;  /*display: block; ANTI- webkit hack for height issues */  }
 @mixin flx-unfill () {
- -ms-flex: 0 1 auto ;  flex: 0 1 auto !important;  /*display: block !important; ANTI- webkit hack for height issues */  }
+ -ms-flex: 0 1 auto ;  flex: 0 1 auto;  /*display: block; ANTI- webkit hack for height issues */  }
 @mixin flx-fill-container () {
- position: absolute !important;  top: 0px !important;  right: 0px !important;  bottom: 0px !important;  left: 0px !important;  }
+ position: absolute;  top: 0px;  right: 0px;  bottom: 0px;  left: 0px;  }

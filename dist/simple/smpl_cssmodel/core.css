@@ -14,20 +14,20 @@
   transform: translateY(-50%) !important; }
 
 .smpl-interactive {
-  cursor: hand  !important;
-  cursor: pointer  !important; }
+  cursor: hand;
+  cursor: pointer; }
 
 .smpl-interactive-hover {
-  cursor: hand  !important;
-  cursor: pointer  !important; }
+  cursor: hand;
+  cursor: pointer; }
   .smpl-interactive-hover:hover {
     background-color: #eee; }
 
 .smpl-uninteractive {
-  cursor: default  !important; }
+  cursor: default; }
 
 .smpl-uninteractive-hover {
-  cursor: default  !important; }
+  cursor: default; }
   .smpl-uninteractive-hover:hover {
     background: initial; }
 
@@ -54,14 +54,14 @@
   height: 100% !important; }
 
 .smpl-mobile-reset {
-  position: relative  !important;
-  width: 100% !important;
-  height: auto  !important; }
+  position: relative;
+  width: 100%;
+  height: auto; }
 
 .smpl-mobile-nav-reset {
-  position: fixed  !important;
-  top: 0px  !important;
-  left: 0px  !important; }
+  position: fixed;
+  top: 0px;
+  left: 0px; }
 
 .smpl-no-select {
   -webkit-touch-callout: none;

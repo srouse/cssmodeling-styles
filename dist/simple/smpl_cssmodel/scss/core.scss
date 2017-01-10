@@ -19,183 +19,183 @@ $smpl-layer-lowest: 100;
 
 
 @mixin smpl-width-0 () {
- width: 0 !important;  }
+ width: 0;  }
 @mixin smpl-width-100 () {
- width: 100% !important;  }
+ width: 100%;  }
 @mixin smpl-width-none () {
- width: 0 !important;  }
+ width: 0;  }
 @mixin smpl-width-fill () {
- width: 100% !important;  }
+ width: 100%;  }
 @mixin smpl-height-0 () {
- height: 0 !important;  }
+ height: 0;  }
 @mixin smpl-height-100 () {
- height: 100% !important;  }
+ height: 100%;  }
 @mixin smpl-height-none () {
- height: 0 !important;  }
+ height: 0;  }
 @mixin smpl-height-fill () {
- height: 100% !important;  }
+ height: 100%;  }
 @mixin smpl-padding-0 () {
- padding: 0 !important;  }
+ padding: 0;  }
 @mixin smpl-padding-100 () {
- padding: 100% !important;  }
+ padding: 100%;  }
 @mixin smpl-padding-none () {
- padding: 0 !important;  }
+ padding: 0;  }
 @mixin smpl-padding-fill () {
- padding: 100% !important;  }
+ padding: 100%;  }
 @mixin smpl-margin-0 () {
- margin: 0 !important;  }
+ margin: 0;  }
 @mixin smpl-margin-100 () {
- margin: 100% !important;  }
+ margin: 100%;  }
 @mixin smpl-margin-none () {
- margin: 0 !important;  }
+ margin: 0;  }
 @mixin smpl-margin-fill () {
- margin: 100% !important;  }
+ margin: 100%;  }
 @mixin smpl-display-none () {
- display: none !important; }
+ display: none; }
 @mixin smpl-display-block () {
- display: block !important; }
+ display: block; }
 @mixin smpl-display-inline () {
- display: inline !important; }
+ display: inline; }
 @mixin smpl-display-flex () {
- display: flex !important; }
+ display: flex; }
 @mixin smpl-display-inline-block () {
- display: inline-block !important; }
+ display: inline-block; }
 @mixin smpl-float-left () {
- float: left  !important; }
+ float: left ; }
 @mixin smpl-float-none () {
- float: none  !important; }
+ float: none ; }
 @mixin smpl-float-right () {
- float: right  !important; }
+ float: right ; }
 @mixin smpl-clear-left () {
- clear: left  !important; }
+ clear: left ; }
 @mixin smpl-clear-both () {
- clear: both  !important; }
+ clear: both ; }
 @mixin smpl-clear-right () {
- clear: right  !important; }
+ clear: right ; }
 @mixin smpl-float-clear-left () {
- clear: left  !important; float: left }
+ clear: left ; float: left }
 @mixin smpl-float-clear-right () {
- clear: right  !important; float: right }
+ clear: right ; float: right }
 @mixin smpl-position-absolute () {
- position : absolute  !important; }
+ position : absolute ; }
 @mixin smpl-position-relative () {
- position : relative  !important; }
+ position : relative ; }
 @mixin smpl-position-fixed () {
- position : fixed  !important; }
+ position : fixed ; }
 @mixin smpl-position-static () {
- position : static  !important; }
+ position : static ; }
 @mixin smpl-text-align-left () {
- text-align : left  !important; }
+ text-align : left ; }
 @mixin smpl-text-align-center () {
- text-align : center  !important; }
+ text-align : center ; }
 @mixin smpl-text-align-right () {
- text-align : right  !important; }
+ text-align : right ; }
 @mixin smpl-text-align-justify () {
- text-align : justify  !important; }
+ text-align : justify ; }
 @mixin smpl-overflow-visible () {
- overflow : visible  !important; }
+ overflow : visible ; }
 @mixin smpl-overflow-hidden () {
- overflow : hidden  !important; }
+ overflow : hidden ; }
 @mixin smpl-overflow-scroll () {
- overflow : scroll  !important; }
+ overflow : scroll ; }
 @mixin smpl-overflow-auto () {
- overflow : auto  !important; }
+ overflow : auto ; }
 @mixin smpl-overflow-initial () {
- overflow : initial  !important; }
+ overflow : initial ; }
 @mixin smpl-overflow-inherit () {
- overflow : inherit  !important; }
+ overflow : inherit ; }
 @mixin smpl-overflow-x-visible () {
- overflow-x : visible  !important; }
+ overflow-x : visible ; }
 @mixin smpl-overflow-x-hidden () {
- overflow-x : hidden  !important; }
+ overflow-x : hidden ; }
 @mixin smpl-overflow-x-scroll () {
- overflow-x : scroll  !important; }
+ overflow-x : scroll ; }
 @mixin smpl-overflow-x-auto () {
- overflow-x : auto  !important; }
+ overflow-x : auto ; }
 @mixin smpl-overflow-x-initial () {
- overflow-x : initial  !important; }
+ overflow-x : initial ; }
 @mixin smpl-overflow-x-inherit () {
- overflow-x : inherit  !important; }
+ overflow-x : inherit ; }
 @mixin smpl-overflow-y-visible () {
- overflow-y : visible  !important; }
+ overflow-y : visible ; }
 @mixin smpl-overflow-y-hidden () {
- overflow-y : hidden  !important; }
+ overflow-y : hidden ; }
 @mixin smpl-overflow-y-scroll () {
- overflow-y : scroll  !important; }
+ overflow-y : scroll ; }
 @mixin smpl-overflow-y-auto () {
- overflow-y : auto  !important; }
+ overflow-y : auto ; }
 @mixin smpl-overflow-y-initial () {
- overflow-y : initial  !important; }
+ overflow-y : initial ; }
 @mixin smpl-overflow-y-inherit () {
- overflow-y : inherit  !important; }
+ overflow-y : inherit ; }
 @mixin smpl-cursor-hand () {
- cursor : hand  !important; }
+ cursor : hand ; }
 @mixin smpl-cursor-pointer () {
- cursor : pointer  !important; }
+ cursor : pointer ; }
 @mixin smpl-cursor-default () {
- cursor : default  !important; }
+ cursor : default ; }
 @mixin smpl-top-right () {
- top: 0px  !important; right: 0px  !important; }
+ top: 0px ; right: 0px ; }
 @mixin smpl-top-left () {
- top: 0px  !important; left: 0px  !important; }
+ top: 0px ; left: 0px ; }
 @mixin smpl-top () {
- top: 0px  !important; }
+ top: 0px ; }
 @mixin smpl-bottom () {
- bottom: 0px  !important; }
+ bottom: 0px ; }
 @mixin smpl-bottom-right () {
- bottom: 0px  !important; right: 0px  !important; }
+ bottom: 0px ; right: 0px ; }
 @mixin smpl-bottom-left () {
- bottom: 0px  !important; left: 0px  !important; }
+ bottom: 0px ; left: 0px ; }
 @mixin smpl-left () {
- left: 0px  !important; }
+ left: 0px ; }
 @mixin smpl-right () {
- right: 0px  !important; }
+ right: 0px ; }
 @mixin smpl-top-right-fixed () {
- position: fixed !important; top: 0px  !important; right: 0px  !important; }
+ position: fixed; top: 0px ; right: 0px ; }
 @mixin smpl-top-left-fixed () {
- position: fixed !important;top: 0px  !important; left: 0px  !important; }
+ position: fixed;top: 0px ; left: 0px ; }
 @mixin smpl-top-fixed () {
- position: fixed !important;top: 0px  !important; }
+ position: fixed;top: 0px ; }
 @mixin smpl-bottom-fixed () {
- position: fixed !important;bottom: 0px  !important; }
+ position: fixed;bottom: 0px ; }
 @mixin smpl-bottom-right-fixed () {
- position: fixed !important;bottom: 0px  !important; right: 0px  !important; }
+ position: fixed;bottom: 0px ; right: 0px ; }
 @mixin smpl-bottom-left-fixed () {
- position: fixed !important;bottom: 0px  !important; left: 0px  !important; }
+ position: fixed;bottom: 0px ; left: 0px ; }
 @mixin smpl-left-fixed () {
- position: fixed !important;left: 0px  !important; }
+ position: fixed;left: 0px ; }
 @mixin smpl-right-fixed () {
- position: fixed !important;right: 0px  !important; }
+ position: fixed;right: 0px ; }
 @mixin smpl-height-auto () {
- height : auto  !important; }
+ height : auto ; }
 @mixin smpl-height-initial () {
- height : initial  !important; }
+ height : initial ; }
 @mixin smpl-height-inherit () {
- height : inherit  !important; }
+ height : inherit ; }
 @mixin smpl-width-auto () {
- width : auto  !important; }
+ width : auto ; }
 @mixin smpl-width-initial () {
- width : initial  !important; }
+ width : initial ; }
 @mixin smpl-width-inherit () {
- width : inherit  !important; }
+ width : inherit ; }
 @mixin smpl-layer-high ( $smpl-layer-high : $smpl-layer-high ) {
- z-index: 400 !important;  }
+ z-index: 400;  }
 @mixin smpl-layer-higher ( $smpl-layer-higher : $smpl-layer-higher ) {
- z-index: 500 !important;  }
+ z-index: 500;  }
 @mixin smpl-layer-highest ( $smpl-layer-highest : $smpl-layer-highest ) {
- z-index: 600 !important;  }
+ z-index: 600;  }
 @mixin smpl-layer-low ( $smpl-layer-low : $smpl-layer-low ) {
- z-index: 300 !important;  }
+ z-index: 300;  }
 @mixin smpl-layer-lower ( $smpl-layer-lower : $smpl-layer-lower ) {
- z-index: 200 !important;  }
+ z-index: 200;  }
 @mixin smpl-layer-lowest ( $smpl-layer-lowest : $smpl-layer-lowest ) {
- z-index: 100 !important;  }
+ z-index: 100;  }
 @mixin smpl-single-line () {
- overflow: hidden !important;  white-space: nowrap !important;  }
+ overflow: hidden;  white-space: nowrap;  }
 @mixin smpl-transform-center () {
- top: 50% !important;  left: 50% !important;  -ms-transform: translateY(-50%) translateX(-50%) !important;  transform: translateY(-50%) translateX(-50%) !important;  }
+ top: 50%;  left: 50%;  -ms-transform: translateY(-50%) translateX(-50%);  transform: translateY(-50%) translateX(-50%);  }
 @mixin smpl-transform-vcenter () {
- top: 50% !important;  -ms-transform: translateY(-50%) !important;  transform: translateY(-50%) !important;  }
+ top: 50%;  -ms-transform: translateY(-50%);  transform: translateY(-50%);  }
 @mixin smpl-interactive () {
   @include smpl-cursor-hand;  @include smpl-cursor-pointer;  }
 @mixin smpl-interactive-hover () {
@@ -205,15 +205,15 @@ $smpl-layer-lowest: 100;
 @mixin smpl-uninteractive-hover () {
   &:hover { background: initial }  @include smpl-uninteractive;  }
 @mixin smpl-overflow-y () {
- overflow-y: auto !important;  overflow-x: hidden !important;  }
+ overflow-y: auto;  overflow-x: hidden;  }
 @mixin smpl-overflow-x () {
- overflow-y: hidden !important;  overflow-x: auto !important;  }
+ overflow-y: hidden;  overflow-x: auto;  }
 @mixin smpl-block-center () {
- margin: 0px auto !important;  }
+ margin: 0px auto;  }
 @mixin smpl-clear-fix () {
- &:before, &:after { content: " " !important; display: table !important; }  &:after { clear: both !important; }  }
+ &:before, &:after { content: " "; display: table; }  &:after { clear: both; }  }
 @mixin smpl-fill-container () {
- width: 100% !important;  height: 100% !important;  }
+ width: 100%;  height: 100%;  }
 @mixin smpl-mobile-reset () {
   @include smpl-position-relative;  @include smpl-width-100;  @include smpl-height-auto;  }
 @mixin smpl-mobile-nav-reset () {
