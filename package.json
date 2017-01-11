@@ -2,7 +2,7 @@
 	"name": "cssmodeling-styles",
 	"description": "CSS style systems derived from CSSModeling",
 	"author": "srouse",
-	"version": "0.0.15",
+	"version": "0.0.17",
 	"dependencies": {
 	},
 	"devDependencies": {
@@ -10,9 +10,6 @@
         "cssmodeling":"~0.1"
 	},
 	"main": "",
-	"files": [
-		"models/"
-	],
 	"scripts": {
 	    "test": "echo \"Error: no test specified\" && exit 1"
 	},
