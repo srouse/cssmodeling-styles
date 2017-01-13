@@ -264,12 +264,12 @@ module.exports = function(grunt) {
         options: {type:"scss"}
     };
 
-    configObj.cssmodeling["colr_cssmodel_less"] = {
-        files: {'dist/cols/colr_cssmodel':['models/cols/colr_cssmodel.json']},
+    configObj.cssmodeling["col12r_cssmodel_less"] = {
+        files: {'dist/cols/col12r_cssmodel':['models/cols/col12r_cssmodel.json']},
         options: {type:"less"}
     };
-    configObj.cssmodeling["colr_cssmodel_scss"] = {
-        files: {'dist/cols/colr_cssmodel':['models/cols/colr_cssmodel.json']},
+    configObj.cssmodeling["col12r_cssmodel_scss"] = {
+        files: {'dist/cols/col12r_cssmodel':['models/cols/col12r_cssmodel.json']},
         options: {type:"scss"}
     };
 
