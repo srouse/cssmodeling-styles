@@ -69,6 +69,28 @@ module.exports = function(grunt) {
         }
     };
 
+    //=============SPACING===============
+    configObj.cssmodeling["cssmodeling_sqr24"] = {
+        files: {
+            'dist/spacing/sqr24':
+            ['models/spacing/sqr24_cssmodel.json']
+        },
+        options: {
+            type:"less",
+            var_prefix:""
+        }
+    };
+    configObj.cssmodeling["cssmodeling_sqr24"] = {
+        files: {
+            'dist/spacing/sqr24':
+            ['models/spacing/sqr24_cssmodel.json']
+        },
+        options: {
+            type:"scss",
+            var_prefix:""
+        }
+    };
+
     configObj.cssmodeling["cssmodeling_rows_vh_quartered_less"] = {
         files: {
             'dist/rows/cssmodeling_rows_vh_quartered':

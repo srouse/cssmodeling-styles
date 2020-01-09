@@ -2,16 +2,15 @@
 	"name": "cssmodeling-styles",
 	"description": "CSS style systems derived from CSSModeling",
 	"author": "srouse",
-	"version": "0.0.18",
-	"dependencies": {
-	},
+	"version": "0.0.19",
+	"dependencies": {},
 	"devDependencies": {
-        "grunt": "^0.4.5",
-        "cssmodeling":"~0.1"
+		"grunt": "^0.4.5",
+		"cssmodeling": "~0.1"
 	},
 	"main": "",
 	"scripts": {
-	    "test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
