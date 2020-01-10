@@ -20,9 +20,17 @@
           "-0-6",
           "-0-8",
           "-1",
+          "-1-4",
           "-1-6",
           "-1-8",
-          "-2"
+          "-2",
+          "-2-4",
+          "-2-6",
+          "-2-8",
+          "-3",
+          "-3-4",
+          "-3-6",
+          "-3-8"
         ]
       }
     },
@@ -49,17 +57,28 @@
       "name": "spacing",
       "group": "spacing",
       "base": "sqr24-spacing",
-      "scheme": "9-scale-fractions",
+      "scheme": "9-scale",
       "values": [
         "2px",
         "4px",
         "8px",
         "12px",
         "16px",
+
         "24px",
         "32px",
+        "36px",
         "40px",
-        "48px"
+
+        "48px",
+        "56px",
+        "60px",
+        "64px",
+
+        "72px",
+        "80px",
+        "84px",
+        "88px"
       ],
       "atoms": [
         {
@@ -244,17 +263,28 @@
       "name": "layout",
       "group": "layout",
       "base": "sqr24-layout",
-      "scheme": "9-scale-fractions",
+      "scheme": "9-scale",
       "values": [
-        "4px",
-        "8px",
-        "16px",
-        "24px",
-        "32px",
-        "48px",
-        "64px",
-        "80px",
-        "96px"
+          "4px",
+          "8px",
+          "16px",
+          "24px",
+          "32px",
+
+          "48px",
+          "64px",
+          "72px",
+          "80px",
+
+          "96px",
+          "112px",
+          "120px",
+          "128px",
+
+          "144px",
+          "160px",
+          "168px",
+          "176px"
       ],
       "atoms": [
         {
