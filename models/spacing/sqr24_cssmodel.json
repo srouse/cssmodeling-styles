@@ -483,7 +483,7 @@
     },
 		{
       "name": "line-height",
-      "group": "skin",
+      "group": "spacing",
       "base": "sqr24-line-height",
       "scheme": "text-ramp",
       "values": [
@@ -522,7 +522,7 @@
 		},
 		{
       "name": "text-size",
-      "group": "skin",
+      "group": "spacing",
       "base": "sqr24-text",
       "scheme": "text-ramp",
       "values": [
