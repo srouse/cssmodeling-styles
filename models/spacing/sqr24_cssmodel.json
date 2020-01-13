@@ -500,7 +500,7 @@
       "atoms": [
         {
           "name": "text-line-height",
-          "group": "skin",
+          "group": "spacing",
           "sub_group": "typography",
           "example": "<div ...  style='border: 1px solid grey'>Me is Text</div>",
           "selector": ".sqr24-text@var_name_no_base",
@@ -510,7 +510,7 @@
         },
 				{
           "name": "line-height",
-          "group": "skin",
+          "group": "spacing",
           "sub_group": "typography",
           "example": "<div ...  style='border: 1px solid grey'>Me is Text</div>",
           "selector": ".sqr24-line-height@var_name_no_base",
@@ -539,7 +539,7 @@
       "atoms": [
         {
           "name": "text-size",
-          "group": "skin",
+          "group": "spacing",
           "sub_group": "typography",
           "example": "<div ... style='border: 1px solid grey'>Me is Text</div>",
           "selector": ".sqr24-text@var_name_no_base",
