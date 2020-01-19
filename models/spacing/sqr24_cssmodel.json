@@ -7,6 +7,10 @@
     "layout": {
       "title": "[sqr24] Square 24px Layout",
       "description": ""
+    },
+    "sqrTypography": {
+      "title": "[sqr24] Square 24px Typography",
+      "description": ""
     }
   },
   "schemes": {
@@ -98,6 +102,17 @@
       ],
       "atoms": [
         {
+          "name": "spacing-size",
+          "group": "spacing",
+          "sub_group": "sizing",
+          "example": "<div ... style='height: 100px; background-color:#fff; position: absolute;'></div>",
+          "selector": ".sqr24-spacing-size@var_name_no_base",
+          "declaration_lines": [
+            "width: _@_@var_name;",
+            "height: _@_@var_name;"
+          ]
+        },
+        {
           "name": "spacing-height",
           "group": "spacing",
           "sub_group": "sizing",
@@ -154,6 +169,22 @@
           "declaration_value": "bottom: _@_@var_name;"
         },
         {
+          "name": "spacing-left",
+          "group": "spacing",
+          "sub_group": "positioning",
+          "example": "<div ... style='width: 100px; height:100px; background-color:#fff; position: absolute;'></div>",
+          "selector": ".sqr24-spacing-left@var_name_no_base",
+          "declaration_value": "left: _@_@var_name;"
+        },
+        {
+          "name": "spacing-right",
+          "group": "spacing",
+          "sub_group": "positioning",
+          "example": "<div ... style='width: 100px; height:100px; background-color:#fff; position: absolute;'></div>",
+          "selector": ".sqr24-spacing-right@var_name_no_base",
+          "declaration_value": "right: _@_@var_name;"
+        },
+        {
           "name": "spacing-margin",
           "group": "spacing",
           "sub_group": "margin",
@@ -164,18 +195,10 @@
         {
           "name": "spacing-margin-width",
           "group": "spacing",
-          "sub_group": "spacing",
+          "sub_group": "margin",
           "example": "<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
           "selector": ".sqr24-spacing-margin-width@var_name_no_base",
           "declaration_value": "margin-left: _@_@var_name; margin-right: _@_@var_name;"
-        },
-        {
-          "name": "spacing-margin-v",
-          "group": "spacing",
-          "sub_group": "spacing",
-          "example": "<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
-          "selector": ".sqr24-spacing-margin-v@var_name_no_base",
-          "declaration_value": "margin-top: _@_@var_name; margin-bottom: _@_@var_name;"
         },
         {
           "name": "spacing-margin-height",
@@ -304,6 +327,17 @@
       ],
       "atoms": [
         {
+          "name": "layout-size",
+          "group": "layout",
+          "sub_group": "sizing",
+          "example": "<div ... style='height: 100px; background-color:#fff; position: absolute;'></div>",
+          "selector": ".sqr24-layout-size@var_name_no_base",
+          "declaration_lines": [
+            "width: _@_@var_name;",
+            "height: _@_@var_name;"
+          ]
+        },
+        {
           "name": "layout-height",
           "group": "layout",
           "sub_group": "sizing",
@@ -360,6 +394,22 @@
           "declaration_value": "bottom: _@_@var_name;"
         },
         {
+          "name": "layout-left",
+          "group": "layout",
+          "sub_group": "positioning",
+          "example": "<div ... style='width: 100px; height:100px; background-color:#fff; position: absolute;'></div>",
+          "selector": ".sqr24-layout-left@var_name_no_base",
+          "declaration_value": "left: _@_@var_name;"
+        },
+        {
+          "name": "layout-right",
+          "group": "layout",
+          "sub_group": "positioning",
+          "example": "<div ... style='width: 100px; height:100px; background-color:#fff; position: absolute;'></div>",
+          "selector": ".sqr24-layout-right@var_name_no_base",
+          "declaration_value": "right: _@_@var_name;"
+        },
+        {
           "name": "layout-margin",
           "group": "layout",
           "sub_group": "margin",
@@ -370,18 +420,10 @@
         {
           "name": "layout-margin-width",
           "group": "layout",
-          "sub_group": "layout",
+          "sub_group": "margin",
           "example": "<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
           "selector": ".sqr24-layout-margin-width@var_name_no_base",
           "declaration_value": "margin-left: _@_@var_name; margin-right: _@_@var_name;"
-        },
-        {
-          "name": "layout-margin-v",
-          "group": "layout",
-          "sub_group": "layout",
-          "example": "<div ... style='width: 100px; height: 100px; background-color:#fff'>Some Text</div>",
-          "selector": ".sqr24-layout-margin-v@var_name_no_base",
-          "declaration_value": "margin-top: _@_@var_name; margin-bottom: _@_@var_name;"
         },
         {
           "name": "layout-margin-height",
@@ -483,7 +525,7 @@
     },
 		{
       "name": "line-height",
-      "group": "skin",
+      "group": "sqrTypography",
       "base": "sqr24-line-height",
       "scheme": "text-ramp",
       "values": [
@@ -500,7 +542,7 @@
       "atoms": [
         {
           "name": "text-line-height",
-          "group": "skin",
+          "group": "sqrTypography",
           "sub_group": "typography",
           "example": "<div ...  style='border: 1px solid grey'>Me is Text</div>",
           "selector": ".sqr24-text@var_name_no_base",
@@ -510,7 +552,7 @@
         },
 				{
           "name": "line-height",
-          "group": "skin",
+          "group": "sqrTypography",
           "sub_group": "typography",
           "example": "<div ...  style='border: 1px solid grey'>Me is Text</div>",
           "selector": ".sqr24-line-height@var_name_no_base",
@@ -522,7 +564,7 @@
 		},
 		{
       "name": "text-size",
-      "group": "skin",
+      "group": "sqrTypography",
       "base": "sqr24-text",
       "scheme": "text-ramp",
       "values": [
@@ -539,7 +581,7 @@
       "atoms": [
         {
           "name": "text-size",
-          "group": "skin",
+          "group": "sqrTypography",
           "sub_group": "typography",
           "example": "<div ... style='border: 1px solid grey'>Me is Text</div>",
           "selector": ".sqr24-text@var_name_no_base",
