@@ -295,22 +295,44 @@
 
 		{
 			"name":"cursor-values",
-            "group":"simple",
+      "group":"simple",
 			"base":"cursor",
-            "shortcut":"<em>@base</em>-[ hand, pointer, default ]",
-    		"scheme":["@base-hand","@base-pointer","@base-default"],
+      "shortcut":"<em>@base</em>-[ hand, pointer, default ]",
+    	"scheme":["@base-hand","@base-pointer","@base-default"],
 			"values":[
 				"hand","pointer","default"
 			],
-            "ignore_variable":true,
+      "ignore_variable":true,
 			"atoms":[
 				{
 					"name":"cursor",
-                    "group":"simple",
-                    "sub_group":"misc",
+          "group":"simple",
+          "sub_group":"misc",
 					"example":"...Cursor",
 					"selector":".smpl-@var_name",
 					"declaration_value":"cursor : @var_value ;"
+				}
+			]
+		},
+
+    {
+			"name":"text-transform",
+      "group":"simple",
+			"base":"text-transform",
+      "shortcut":"<em>@base</em>-[ hand, pointer, default ]",
+    	"scheme":["@base-none","@base-capitalize","@base-uppercase","@base-lowercase","@base-initial","@base-inherit"],
+			"values":[
+				"none","capitalize","uppercase","lowercase","initial","inherit"
+			],
+      "ignore_variable":true,
+			"atoms":[
+				{
+					"name":"text-transform",
+          "group":"simple",
+          "sub_group":"misc",
+					"example":"<div ...>Text with all Kinds of CAPITALIZATION</div>",
+					"selector":".smpl-@var_name",
+					"declaration_value":"text-transform: @var_value;"
 				}
 			]
 		},
